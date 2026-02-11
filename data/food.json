@@ -1,0 +1,1792 @@
+[
+  {
+    "name": "Fuunji",
+    "nameJa": "風雲児",
+    "category": "Ramen",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥850-1100",
+    "hours": "11:00-15:00, 17:00-21:00",
+    "description": "Legendary tsukemen (dipping ramen) shop with an almost permanent queue. The rich, creamy fish and pork broth is absurdly good. Many consider this the best tsukemen in Tokyo.",
+    "whatToOrder": "Tsukemen (dipping noodles) with ajitama (seasoned egg). Get the large size.",
+    "tips": "Expect 30-60 min wait. Use the ticket machine. Eat quickly - noodles get cold. Add the soup-wari (broth) to your dipping sauce at the end to drink it.",
+    "mapsQuery": "Fuunji Ramen Shinjuku Tokyo",
+    "tags": [
+      "must-visit",
+      "budget",
+      "queue-worth-it"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Ichiran Shibuya",
+    "nameJa": "一蘭 渋谷店",
+    "category": "Ramen",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥980-1500",
+    "hours": "24 hours",
+    "description": "The famous solo-dining ramen chain with individual booths separated by partitions. Customize every aspect of your tonkotsu ramen on a paper form. A quintessential Tokyo experience.",
+    "whatToOrder": "Classic tonkotsu ramen. Customize richness, garlic, spice on the order form. Add extra noodles (kaedama) for ¥210.",
+    "tips": "Open 24 hours - great late night option. Use the vending machine to buy your ticket first. The Shibuya location rarely has long waits late at night.",
+    "mapsQuery": "Ichiran Ramen Shibuya Tokyo",
+    "tags": [
+      "iconic",
+      "late-night",
+      "solo-friendly",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Afuri Ebisu",
+    "nameJa": "阿夫利 恵比寿店",
+    "category": "Ramen",
+    "neighborhood": "Ebisu",
+    "nearestStation": "Ebisu Station",
+    "priceRange": "¥1000-1400",
+    "hours": "11:00-23:00",
+    "description": "Famous for their yuzu shio (citrus salt) ramen - a lighter, more refined bowl compared to heavy tonkotsu. The yuzu aroma hits you before the first sip. Beautiful, modern interior.",
+    "whatToOrder": "Yuzu Shio Ramen is the signature. The vegan ramen is also excellent.",
+    "tips": "Ticket machine ordering. Multiple locations but Ebisu original is the best. Less of a wait than Fuunji.",
+    "mapsQuery": "AFURI Ramen Ebisu Tokyo",
+    "tags": [
+      "must-visit",
+      "lighter-option",
+      "date-worthy"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Rokurinsha Tokyo Station",
+    "nameJa": "六厘舎",
+    "category": "Ramen",
+    "neighborhood": "Marunouchi",
+    "nearestStation": "Tokyo Station",
+    "priceRange": "¥900-1300",
+    "hours": "7:30-22:00",
+    "description": "Located in Tokyo Station's Ramen Street. Famous for incredibly thick, rich tsukemen with chewy noodles. The broth is like a concentrated seafood-pork bomb.",
+    "whatToOrder": "Tsukemen with all toppings. The morning ramen set (before 10am) has shorter lines.",
+    "tips": "Arrive before 11am or after 2pm to avoid the worst queues. Located in the Yaesu side underground First Avenue area.",
+    "mapsQuery": "Rokurinsha Tokyo Station Ramen Street",
+    "tags": [
+      "must-visit",
+      "queue-worth-it",
+      "convenient"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Mutekiya",
+    "nameJa": "無敵家",
+    "category": "Ramen",
+    "neighborhood": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
+    "priceRange": "¥850-1200",
+    "hours": "10:30-4:00 (next day)",
+    "description": "Ikebukuro institution serving rich tonkotsu ramen with a loyal following. The broth is creamy and deeply flavored from long hours of simmering pork bones. Open very late.",
+    "whatToOrder": "Tonkotsu ramen with chashu and ajitama.",
+    "tips": "Open until 4am - perfect post-drinking ramen. The line moves fast despite looking long.",
+    "mapsQuery": "Mutekiya Ramen Ikebukuro Tokyo",
+    "tags": [
+      "late-night",
+      "budget",
+      "iconic"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Nakiryu",
+    "nameJa": "鳴龍",
+    "category": "Ramen",
+    "neighborhood": "Otsuka",
+    "nearestStation": "Otsuka Station",
+    "priceRange": "¥900-1400",
+    "hours": "11:30-15:00 (or until sold out)",
+    "description": "One of only two Michelin-starred ramen shops in the world. The tantanmen (spicy sesame ramen) is extraordinarily complex - layers of chili, sesame, Sichuan pepper, and umami.",
+    "whatToOrder": "Tantanmen (spicy sesame ramen) is the star. The shoyu ramen is also excellent.",
+    "tips": "Arrive by 10:30 to queue before opening. They sell out quickly. Cash only. Small shop with about 10 seats.",
+    "mapsQuery": "Nakiryu Ramen Otsuka Tokyo Michelin",
+    "tags": [
+      "must-visit",
+      "michelin-star",
+      "cash-only",
+      "sells-out"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Soranoiro",
+    "nameJa": "ソラノイロ",
+    "category": "Ramen",
+    "neighborhood": "Kojimachi",
+    "nearestStation": "Kojimachi Station",
+    "priceRange": "¥950-1300",
+    "hours": "11:00-22:00",
+    "description": "Known for their stunning veggie soy milk ramen and colorful presentation. Also has a vegan option. One of the most Instagram-worthy ramen bowls in Tokyo.",
+    "whatToOrder": "Veggie soy milk ramen or the special golden salt ramen.",
+    "tips": "Great option for vegetarian travelers. The Tokyo Station branch is more convenient but the original is better.",
+    "mapsQuery": "Soranoiro Ramen Kojimachi Tokyo",
+    "tags": [
+      "vegetarian-friendly",
+      "instagram-worthy",
+      "unique"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tsuta",
+    "nameJa": "蔦",
+    "category": "Ramen",
+    "neighborhood": "Yoyogi-Uehara",
+    "nearestStation": "Yoyogi-Uehara Station",
+    "priceRange": "¥1100-1800",
+    "hours": "11:00-15:00, 18:00-21:00",
+    "description": "The world's first Michelin-starred ramen shop. Their shoyu ramen uses Italian black truffle oil and a complex dashi. Refined and elegant - this is ramen elevated to fine dining.",
+    "whatToOrder": "Shoyu soba with truffle. Worth the splurge.",
+    "tips": "Relocated from Sugamo. Check current location and hours before visiting. Reserve online if possible.",
+    "mapsQuery": "Japanese Soba Noodles Tsuta Tokyo",
+    "tags": [
+      "michelin-star",
+      "splurge",
+      "refined"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Sushi Dai",
+    "nameJa": "寿司大",
+    "category": "Sushi",
+    "neighborhood": "Toyosu",
+    "nearestStation": "Shijo-mae Station",
+    "priceRange": "¥4000-6000",
+    "hours": "5:30-14:00",
+    "description": "Relocated from Tsukiji to Toyosu Market. Serves exceptional omakase sushi at the source - fish goes from the market auction to your plate. The omakase set is legendary.",
+    "whatToOrder": "Omakase set (chef's choice). Ask for seasonal specials. The tamago (egg) at the end is a perfect finale.",
+    "tips": "Arrive by 5am to queue. Waits can exceed 3 hours. Go on a weekday. Closed Sundays, Wednesdays and market holidays.",
+    "mapsQuery": "Sushi Dai Toyosu Market Tokyo",
+    "tags": [
+      "must-visit",
+      "queue-worth-it",
+      "early-morning"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Sushi Saito",
+    "nameJa": "鮨 さいとう",
+    "category": "Sushi",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Roppongi Station",
+    "priceRange": "¥30000-50000",
+    "hours": "By reservation only",
+    "description": "Three Michelin-starred sushi temple. Takashi Saito is considered one of the greatest sushi masters alive. Only 8 seats at the counter. The rice, fish, and technique are unparalleled.",
+    "whatToOrder": "Omakase only - no choices needed. Let the master work.",
+    "tips": "Extremely difficult to book - typically requires a concierge at a top hotel to make reservations. Book months in advance. No photos during service.",
+    "mapsQuery": "Sushi Saito Roppongi Tokyo",
+    "tags": [
+      "splurge",
+      "michelin-3-star",
+      "reservation-required",
+      "bucket-list"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Standing Sushi Nemuro Hanamaru",
+    "nameJa": "根室花まる",
+    "category": "Sushi",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "¥2000-4000",
+    "hours": "11:00-22:00",
+    "description": "Conveyor belt sushi from Hokkaido with absurdly fresh fish at great prices. Located in the KITTE building near Tokyo Station. The quality rivals much more expensive spots.",
+    "whatToOrder": "Salmon, ikura (roe), uni (sea urchin), and anything seasonal on the special menu.",
+    "tips": "Long waits at lunch. Go at 3-4pm for shorter queues. Located in KITTE building 5F near Tokyo Station.",
+    "mapsQuery": "Nemuro Hanamaru KITTE Tokyo Station sushi",
+    "tags": [
+      "budget",
+      "great-value",
+      "hokkaido-fresh"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Sushi no Midori Shibuya",
+    "nameJa": "梅丘寿司の美登利 渋谷店",
+    "category": "Sushi",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥2500-5000",
+    "hours": "11:00-22:00",
+    "description": "Huge generous cuts of fish at incredibly reasonable prices. The counter seats let you watch the chefs at work. Best value omakase in Shibuya by far.",
+    "whatToOrder": "The omakase set or the premium sushi platter. The tuna is always outstanding.",
+    "tips": "In Shibuya Mark City. Take a number and shop while you wait - waits can be 1-2 hours at peak times.",
+    "mapsQuery": "Sushi no Midori Shibuya Mark City Tokyo",
+    "tags": [
+      "great-value",
+      "queue-worth-it",
+      "generous-portions"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Uogashi Nihon-Ichi Standing Sushi",
+    "nameJa": "魚がし日本一",
+    "category": "Sushi",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥1000-3000",
+    "hours": "11:00-22:00",
+    "description": "Standing sushi bar where you eat at a counter with no seats. Quick, fresh, cheap. Fish comes from Toyosu Market daily. Order piece by piece. The ultimate quick sushi fix.",
+    "whatToOrder": "Order nigiri piece by piece. Try otoro, engawa, and whatever's seasonal.",
+    "tips": "No reservations, no waiting - just walk up and order. Perfect for a quick sushi hit. Multiple locations around Tokyo.",
+    "mapsQuery": "Uogashi Nihon-Ichi standing sushi Shibuya",
+    "tags": [
+      "budget",
+      "no-wait",
+      "quick-bite",
+      "standing"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Toriki",
+    "nameJa": "鳥喜",
+    "category": "Yakitori",
+    "neighborhood": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
+    "priceRange": "¥3000-5000",
+    "hours": "16:00-22:00, closed Sun",
+    "description": "Under the Yurakucho train tracks in the atmospheric yakitori alley. Smoke billows, salarymen crowd the counters, trains rumble overhead. This is the Tokyo drinking experience.",
+    "whatToOrder": "Negima (chicken and leek), tsukune (chicken meatball), and liver. Get a cold beer.",
+    "tips": "The whole Yurakucho/Shinbashi yakitori alley under the tracks is worth exploring. Cash only at most spots. Go early or late to get a seat.",
+    "mapsQuery": "Yurakucho yakitori alley under tracks Tokyo",
+    "tags": [
+      "must-visit",
+      "atmospheric",
+      "budget",
+      "salaryman-vibe",
+      "cash-only"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Birdland",
+    "nameJa": "バードランド",
+    "category": "Yakitori",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "¥6000-10000",
+    "hours": "17:00-21:30, closed Sun/Mon",
+    "description": "Michelin-starred yakitori in a basement under Ginza. Uses premium Okumikawa chicken. Each skewer is grilled to absolute perfection. The chicken liver pate is legendary. Elevated yakitori at its finest.",
+    "whatToOrder": "Omakase course. The chicken liver pate and the sasami with wasabi are highlights.",
+    "tips": "Reservations required. Located in basement of Tsukamoto Sogyo Building. Counter seats offer the best view of the grill master at work.",
+    "mapsQuery": "Birdland Yakitori Ginza Tokyo",
+    "tags": [
+      "michelin-star",
+      "splurge",
+      "reservation-required"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Yakitori Alley (Hoppy Dori)",
+    "nameJa": "ホッピー通り",
+    "category": "Yakitori",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "priceRange": "¥1500-3000",
+    "hours": "Various, most open 14:00-23:00",
+    "description": "A rowdy open-air street of yakitori joints and bars near Senso-ji. Locals and tourists drink Hoppy (a beer-like beverage) and eat grilled skewers at plastic tables. Pure Tokyo energy.",
+    "whatToOrder": "Yakitori sets, motsu-ni (stewed offal), and Hoppy (the street's namesake drink).",
+    "tips": "Multiple stalls to choose from - the busiest ones are usually best. Great afternoon drinking spot. Combine with a Senso-ji visit.",
+    "mapsQuery": "Hoppy Street Asakusa yakitori Tokyo",
+    "tags": [
+      "budget",
+      "atmospheric",
+      "daytime-drinking",
+      "local-vibe"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Torikizoku",
+    "nameJa": "鳥貴族",
+    "category": "Yakitori",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥1500-3000",
+    "hours": "17:00-1:00",
+    "description": "Japan's most popular yakitori chain where every item on the menu is ¥360. Massive portions, ice-cold mega highballs, and a rowdy vibe. How salarymen eat after work.",
+    "whatToOrder": "Everything is ¥360. Get the momo (thigh), kawa (skin), and mega lemon sour highball.",
+    "tips": "Locations everywhere. Can get packed after 8pm. Perfect for budget drinking and eating. Groups welcome.",
+    "mapsQuery": "Torikizoku yakitori near me Tokyo",
+    "tags": [
+      "budget",
+      "chain",
+      "all-you-can-drink-friendly"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Tsukiji Outer Market",
+    "nameJa": "築地場外市場",
+    "category": "Street Food",
+    "neighborhood": "Tsukiji",
+    "nearestStation": "Tsukiji Station",
+    "priceRange": "¥300-2000",
+    "hours": "5:00-14:00 (most stalls)",
+    "description": "While the inner market moved to Toyosu, the outer market remains a street food paradise. Hundreds of stalls selling tamagoyaki, fresh seafood, wagyu beef skewers, strawberry daifuku, and more.",
+    "whatToOrder": "Tamagoyaki (sweet egg omelette on a stick), fresh uni, tuna skewers, melon pan, strawberry daifuku.",
+    "tips": "Go early (before 10am) for the best experience. Most stalls close by 2pm. Eat as you walk. Combine with Tsukiji Hongwanji temple next door.",
+    "mapsQuery": "Tsukiji Outer Market Tokyo",
+    "tags": [
+      "must-visit",
+      "budget",
+      "morning",
+      "street-food"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Ameyoko Market",
+    "nameJa": "アメ横",
+    "category": "Street Food",
+    "neighborhood": "Ueno",
+    "nearestStation": "Ueno Station",
+    "priceRange": "¥200-1500",
+    "hours": "10:00-19:00",
+    "description": "A chaotic, vibrant market street running alongside the JR tracks between Ueno and Okachimachi. Stalls hawk fresh seafood, kebabs, chocolate, dried fruits, and cheap street snacks. Electric energy.",
+    "whatToOrder": "Fresh fruit on sticks, seafood cups, yakitori, and chocolate stalls. Try the ¥500 fresh seafood cups.",
+    "tips": "Busiest on weekends. Watch for aggressive vendors. Great for browsing and snacking. Not all food stalls are equal - go where locals are lined up.",
+    "mapsQuery": "Ameyoko Market Ueno Tokyo",
+    "tags": [
+      "budget",
+      "chaotic",
+      "local-market"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Yanaka Ginza Street Food",
+    "nameJa": "谷中銀座",
+    "category": "Street Food",
+    "neighborhood": "Yanaka",
+    "nearestStation": "Nippori Station",
+    "priceRange": "¥100-500",
+    "hours": "10:00-18:00",
+    "description": "A retro shopping street with 60+ small shops in Tokyo's old-town. Famous for menchi-katsu (fried meat patties), cat-tail donuts, and nostalgic snacks. Arrive at sunset via the Yuyake Dandan steps.",
+    "whatToOrder": "Menchi-katsu, cat-tail donuts (nekoshippo), and korokke (croquettes).",
+    "tips": "Walk from Nippori Station through the atmospheric cemetery. The sunset from Yuyake Dandan steps is legendary. Most shops close by early evening.",
+    "mapsQuery": "Yanaka Ginza shopping street Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "retro",
+      "budget",
+      "sunset"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "7-Eleven Konbini",
+    "nameJa": "セブン-イレブン",
+    "category": "Convenience Store",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Everywhere",
+    "priceRange": "¥100-500",
+    "hours": "24 hours",
+    "description": "Japanese 7-Eleven is nothing like its American counterpart. Fresh onigiri, egg sandwiches, fried chicken, and seasonal limited items that are genuinely delicious. A pilgrimage for food lovers.",
+    "whatToOrder": "Egg sandwich (tamago sando), onigiri (tuna mayo is classic), karaage (fried chicken), melon pan, Nanachiki fried chicken.",
+    "tips": "The egg sandwiches are a cultural phenomenon. Try different onigiri flavors daily. The hot food section has fresh items throughout the day. Seasonal limited items are worth seeking out.",
+    "mapsQuery": "7-Eleven Tokyo",
+    "tags": [
+      "budget",
+      "24-hours",
+      "must-try",
+      "everywhere"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Lawson Konbini",
+    "nameJa": "ローソン",
+    "category": "Convenience Store",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Everywhere",
+    "priceRange": "¥100-500",
+    "hours": "24 hours",
+    "description": "Lawson's specialty is their fried chicken (Karaage-kun) and premium desserts. Their Uchi Cafe line of sweets rivals actual patisseries. The blue store is your late-night savior.",
+    "whatToOrder": "Karaage-kun (fried chicken nuggets in multiple flavors), Uchi Cafe premium roll cake, mochi ice cream, Uchi Cafe cheesecake.",
+    "tips": "Karaage-kun comes in regular, cheese, and seasonal flavors. The premium Uchi Cafe desserts are genuinely excellent. Look for Natural Lawson for healthier upscale options.",
+    "mapsQuery": "Lawson convenience store Tokyo",
+    "tags": [
+      "budget",
+      "24-hours",
+      "desserts"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "FamilyMart Konbini",
+    "nameJa": "ファミリーマート",
+    "category": "Convenience Store",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Everywhere",
+    "priceRange": "¥100-500",
+    "hours": "24 hours",
+    "description": "FamilyMart's claim to fame is their Famichiki (fried chicken) and excellent Frappe drinks. Their premium bento boxes are a step above. The green and blue store.",
+    "whatToOrder": "Famichiki (fried chicken fillet), Frappe drinks (caramel, strawberry), premium bento, and the hash browns.",
+    "tips": "Famichiki is the most popular single item sold at any Japanese konbini. The hot food counter always has fresh items. Their coffee machine is solid.",
+    "mapsQuery": "FamilyMart Tokyo",
+    "tags": [
+      "budget",
+      "24-hours",
+      "fried-chicken"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "CoCo Ichibanya",
+    "nameJa": "カレーハウスCoCo壱番屋",
+    "category": "Chain Restaurant",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥700-1200",
+    "hours": "11:00-23:00",
+    "description": "Japan's #1 curry chain. Customize everything: spice level (1-10), rice amount, and toppings. Comforting Japanese-style curry that's addictive. A guilty pleasure institution.",
+    "whatToOrder": "Roast chicken cutlet curry, level 3-5 spice. Add cheese topping. ¥300 rice size is enough for most.",
+    "tips": "Customize spice from 1 (mild) to 10 (pain). Vegetarian options available. Open late. Reliable comfort food anywhere in the city.",
+    "mapsQuery": "CoCo Ichibanya curry Tokyo",
+    "tags": [
+      "budget",
+      "chain",
+      "customizable",
+      "comfort-food"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Yoshinoya",
+    "nameJa": "吉野家",
+    "category": "Chain Restaurant",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥400-800",
+    "hours": "24 hours (most locations)",
+    "description": "The original gyudon (beef bowl) chain since 1899. Sweet soy-braised beef over rice for under ¥500. Fast, cheap, and genuinely satisfying. This is how Japan does fast food.",
+    "whatToOrder": "Gyudon (beef bowl) regular size with a raw egg on top. Add miso soup.",
+    "tips": "Open 24 hours at most locations. Perfect ¥4am hunger solution. The raw egg on top of hot rice is the proper way to eat it.",
+    "mapsQuery": "Yoshinoya gyudon Tokyo",
+    "tags": [
+      "ultra-budget",
+      "24-hours",
+      "fast-food",
+      "classic"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Matsuya",
+    "nameJa": "松屋",
+    "category": "Chain Restaurant",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥400-900",
+    "hours": "24 hours",
+    "description": "Yoshinoya's rival with arguably better variety. Their curry is excellent and miso soup comes free with every set. Vending machine ordering makes it zero-stress even without Japanese.",
+    "whatToOrder": "Premium gyudon set with miso soup (free), or try the curry. Breakfast sets before 10am are great value.",
+    "tips": "Miso soup is free with any set meal - unbeatable value. Ticket machine ordering. Some locations have premium 'Matsuya Premium' with better ingredients.",
+    "mapsQuery": "Matsuya gyudon restaurant Tokyo",
+    "tags": [
+      "ultra-budget",
+      "24-hours",
+      "free-miso-soup"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Kayaba Coffee",
+    "nameJa": "カヤバ珈琲",
+    "category": "Breakfast/Coffee",
+    "neighborhood": "Yanaka",
+    "nearestStation": "Nezu Station",
+    "priceRange": "¥500-1200",
+    "hours": "8:00-18:00 (weekdays), 8:00-18:00 (weekends)",
+    "description": "A beautifully restored 1938 kissaten (old-school coffee shop) in historic Yanaka. The two-story wooden building oozes Showa-era charm. Their egg sandwich and hand-dripped coffee are perfection.",
+    "whatToOrder": "Tamago sando (egg sandwich) and hand-dripped coffee. The Russian cake is also beloved.",
+    "tips": "Gets crowded on weekends. The upstairs tatami seating is the best spot. In the heart of Yanaka's nostalgic old-town streets.",
+    "mapsQuery": "Kayaba Coffee Yanaka Tokyo kissaten",
+    "tags": [
+      "atmospheric",
+      "historic",
+      "instagram-worthy",
+      "kissaten"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Chatei Hatou",
+    "nameJa": "茶亭 羽當",
+    "category": "Breakfast/Coffee",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥800-1500",
+    "hours": "11:00-23:00, Sun until 19:00",
+    "description": "A refined kissaten near Shibuya serving hand-dripped coffee in beautiful vintage cups. Each cup is chosen to match your drink. A serene escape from Shibuya's chaos. Operating since 1989.",
+    "whatToOrder": "Blend coffee or the café au lait. Each is served in a unique antique cup. Pair with the cheesecake.",
+    "tips": "No photos of the interior (respectfully). Cash only. The owner selects your cup personally. A meditative experience.",
+    "mapsQuery": "Chatei Hatou coffee Shibuya Tokyo",
+    "tags": [
+      "refined",
+      "atmospheric",
+      "cash-only",
+      "kissaten"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Onibus Coffee Nakameguro",
+    "nameJa": "オニバスコーヒー 中目黒店",
+    "category": "Breakfast/Coffee",
+    "neighborhood": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
+    "priceRange": "¥400-800",
+    "hours": "9:00-18:00",
+    "description": "Third-wave specialty coffee in a tiny renovated house along the Meguro River. Beautiful latte art, single-origin pour-overs, and a chill neighborhood vibe. The terrace is perfect in good weather.",
+    "whatToOrder": "Flat white or single-origin pour-over. Their espresso is excellent.",
+    "tips": "Tiny space - you may need to take your coffee to go. Walk along the Meguro River afterward. Multiple locations across Tokyo.",
+    "mapsQuery": "Onibus Coffee Nakameguro Tokyo",
+    "tags": [
+      "third-wave-coffee",
+      "cute",
+      "neighbourhood-vibe"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Bear Pond Espresso",
+    "nameJa": "ベアポンドエスプレッソ",
+    "category": "Breakfast/Coffee",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
+    "priceRange": "¥400-800",
+    "hours": "Varies (often 11:00-17:00)",
+    "description": "A legendary espresso bar in bohemian Shimokitazawa. The owner is famously eccentric and the 'angel stain' espresso (available only briefly each day) is considered one of Tokyo's best shots.",
+    "whatToOrder": "Angel Stain espresso if available (limited times). Otherwise, any espresso drink.",
+    "tips": "Unpredictable hours - the owner opens when he feels like it. No photos inside. Cash only. Part of the Shimokitazawa experience.",
+    "mapsQuery": "Bear Pond Espresso Shimokitazawa Tokyo",
+    "tags": [
+      "eccentric",
+      "legendary",
+      "cash-only",
+      "unpredictable"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Nanaya Aoyama",
+    "nameJa": "ななや 青山店",
+    "category": "Desserts/Sweets",
+    "neighborhood": "Aoyama",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "¥400-800",
+    "hours": "11:00-19:00",
+    "description": "Famous for matcha gelato in 7 levels of intensity. Level 1 is mild, Level 7 is the world's richest matcha ice cream - so concentrated it's almost bitter. A must for matcha lovers.",
+    "whatToOrder": "Get a double with Level 7 matcha and one other flavor. Level 5 is most popular if you want strong but not extreme.",
+    "tips": "Small shop, often has a queue. Cash only. Try before committing to Level 7 - it's intensely matcha. The hojicha flavor is also excellent.",
+    "mapsQuery": "Nanaya matcha gelato Aoyama Tokyo",
+    "tags": [
+      "must-visit",
+      "matcha",
+      "instagram-worthy",
+      "unique"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Dominique Ansel Bakery Omotesando",
+    "nameJa": "ドミニクアンセルベーカリー",
+    "category": "Desserts/Sweets",
+    "neighborhood": "Omotesando",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "¥500-1200",
+    "hours": "10:00-19:00",
+    "description": "The Tokyo outpost of the cronut creator. Japan-exclusive creations that are often better than the NYC original. The made-to-order cookie shot and seasonal specials are phenomenal.",
+    "whatToOrder": "The cronut (of course), cookie shot, and any Japan-exclusive seasonal items.",
+    "tips": "Cronuts sell out - go early. The Japan-exclusive items are worth seeking out. Beautiful interior for sitting down.",
+    "mapsQuery": "Dominique Ansel Bakery Omotesando Tokyo",
+    "tags": [
+      "splurge",
+      "instagram-worthy",
+      "seasonal"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Suzukien Asakusa",
+    "nameJa": "壽々喜園",
+    "category": "Desserts/Sweets",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "priceRange": "¥400-700",
+    "hours": "10:00-17:00",
+    "description": "A tea shop since 1848 collaborating with Nanaya to serve the world's richest matcha gelato. Seven levels of matcha intensity with Level 7 using the highest concentration of matcha available.",
+    "whatToOrder": "Matcha gelato Level 7 or double scoop to compare levels. Also try their hojicha and black sesame.",
+    "tips": "Near Senso-ji. The original Asakusa location is more atmospheric than the Aoyama branch. Queue moves quickly.",
+    "mapsQuery": "Suzukien matcha gelato Asakusa Tokyo",
+    "tags": [
+      "must-visit",
+      "matcha",
+      "historic-shop",
+      "near-sensoji"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tempura Kondo",
+    "nameJa": "てんぷら 近藤",
+    "category": "Tempura",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "¥15000-25000",
+    "hours": "12:00-13:30, 17:00-20:30, closed Sun",
+    "description": "Two Michelin-starred tempura from master Fumio Kondo. His signature sweet potato tempura is legendary - sliced thick and fried to sweet, caramelized perfection. Each piece is a revelation.",
+    "whatToOrder": "Omakase course. The sweet potato and the shrimp are the signatures. Seasonal vegetables are extraordinary.",
+    "tips": "Reservation required well in advance. Counter seats for the full experience. Lunch is slightly more affordable than dinner.",
+    "mapsQuery": "Tempura Kondo Ginza Tokyo",
+    "tags": [
+      "michelin-star",
+      "splurge",
+      "reservation-required",
+      "bucket-list"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Tendon Tenya",
+    "nameJa": "天丼てんや",
+    "category": "Tempura",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥500-1000",
+    "hours": "11:00-22:00",
+    "description": "Budget tempura chain that punches way above its price point. A full tendon (tempura rice bowl) for under ¥600. Crispy, hot, and surprisingly good for a chain. Perfect quick lunch.",
+    "whatToOrder": "Regular tendon (tempura rice bowl) at ¥540 is the classic. Upgrade to the Jo (premium) set for extra pieces.",
+    "tips": "Locations throughout Tokyo. Ticket machine ordering. Quick and no-fuss. Way better than the price suggests.",
+    "mapsQuery": "Tendon Tenya tempura Tokyo",
+    "tags": [
+      "ultra-budget",
+      "chain",
+      "quick-lunch"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Maisen Tonkatsu",
+    "nameJa": "まい泉",
+    "category": "Tonkatsu",
+    "neighborhood": "Omotesando",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "¥1500-3000",
+    "hours": "11:00-22:00",
+    "description": "Iconic tonkatsu restaurant housed in a converted 1960s bathhouse in Omotesando. The kurobuta (black pork) cutlet is thick, juicy, and the panko coating shatters perfectly. Beautiful interior.",
+    "whatToOrder": "Kurobuta rosu katsu (black pork loin cutlet) set with unlimited cabbage and rice.",
+    "tips": "The Omotesando main restaurant (in the old bathhouse) is the one to visit. Grind your own sesame for the sauce. Lunch sets are great value.",
+    "mapsQuery": "Maisen Tonkatsu Omotesando Tokyo",
+    "tags": [
+      "must-visit",
+      "iconic",
+      "beautiful-interior"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Butagumi",
+    "nameJa": "豚組",
+    "category": "Tonkatsu",
+    "neighborhood": "Nishi-Azabu",
+    "nearestStation": "Roppongi Station",
+    "priceRange": "¥2500-5000",
+    "hours": "11:30-14:00, 18:00-22:00",
+    "description": "Elevated tonkatsu with a choice of heritage pork breeds. Select your pig by region and breed, each with different flavor profiles. Served with premium rice and homemade pickles.",
+    "whatToOrder": "Choose a heritage pork variety - the TOKYO X or Kagoshima kurobuta are excellent. The fillet is leaner, loin is fattier.",
+    "tips": "Reservations recommended for dinner. The pork breed menu can be overwhelming - staff will help you choose. Worth the splurge for pork lovers.",
+    "mapsQuery": "Butagumi tonkatsu Nishi-Azabu Tokyo",
+    "tags": [
+      "splurge",
+      "unique-concept",
+      "pork-connoisseur"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Moyan Curry",
+    "nameJa": "もうやんカレー",
+    "category": "Curry",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥900-1300",
+    "hours": "11:00-22:00",
+    "description": "A cult-favorite curry spot with a rich, fruity curry that's been simmered for days. The lunch buffet is insane value - all-you-can-eat curry, rice, and sides. A Shinjuku institution.",
+    "whatToOrder": "Lunch curry buffet (all-you-can-eat). The beef curry is the flagship. Add cheese topping.",
+    "tips": "The lunch buffet (11:00-15:00) is the best deal in Shinjuku. Multiple locations. The Shinjuku station area one is most convenient.",
+    "mapsQuery": "Moyan Curry Shinjuku Tokyo",
+    "tags": [
+      "budget",
+      "buffet",
+      "local-favorite",
+      "comfort-food"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Harajuku Gyoza Lou",
+    "nameJa": "原宿餃子楼",
+    "category": "Gyoza",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station",
+    "priceRange": "¥600-1200",
+    "hours": "11:30-4:00 (next day)",
+    "description": "A tiny, beloved gyoza specialist in Harajuku. Perfectly crispy on the bottom, juicy inside. Just gyoza, rice, and beer - nothing else needed. Open absurdly late.",
+    "whatToOrder": "Yaki gyoza (pan-fried) and sui gyoza (boiled). Get both to compare. Add rice and a beer.",
+    "tips": "Opens until 4am on weekends. Small space - you may wait. Cash only. The simplicity is the point. Some of the best gyoza in Tokyo.",
+    "mapsQuery": "Harajuku Gyoza Lou Tokyo",
+    "tags": [
+      "must-visit",
+      "budget",
+      "late-night",
+      "cash-only"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Dandasoy Gyoza",
+    "nameJa": "ダンダスオイ",
+    "category": "Gyoza",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥800-1500",
+    "hours": "11:30-23:00",
+    "description": "Craft gyoza with creative fillings beyond the standard pork - think shiso, cheese, and seasonal specials. Modern interior with a fun, casual vibe.",
+    "whatToOrder": "The sampler plate to try multiple flavors. The shiso gyoza and cheese gyoza are standouts.",
+    "tips": "Good for groups who want to try many varieties. Beer and gyoza pairing is a joy here.",
+    "mapsQuery": "Dandasoy gyoza Shibuya Tokyo",
+    "tags": [
+      "creative",
+      "group-friendly",
+      "craft-gyoza"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Yoroniku",
+    "nameJa": "よろにく",
+    "category": "Yakiniku",
+    "neighborhood": "Minami-Aoyama",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "¥15000-25000",
+    "hours": "17:00-23:00",
+    "description": "Possibly the best yakiniku in Tokyo. Premium wagyu grilled tableside with stunning presentation. The 'silk rosu' (raw wagyu wrapped around uni and egg yolk) is legendary. Michelin-starred.",
+    "whatToOrder": "Omakase course. The silk rosu, wagyu tongue, and the special aged cuts are extraordinary.",
+    "tips": "Reservation essential - book weeks in advance. The omakase is the way to go. Counter seats if available offer the best experience.",
+    "mapsQuery": "Yoroniku yakiniku Aoyama Tokyo",
+    "tags": [
+      "splurge",
+      "michelin-star",
+      "reservation-required",
+      "bucket-list"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Gyukatsu Motomura",
+    "nameJa": "牛かつもと村",
+    "category": "Unique Experience",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥1300-1800",
+    "hours": "11:00-22:00",
+    "description": "Deep-fried beef cutlet (gyukatsu) that you finish cooking yourself on a hot stone at your table. The outside is crispy, the inside is rare and pink. A unique Tokyo food experience.",
+    "whatToOrder": "Standard gyukatsu set with barley rice and red miso soup. Dip in the different sauces and wasabi.",
+    "tips": "The Shinjuku and Shibuya locations have the longest queues. Go at off-peak times. Cook the rare beef on the hot stone to your preferred doneness.",
+    "mapsQuery": "Gyukatsu Motomura Shinjuku Tokyo",
+    "tags": [
+      "must-visit",
+      "unique",
+      "cook-it-yourself",
+      "queue-worth-it"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Zauo Fishing Restaurant",
+    "nameJa": "ざうお",
+    "category": "Unique Experience",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥3000-6000",
+    "hours": "Weekdays 11:30-14:30, 17:00-23:00; Weekends 11:30-23:00",
+    "description": "Catch your own fish from an indoor fishing pond, then the kitchen prepares it as sashimi, fried, or grilled. When you catch a fish the whole restaurant cheers. Absurdly fun.",
+    "whatToOrder": "Whatever you catch! Fishing rod rental included. The sashimi preparation is the most impressive.",
+    "tips": "Reservations recommended, especially weekends. Located on 1F of Shinjuku Washington Hotel. Fish prices vary - sea bream is the most common catch. Even if you don't catch anything, you can order normally.",
+    "mapsQuery": "Zauo fishing restaurant Shinjuku Tokyo",
+    "tags": [
+      "unique",
+      "fun",
+      "interactive",
+      "group-friendly"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Omoide Yokocho (Piss Alley)",
+    "nameJa": "思い出横丁",
+    "category": "Late Night",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥1000-3000",
+    "hours": "Most shops 17:00-midnight",
+    "description": "A narrow, atmospheric alley of tiny yakitori and ramen shops near Shinjuku Station's west exit. Smoke, lanterns, and shoulder-to-shoulder seating. This is post-war Tokyo preserved.",
+    "whatToOrder": "Yakitori, motsu-yaki (grilled offal), and cold beer. Each stall has its own specialty.",
+    "tips": "Go with an empty stomach and bar-hop between stalls. Most seats 6-10 people. Cash only at most spots. Best experienced at night when the lanterns glow.",
+    "mapsQuery": "Omoide Yokocho Piss Alley Shinjuku Tokyo",
+    "tags": [
+      "must-visit",
+      "atmospheric",
+      "late-night",
+      "cash-only",
+      "iconic"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Fuji Soba",
+    "nameJa": "富士そば",
+    "category": "Late Night",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Various",
+    "priceRange": "¥300-600",
+    "hours": "24 hours (most locations)",
+    "description": "Standing soba noodle chain open 24 hours. Hot soba or udon for under ¥400. The epitome of Japanese fast food - quick, cheap, and satisfying. A 3am essential.",
+    "whatToOrder": "Tempura soba (soba noodles with a piece of tempura). The curry udon on a cold night.",
+    "tips": "Standing format - no seats at most locations. Ticket machine ordering. Many locations around major stations. The perfect fuel at any hour.",
+    "mapsQuery": "Fuji Soba near Shinjuku Station Tokyo",
+    "tags": [
+      "ultra-budget",
+      "24-hours",
+      "standing",
+      "3am-fuel"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Nakajima",
+    "nameJa": "なかじま",
+    "category": "Kaiseki/Fine Dining",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "Lunch ¥850 / Dinner ¥8000-15000",
+    "hours": "11:30-13:30, 17:30-22:00, closed Sun",
+    "description": "Michelin-starred kaiseki at lunch for just ¥850. The sardine set lunch is legendary - same kitchen, same quality as the ¥15,000 dinner, at a fraction of the price. Tokyo's greatest lunch deal.",
+    "whatToOrder": "Lunch: the iwashi (sardine) set at ¥850 is the stuff of legend. Dinner: the kaiseki course.",
+    "tips": "Arrive by 11:00 to queue for lunch (they open at 11:30, limited sets). The lunch is the famous deal but dinner is world-class kaiseki. In a basement near Shinjuku Station.",
+    "mapsQuery": "Nakajima kaiseki restaurant Shinjuku Tokyo",
+    "tags": [
+      "must-visit",
+      "budget-lunch",
+      "michelin-star",
+      "greatest-deal"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Den",
+    "nameJa": "傳",
+    "category": "Kaiseki/Fine Dining",
+    "neighborhood": "Jingumae",
+    "nearestStation": "Gaienmae Station",
+    "priceRange": "¥20000-30000",
+    "hours": "18:00-21:00 (last seating), closed Sun/Mon",
+    "description": "Ranked #20 on World's 50 Best Restaurants. Chef Zaiyu Hasegawa's playful, modern Japanese cuisine includes the famous Dentucky Fried Chicken - a cheeky nod to KFC wrapped in refined technique. Fun and unforgettable.",
+    "whatToOrder": "Omakase only. The Dentucky Fried Chicken course is the signature experience.",
+    "tips": "Book months in advance. One of the hardest reservations in Tokyo. The experience is theatrical and joyful - not stuffy. Counter seats recommended.",
+    "mapsQuery": "Den restaurant Jingumae Tokyo",
+    "tags": [
+      "splurge",
+      "worlds-50-best",
+      "reservation-required",
+      "playful"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Sometaro",
+    "nameJa": "染太郎",
+    "category": "Okonomiyaki/Takoyaki",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "priceRange": "¥800-1500",
+    "hours": "12:00-22:00",
+    "description": "A charming, old-school okonomiyaki restaurant in a traditional Japanese house in Asakusa since 1937. You cook your own okonomiyaki on the teppan griddle built into your table.",
+    "whatToOrder": "Pork okonomiyaki, monjayaki (Tokyo's runny pancake version), and yakisoba.",
+    "tips": "Cook it yourself - staff will help if you've never made okonomiyaki before. The building itself is a delight. Near Senso-ji.",
+    "mapsQuery": "Sometaro okonomiyaki Asakusa Tokyo",
+    "tags": [
+      "budget",
+      "cook-it-yourself",
+      "historic",
+      "near-sensoji"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Depachika at Isetan Shinjuku",
+    "nameJa": "伊勢丹新宿店 地下食品売場",
+    "category": "Unique Experience",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku-Sanchome Station",
+    "priceRange": "¥500-5000",
+    "hours": "10:00-20:00",
+    "description": "The basement food hall of Isetan department store is a wonderland of premium Japanese cuisine. Hundreds of stalls selling wagashi, bento, pastries, wagyu, and prepared foods. Free samples everywhere.",
+    "whatToOrder": "Browse everything. Try wagashi (traditional sweets), premium bento boxes, French pastries with Japanese twists, and seasonal specialties.",
+    "tips": "Go around 6-7pm for discounted bento and items. Free samples are generous. The wagashi section is art. Perfect for assembling a hotel room feast.",
+    "mapsQuery": "Isetan Shinjuku depachika basement food hall",
+    "tags": [
+      "must-visit",
+      "food-hall",
+      "free-samples",
+      "splurge-or-budget"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Kikanbo",
+    "nameJa": "鬼金棒",
+    "category": "Ramen",
+    "neighborhood": "Kanda",
+    "nearestStation": "Kanda Station",
+    "priceRange": "¥900-1300",
+    "hours": "11:00-15:00, 17:00-21:00",
+    "description": "Spicy miso ramen with customizable heat and numbing Sichuan pepper levels. Choose your 'kara' (spice) and 'shibi' (numbing) levels independently. A fiery, addictive bowl.",
+    "whatToOrder": "Kara-shibi miso ramen. Start with level 3 kara and level 2 shibi if you like spice.",
+    "tips": "Ticket machine ordering. Be honest about your spice tolerance. The numbness from the Sichuan pepper is intense at higher levels.",
+    "mapsQuery": "Kikanbo spicy ramen Kanda Tokyo",
+    "tags": [
+      "spicy",
+      "unique",
+      "customizable"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Udon Shin",
+    "nameJa": "うどん慎",
+    "category": "Udon/Soba",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku Station",
+    "priceRange": "¥800-1400",
+    "hours": "11:00-15:30, 17:30-22:00",
+    "description": "Hand-made Sanuki-style udon with an incredibly chewy, bouncy noodle. The cold dipping udon is revelatory. A Bib Gourmand spot that's far better than many starred restaurants.",
+    "whatToOrder": "Curry udon or the cold dipping udon (zaru udon). The tempura sides are excellent.",
+    "tips": "Small shop near Shinjuku Gyoen. Queue can form at lunch. The noodles are made fresh daily and it shows.",
+    "mapsQuery": "Udon Shin Shinjuku Tokyo",
+    "tags": [
+      "must-visit",
+      "bib-gourmand",
+      "handmade-noodles"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Mensho Tokyo",
+    "nameJa": "麺庄東京",
+    "category": "Ramen",
+    "neighborhood": "Kasuga",
+    "nearestStation": "Korakuen Station",
+    "priceRange": "$$",
+    "hours": "11:00-15:00, 17:00-21:00",
+    "description": "Innovative ramen shop known for their lamb ramen, a rare and bold flavor in the ramen world. The lamb broth is surprisingly clean and deeply savory.",
+    "whatToOrder": "Lamb ramen, lamb tsukemen",
+    "tips": "Near Tokyo Dome area. The lamb can sell out so go early in each service.",
+    "mapsQuery": "Mensho Tokyo Ramen Kasuga",
+    "tags": [
+      "innovative",
+      "lamb",
+      "unique-flavor"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Hayashi",
+    "nameJa": "はやし",
+    "category": "Ramen",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "$$",
+    "hours": "11:30-15:00, 18:00-21:00",
+    "description": "A niboshi (dried sardine) ramen specialist producing an intensely fishy, umami-packed broth. Beloved by ramen otaku for its uncompromising flavor.",
+    "whatToOrder": "Niboshi ramen, ajitama topping",
+    "tips": "Small shop so expect a short wait. The fish flavor is strong, which is the point.",
+    "mapsQuery": "Hayashi Ramen Shibuya niboshi",
+    "tags": [
+      "niboshi",
+      "fish-broth",
+      "umami"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Daiwa Sushi",
+    "nameJa": "大和寿司",
+    "category": "Sushi",
+    "neighborhood": "Toyosu",
+    "nearestStation": "Shijo-mae Station",
+    "priceRange": "$$$",
+    "hours": "5:30-14:00",
+    "description": "The other famous Toyosu Market sushi counter, with a slightly shorter line than Sushi Dai but equally outstanding quality. Fast-paced and exciting counter experience.",
+    "whatToOrder": "Omakase set, add extra pieces of whatever's seasonal",
+    "tips": "The line is shorter than Sushi Dai but still long. Go on a weekday if possible.",
+    "mapsQuery": "Daiwa Sushi Toyosu Market",
+    "tags": [
+      "omakase",
+      "toyosu-market",
+      "early-morning"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Midori Sushi",
+    "nameJa": "美登利寿司",
+    "category": "Sushi",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "$$",
+    "hours": "11:00-22:00",
+    "description": "Exceptional value sushi with large, generous cuts of fish at reasonable prices. Located in Shibuya Mark City with consistently long lines.",
+    "whatToOrder": "Any set meal, the tuna trio, seasonal fish",
+    "tips": "Get a ticket number early, then shop in Mark City while waiting. Great quality for the price.",
+    "mapsQuery": "Midori Sushi Shibuya Mark City",
+    "tags": [
+      "great-value",
+      "generous-portions",
+      "queue-worthy"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Genki Sushi",
+    "nameJa": "元気寿司",
+    "category": "Sushi",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "11:00-23:00",
+    "description": "Fun conveyor belt sushi chain where plates are delivered by a small bullet-train system on rails. Budget-friendly and entertaining.",
+    "whatToOrder": "Order via tablet, try salmon, tuna, shrimp, and tamago",
+    "tips": "Great for families or casual meals. Order from the tablet for freshly made pieces.",
+    "mapsQuery": "Genki Sushi Tokyo",
+    "tags": [
+      "conveyor-belt",
+      "budget",
+      "fun",
+      "family-friendly"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Sushi Yoshitake",
+    "nameJa": "鮨よしたけ",
+    "category": "Sushi",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "$$$$",
+    "hours": "12:00-14:00, 17:00-22:00",
+    "description": "Three-Michelin-star sushi temple in Ginza with extraordinary attention to detail. Chef Yoshitake's rice, aging techniques, and knife work are world-class.",
+    "whatToOrder": "Omakase only (no menu), trust the chef completely",
+    "tips": "Reservation required well in advance; try concierge service or hotel booking. Budget 30,000+ yen per person.",
+    "mapsQuery": "Sushi Yoshitake Ginza",
+    "tags": [
+      "michelin-3-star",
+      "omakase",
+      "splurge",
+      "reservation-required"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Andy's Shin Hinomoto",
+    "nameJa": "新日の基",
+    "category": "Izakaya",
+    "neighborhood": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
+    "priceRange": "$$",
+    "hours": "17:00-23:00 (closed Sun)",
+    "description": "Run by a British expat under the Yurakucho train tracks, this raucous izakaya serves fantastic fresh seafood. The atmosphere is electric with trains rumbling overhead.",
+    "whatToOrder": "Sashimi platter, grilled fish of the day, any seasonal special",
+    "tips": "Extremely popular with locals and tourists alike. Call ahead or arrive right at opening.",
+    "mapsQuery": "Andy's Shin Hinomoto Yurakucho",
+    "tags": [
+      "foreigner-friendly",
+      "seafood",
+      "under-the-tracks",
+      "lively"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Isomaru Suisan",
+    "nameJa": "磯丸水産",
+    "category": "Izakaya",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$$",
+    "hours": "24 hours",
+    "description": "24-hour seafood izakaya chain where you grill your own shellfish at the table. Perfect for late-night seafood cravings any time of day.",
+    "whatToOrder": "Grilled shellfish set, sashimi, hamachi kama (yellowtail collar)",
+    "tips": "Open 24 hours, making it a top late-night option. Locations in most entertainment districts.",
+    "mapsQuery": "Isomaru Suisan Tokyo",
+    "tags": [
+      "24-hours",
+      "seafood",
+      "grill-your-own",
+      "late-night",
+      "chain"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Gonpachi",
+    "nameJa": "権八",
+    "category": "Izakaya",
+    "neighborhood": "Nishi-Azabu",
+    "nearestStation": "Roppongi Station",
+    "priceRange": "$$$",
+    "hours": "11:30-03:30",
+    "description": "The restaurant that inspired the crazy battle scene in Kill Bill. Dramatic two-story interior with solid yakitori, soba, and izakaya fare.",
+    "whatToOrder": "Yakitori course, hand-made soba, seasonal tempura",
+    "tips": "The Nishi-Azabu location is the famous one. Pricier than average but the atmosphere is worth it.",
+    "mapsQuery": "Gonpachi Nishi-Azabu Kill Bill restaurant",
+    "tags": [
+      "famous",
+      "kill-bill",
+      "dramatic-interior",
+      "tourist-friendly"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tatemichiya",
+    "nameJa": "たてみち屋",
+    "category": "Izakaya",
+    "neighborhood": "Daikanyama",
+    "nearestStation": "Daikanyama Station",
+    "priceRange": "$$",
+    "hours": "18:00-02:00",
+    "description": "A punk rock izakaya with loud music, tattooed staff, and surprisingly excellent food. The rebellious atmosphere makes for an unforgettable night out.",
+    "whatToOrder": "Whatever the staff recommends, their creative daily specials",
+    "tips": "Not for a quiet dinner. Go with friends who want a rowdy, fun experience.",
+    "mapsQuery": "Tatemichiya Daikanyama izakaya",
+    "tags": [
+      "punk-rock",
+      "unique-atmosphere",
+      "late-night",
+      "local-favorite"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Toritama",
+    "nameJa": "鳥たま",
+    "category": "Yakitori",
+    "neighborhood": "Meguro",
+    "nearestStation": "Meguro Station",
+    "priceRange": "$$",
+    "hours": "18:00-23:00 (closed Mon)",
+    "description": "Excellent yakitori spot in Meguro known for high-quality chicken and a warm, welcoming atmosphere. Popular with locals who appreciate serious grilling craft.",
+    "whatToOrder": "Course menu, chicken sashimi (if you're adventurous), skin",
+    "tips": "Reserve ahead as it fills up quickly. The chicken sashimi is safe and delicious here.",
+    "mapsQuery": "Toritama Yakitori Meguro",
+    "tags": [
+      "local-favorite",
+      "quality",
+      "cozy"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Takeshita Street Crepes",
+    "nameJa": "竹下通りクレープ",
+    "category": "Street Food",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station",
+    "priceRange": "$",
+    "hours": "10:00-20:00",
+    "description": "Harajuku's famous Takeshita Street is lined with crepe shops serving Japanese-style crepes filled with cream, fruit, and ice cream. A Harajuku icon.",
+    "whatToOrder": "Strawberry cream crepe, banana chocolate, or matcha cream",
+    "tips": "Marion Crepes and Santa Monica Crepes are the most popular. Walk and eat is the norm.",
+    "mapsQuery": "Takeshita Street Crepes Harajuku",
+    "tags": [
+      "harajuku",
+      "sweets",
+      "iconic",
+      "instagram"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Nakamise-dori",
+    "nameJa": "仲見世通り",
+    "category": "Street Food",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "priceRange": "$",
+    "hours": "9:00-18:00",
+    "description": "The historic shopping street leading to Senso-ji temple, lined with traditional snack vendors. One of Tokyo's oldest shopping streets with centuries of history.",
+    "whatToOrder": "Ningyo-yaki (custard cakes), age-manju (fried buns), kibidango (mochi dumplings)",
+    "tips": "Visit early to avoid the biggest crowds. Combine with a visit to Senso-ji temple.",
+    "mapsQuery": "Nakamise-dori Asakusa shopping street",
+    "tags": [
+      "historic",
+      "traditional-snacks",
+      "temple-area",
+      "tourist"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "7-Eleven Egg Sandwich",
+    "nameJa": "セブンイレブン たまごサンド",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "The iconic fluffy egg sandwich with impossibly soft white bread and creamy egg salad. A must-try that will ruin all other egg sandwiches for you.",
+    "whatToOrder": "Tamago sando (egg sandwich)",
+    "tips": "Available at every 7-Eleven. Pair with a can of Boss coffee for peak konbini dining.",
+    "mapsQuery": "7-Eleven Tokyo",
+    "tags": [
+      "konbini",
+      "must-try",
+      "cheap",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Lawson Karaage-Kun",
+    "nameJa": "ローソン からあげクン",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "Bite-sized fried chicken nuggets from the hot food counter at Lawson. Crispy, juicy, and available in regular, red (spicy), and rotating limited-edition flavors.",
+    "whatToOrder": "Regular flavor first, then try red (spicy) or any limited edition",
+    "tips": "Check for limited-time seasonal flavors. They sometimes collaborate with anime or regional specialties.",
+    "mapsQuery": "Lawson convenience store Tokyo",
+    "tags": [
+      "konbini",
+      "fried-chicken",
+      "snack",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "FamilyMart Famichiki",
+    "nameJa": "ファミリーマート ファミチキ",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "FamilyMart's signature fried chicken cutlet, crispy outside and juicy inside. Japan's most popular konbini hot snack, selling hundreds of millions annually.",
+    "whatToOrder": "Original Famichiki, spicy Famichiki",
+    "tips": "Best eaten fresh and hot. Pair with a Strong Zero for the ultimate budget Tokyo evening.",
+    "mapsQuery": "FamilyMart Tokyo",
+    "tags": [
+      "konbini",
+      "fried-chicken",
+      "iconic",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Lawson Premium Roll Cake",
+    "nameJa": "ローソン プレミアムロールケーキ",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "An impossibly creamy roll cake from Lawson's premium dessert line that rivals dedicated patisseries. The cream-to-cake ratio is perfection.",
+    "whatToOrder": "Premium Roll Cake (the original), also try seasonal variations",
+    "tips": "Check the Lawson dessert section for seasonal limited editions. The original cream version is the essential one.",
+    "mapsQuery": "Lawson convenience store Tokyo",
+    "tags": [
+      "konbini",
+      "dessert",
+      "must-try",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Mos Burger",
+    "nameJa": "モスバーガー",
+    "category": "Chain",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "10:00-23:00",
+    "description": "Japan's answer to fast food burgers with higher quality ingredients and unique items like rice burgers. Everything is made to order and tastes noticeably fresher.",
+    "whatToOrder": "MOS Burger (meat sauce burger), rice burger, spicy MOS cheeseburger",
+    "tips": "The rice burger (bun made of compressed rice) is uniquely Japanese. Try the seasonal limited items.",
+    "mapsQuery": "Mos Burger Tokyo",
+    "tags": [
+      "burgers",
+      "chain",
+      "made-to-order",
+      "japanese-twist"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Saizeriya",
+    "nameJa": "サイゼリヤ",
+    "category": "Chain",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "11:00-23:00",
+    "description": "Absurdly cheap Italian-Japanese family restaurant chain where most dishes are under 500 yen. Wine starts at 100 yen a glass.",
+    "whatToOrder": "Milan-style doria (gratin), escargot, 100-yen wine, tiramisu",
+    "tips": "The escargot for 400 yen is an absurd deal. Don't expect authentic Italian, but do expect great value.",
+    "mapsQuery": "Saizeriya restaurant Tokyo",
+    "tags": [
+      "budget",
+      "italian",
+      "wine",
+      "family-restaurant"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Cafe de l'Ambre",
+    "nameJa": "カフェ・ド・ランブル",
+    "category": "Coffee",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "$$",
+    "hours": "12:00-19:00 (closed Sun)",
+    "description": "Operating since 1948, this is one of Tokyo's oldest and most revered kissaten. The aged coffee beans and meticulous nel-drip preparation are legendary.",
+    "whatToOrder": "Aged coffee (ask for their oldest available), nel drip coffee",
+    "tips": "The late founder aged beans for decades. Ask what aged coffees are available. Cash only.",
+    "mapsQuery": "Cafe de l'Ambre Ginza coffee",
+    "tags": [
+      "kissaten",
+      "historic",
+      "aged-coffee",
+      "ginza"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Sarutahiko Coffee",
+    "nameJa": "猿田彦珈琲",
+    "category": "Coffee",
+    "neighborhood": "Ebisu",
+    "nearestStation": "Ebisu Station",
+    "priceRange": "$$",
+    "hours": "8:00-21:00",
+    "description": "Tokyo's beloved specialty coffee chain that helped spark the third-wave coffee movement in Japan. Excellent single-origin pour-overs and espresso drinks.",
+    "whatToOrder": "Single-origin pour-over, cafe latte, seasonal special",
+    "tips": "The Ebisu flagship is the original. Also has locations in Omotesando and other areas.",
+    "mapsQuery": "Sarutahiko Coffee Ebisu",
+    "tags": [
+      "specialty-coffee",
+      "third-wave",
+      "multiple-locations"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Blue Bottle Coffee Japan",
+    "nameJa": "ブルーボトルコーヒー",
+    "category": "Coffee",
+    "neighborhood": "Kiyosumi-Shirakawa",
+    "nearestStation": "Kiyosumi-Shirakawa Station",
+    "priceRange": "$$",
+    "hours": "8:00-19:00",
+    "description": "Blue Bottle's Japan flagship in a converted warehouse is worth visiting for the stunning space alone. The Japanese stores often have exclusive menu items.",
+    "whatToOrder": "Pour-over, seasonal blend, Japan-exclusive pastries",
+    "tips": "The Kiyosumi-Shirakawa location is the most beautiful. Combine with a walk around the neighborhood's galleries.",
+    "mapsQuery": "Blue Bottle Coffee Kiyosumi Shirakawa",
+    "tags": [
+      "specialty-coffee",
+      "beautiful-space",
+      "kiyosumi"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Cremia Soft Serve",
+    "nameJa": "クレミア",
+    "category": "Dessert",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "Varies by location",
+    "description": "Ultra-premium soft serve ice cream served in a langues de chat cookie cone. Made with 25% fresh Hokkaido cream for an incredibly rich, dense texture.",
+    "whatToOrder": "Original Cremia soft serve in the cookie cone",
+    "tips": "Found at various locations and events. The cookie cone alone is worth it. Look for the Cremia sign.",
+    "mapsQuery": "Cremia soft serve ice cream Tokyo",
+    "tags": [
+      "soft-serve",
+      "premium",
+      "hokkaido-cream"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Taiyaki Hiiragi",
+    "nameJa": "たい焼き ひいらぎ",
+    "category": "Dessert",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku-Sanchome Station",
+    "priceRange": "$",
+    "hours": "11:00-20:00",
+    "description": "Crispy fish-shaped cakes filled with sweet red bean paste, baked one at a time for maximum crispiness. The thin, crunchy shell sets this shop apart.",
+    "whatToOrder": "Classic red bean taiyaki, custard cream taiyaki",
+    "tips": "Best eaten immediately while the shell is still crispy. The thin-style batter is the best in Tokyo.",
+    "mapsQuery": "Taiyaki Hiiragi Shinjuku",
+    "tags": [
+      "taiyaki",
+      "traditional",
+      "crispy",
+      "snack"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Ethiopia Curry",
+    "nameJa": "エチオピア",
+    "category": "Curry",
+    "neighborhood": "Kanda",
+    "nearestStation": "Jimbocho Station",
+    "priceRange": "$",
+    "hours": "11:00-22:00",
+    "description": "A Kanda curry institution serving fiery Japanese-style curry since the 1980s. Spice levels go up to 70x, but even moderate levels pack serious heat.",
+    "whatToOrder": "Chicken curry or vegetable curry, start at 5x spice",
+    "tips": "Kanda/Jimbocho is Tokyo's curry district. Start mild; even 10x is very spicy for most people.",
+    "mapsQuery": "Ethiopia Curry Kanda Jimbocho",
+    "tags": [
+      "curry",
+      "spicy",
+      "kanda",
+      "institution"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Gyoza no Ohsho",
+    "nameJa": "餃子の王将",
+    "category": "Gyoza",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "11:00-23:00",
+    "description": "Japan's biggest gyoza chain serving cheap, satisfying dumplings and Chinese-Japanese dishes. A no-frills institution with hundreds of locations nationwide.",
+    "whatToOrder": "Gyoza (of course), fried rice, tenshin-han (crab omelette over rice)",
+    "tips": "Order at least two plates of gyoza per person. The fried rice is also excellent.",
+    "mapsQuery": "Gyoza no Ohsho Tokyo",
+    "tags": [
+      "gyoza",
+      "chain",
+      "budget",
+      "reliable"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "Dandasadan",
+    "nameJa": "ダンダダン",
+    "category": "Gyoza",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "11:00-23:00",
+    "description": "Trendy gyoza-and-tantanmen chain with a modern, energetic atmosphere. Their crispy gyoza and spicy tantanmen make a perfect combo meal.",
+    "whatToOrder": "Yaki-gyoza, tantanmen, mazesoba",
+    "tips": "The combination of gyoza and tantanmen is the move. Multiple locations across Tokyo.",
+    "mapsQuery": "Dandasadan gyoza tantanmen Tokyo",
+    "tags": [
+      "gyoza",
+      "tantanmen",
+      "trendy",
+      "chain"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Ushigoro",
+    "nameJa": "うしごろ",
+    "category": "Yakiniku",
+    "neighborhood": "Ebisu",
+    "nearestStation": "Ebisu Station",
+    "priceRange": "$$$$",
+    "hours": "17:00-23:00",
+    "description": "Premium yakiniku specializing in A5 wagyu beef with beautiful marbling. Each cut is presented like a work of art and melts on the grill.",
+    "whatToOrder": "Omakase course, A5 sirloin, wagyu uni sushi, zabuton",
+    "tips": "Reservations essential. The omakase course is the best way to experience the range of cuts.",
+    "mapsQuery": "Ushigoro Yakiniku Ebisu",
+    "tags": [
+      "wagyu",
+      "a5-beef",
+      "premium",
+      "reservation-required"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Stamina-en",
+    "nameJa": "スタミナ苑",
+    "category": "Yakiniku",
+    "neighborhood": "Nerima",
+    "nearestStation": "Nerima Station",
+    "priceRange": "$$$",
+    "hours": "17:00-23:00 (closed Tue/Wed)",
+    "description": "A legendary yakiniku destination in residential Nerima where people travel from across Tokyo for the best horumon (offal) and premium cuts.",
+    "whatToOrder": "Mixed horumon (offal), karubi (short rib), harami (skirt steak)",
+    "tips": "Lines can be 2+ hours on weekends. Go on a weekday. Far from central Tokyo but worth it.",
+    "mapsQuery": "Stamina-en Yakiniku Nerima",
+    "tags": [
+      "legendary",
+      "offal",
+      "queue-worthy",
+      "worth-the-trip"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Yakiniku Champion",
+    "nameJa": "焼肉チャンピオン",
+    "category": "Yakiniku",
+    "neighborhood": "Ebisu",
+    "nearestStation": "Ebisu Station",
+    "priceRange": "$$$",
+    "hours": "17:00-23:00",
+    "description": "High-quality yakiniku in a stylish Ebisu setting with excellent wagyu at more accessible prices than ultra-premium spots. Great date-night option.",
+    "whatToOrder": "Champion course, thick-cut tongue, wagyu kalbi",
+    "tips": "Reservations recommended, especially weekends. A solid middle ground between budget and splurge yakiniku.",
+    "mapsQuery": "Yakiniku Champion Ebisu",
+    "tags": [
+      "wagyu",
+      "yakiniku",
+      "date-night",
+      "ebisu"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Narisawa",
+    "nameJa": "ナリサワ",
+    "category": "Kaiseki",
+    "neighborhood": "Minami-Aoyama",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "$$$$",
+    "hours": "12:00-13:00, 18:00-21:00 (closed Sun)",
+    "description": "Chef Narisawa's innovative 'satoyama cuisine' draws on Japanese nature and sustainability. Dishes like 'Bread of the Forest' with charcoal and soil are thought-provoking.",
+    "whatToOrder": "Omakase course only, the Bread of the Forest and Essence of the Forest courses",
+    "tips": "Book well in advance. The philosophy-driven approach makes this more than just a meal.",
+    "mapsQuery": "Narisawa Restaurant Minami-Aoyama",
+    "tags": [
+      "innovative",
+      "sustainability",
+      "fine-dining",
+      "reservation-required"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Florilege",
+    "nameJa": "フロリレージュ",
+    "category": "Kaiseki",
+    "neighborhood": "Aoyama",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "$$$$",
+    "hours": "12:00-13:00, 18:30-21:00 (closed Mon)",
+    "description": "French-Japanese fine dining with a focus on sustainability and seasonal Japanese ingredients. Counter seats facing Chef Kawate's open kitchen create an intimate experience.",
+    "whatToOrder": "Omakase course, the Sustainabowl decomposition dish",
+    "tips": "Reserve through their website well in advance. Counter seats facing the kitchen are the best.",
+    "mapsQuery": "Florilege Restaurant Aoyama Tokyo",
+    "tags": [
+      "french-japanese",
+      "sustainability",
+      "fine-dining",
+      "reservation-required"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Kagaya",
+    "nameJa": "かがや",
+    "category": "Unique",
+    "neighborhood": "Shimbashi",
+    "nearestStation": "Shimbashi Station",
+    "priceRange": "$$",
+    "hours": "19:00-23:00 (varies)",
+    "description": "An absolutely insane izakaya where the owner Mark performs non-stop comedy routines with costumes and props. The food is decent but the show is why you go.",
+    "whatToOrder": "Whatever Mark suggests, the food is secondary to the experience",
+    "tips": "Reservations ESSENTIAL and very hard to get. Email well in advance. No photos/video of Mark's show.",
+    "mapsQuery": "Kagaya izakaya Shimbashi",
+    "tags": [
+      "one-of-a-kind",
+      "performance",
+      "unforgettable",
+      "reservation-essential"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Alcatraz E.R.",
+    "nameJa": "アルカトラズ E.R.",
+    "category": "Unique",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "$$",
+    "hours": "17:00-24:00",
+    "description": "A prison-hospital themed izakaya where you're handcuffed, locked in cells, and served drinks in syringes and beakers. Pure campy fun unique to Tokyo.",
+    "whatToOrder": "Themed cocktails in beakers and test tubes, standard izakaya food",
+    "tips": "The food is average but that's not the point. Go for the wild atmosphere and themed drinks.",
+    "mapsQuery": "Alcatraz E.R. Shibuya prison restaurant",
+    "tags": [
+      "theme-restaurant",
+      "quirky",
+      "drinks",
+      "fun"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Standing Sushi Bar",
+    "nameJa": "立ち食い寿司",
+    "category": "Sushi",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "Varies by location",
+    "description": "Standing sushi bars found near train stations offer surprisingly high-quality sushi at bargain prices. Eat quickly at the counter and move on.",
+    "whatToOrder": "Whatever looks fresh in the case, seasonal fish",
+    "tips": "Look for these near any major station. No reservations, no fuss, just great quick sushi.",
+    "mapsQuery": "Standing sushi bar Tokyo tachigui",
+    "tags": [
+      "budget",
+      "quick-meal",
+      "standing"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Uoshin",
+    "nameJa": "魚真",
+    "category": "Izakaya",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "$$",
+    "hours": "17:00-23:30",
+    "description": "Outstanding seafood izakaya in Shibuya with fish so fresh it rivals sushi restaurants. The handwritten daily menu features whatever was best at the market.",
+    "whatToOrder": "Sashimi moriawase (assortment), grilled fish, any daily special",
+    "tips": "Reservations recommended. The daily specials written on the wall are always the way to go.",
+    "mapsQuery": "Uoshin Shibuya seafood izakaya",
+    "tags": [
+      "seafood",
+      "fresh-fish",
+      "daily-specials"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Yakitori Alley (Yurakucho)",
+    "nameJa": "有楽町ガード下",
+    "category": "Yakitori",
+    "neighborhood": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
+    "priceRange": "$",
+    "hours": "17:00-23:00 (varies by stall)",
+    "description": "A collection of smoky yakitori stalls tucked under the Yurakucho rail tracks. Salarymen crowd these tiny counters for cheap, delicious chicken and beer after work.",
+    "whatToOrder": "Negima (chicken and scallion), kawa (skin), a cold beer",
+    "tips": "Just wander and pick the stall that looks most appealing. Standing room is common.",
+    "mapsQuery": "Yurakucho Yakitori Alley under tracks",
+    "tags": [
+      "atmospheric",
+      "budget",
+      "under-the-tracks",
+      "salaryman-scene"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "7-Eleven Onigiri",
+    "nameJa": "セブンイレブン おにぎり",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "Perfectly formed rice balls with crispy nori and various fillings. The packaging keeps the seaweed crisp until you unwrap it with a satisfying pull-tab system.",
+    "whatToOrder": "Tuna mayo (bestseller), salmon, mentaiko (spicy cod roe), umeboshi",
+    "tips": "Learn the three-step unwrapping technique. Tuna mayo is the safe bet; mentaiko is the adventurous choice.",
+    "mapsQuery": "7-Eleven Tokyo",
+    "tags": [
+      "konbini",
+      "budget-meal",
+      "on-the-go",
+      "24-hours"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "7-Eleven Melon Pan",
+    "nameJa": "セブンイレブン メロンパン",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "Sweet bread with a cookie-crust topping shaped to look like a melon. The 7-Eleven version is soft, buttery, and one of the best konbini breads.",
+    "whatToOrder": "Classic melon pan, or the cream-filled version",
+    "tips": "Best slightly warmed. Try different brands across all three konbini chains to find your favorite.",
+    "mapsQuery": "7-Eleven Tokyo",
+    "tags": [
+      "konbini",
+      "bread",
+      "sweet",
+      "24-hours"
+    ],
+    "vibeRating": 2
+  },
+  {
+    "name": "FamilyMart Frappe",
+    "nameJa": "ファミリーマート フラッペ",
+    "category": "Konbini",
+    "neighborhood": "Everywhere",
+    "nearestStation": "Any",
+    "priceRange": "$",
+    "hours": "24 hours",
+    "description": "Frozen frappe cups that you take to the coffee machine to blend with milk. Available in matcha, chocolate, and seasonal fruit varieties.",
+    "whatToOrder": "Matcha frappe, chocolate frappe, or seasonal limited flavors",
+    "tips": "Buy the frozen cup, take it to the coffee machine, press the frappe button. Takes about 30 seconds.",
+    "mapsQuery": "FamilyMart Tokyo",
+    "tags": [
+      "konbini",
+      "drink",
+      "matcha",
+      "24-hours"
+    ],
+    "vibeRating": 2
+  }
+]

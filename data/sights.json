@@ -1,0 +1,1232 @@
+[
+  {
+    "name": "Senso-ji Temple",
+    "nameJa": "浅草寺",
+    "category": "Temple/Shrine",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "hours": "Temple grounds: 24/7. Main hall: 6:00-17:00",
+    "admissionCost": "Free",
+    "timeNeeded": "1-2 hours",
+    "description": "Tokyo's oldest and most famous temple. The massive Kaminarimon (Thunder Gate) with its iconic red lantern is the symbol of Tokyo. Walk through Nakamise shopping street to the main hall.",
+    "tips": "Visit at dawn or night to avoid crowds and see it lit up. The Nakamise shopping street has great snacks. Draw an omikuji (fortune slip) for ¥100.",
+    "mapsQuery": "Senso-ji Temple Asakusa Tokyo",
+    "tags": [
+      "iconic",
+      "free",
+      "photography",
+      "morning",
+      "night-visit"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Meiji Shrine",
+    "nameJa": "明治神宮",
+    "category": "Temple/Shrine",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station",
+    "hours": "Sunrise to sunset (varies by season)",
+    "admissionCost": "Free",
+    "timeNeeded": "1-1.5 hours",
+    "description": "A Shinto shrine set in a vast 170-acre forest in the heart of Tokyo. The torii gates and gravel paths create a profound sense of peace. Dedicated to Emperor Meiji and Empress Shoken.",
+    "tips": "Enter from JR Harajuku Station for the main approach. Weekend mornings you might see a traditional Shinto wedding. The inner garden (¥500) has an iris garden.",
+    "mapsQuery": "Meiji Shrine Harajuku Tokyo",
+    "tags": [
+      "iconic",
+      "free",
+      "peaceful",
+      "morning",
+      "photography"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Tokyo Skytree",
+    "nameJa": "東京スカイツリー",
+    "category": "Viewpoint",
+    "neighborhood": "Sumida",
+    "nearestStation": "Tokyo Skytree Station",
+    "hours": "10:00-21:00 (last entry 20:00)",
+    "admissionCost": "¥2100-3100 (Tembo Deck), +¥1000 for Tembo Galleria",
+    "timeNeeded": "1-2 hours",
+    "description": "The tallest structure in Japan at 634m. Two observation decks at 350m and 450m offer panoramic views of the entire city. On clear days, Mt Fuji is visible.",
+    "tips": "Book tickets online to skip the queue. Go near sunset for both day and night views. Clear winter days have the best Mt Fuji visibility. The Solamachi mall at the base has great shopping and food.",
+    "mapsQuery": "Tokyo Skytree observation deck",
+    "tags": [
+      "iconic",
+      "viewpoint",
+      "sunset",
+      "clear-weather"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tokyo Tower",
+    "nameJa": "東京タワー",
+    "category": "Viewpoint",
+    "neighborhood": "Minato",
+    "nearestStation": "Akabanebashi Station",
+    "hours": "9:00-23:00 (last entry 22:30)",
+    "admissionCost": "¥1200 (Main Deck), ¥2800 (Top Deck tour)",
+    "timeNeeded": "1-1.5 hours",
+    "description": "The 1958 icon modeled after the Eiffel Tower, painted in signature orange and white. While Skytree is taller, Tokyo Tower has more soul and charm. Beautiful when lit up at night.",
+    "tips": "The Top Deck tour includes a drink and multimedia experience. Go at night for the illuminated city views. Visit Zojoji Temple next door for a Tower + temple photo combo.",
+    "mapsQuery": "Tokyo Tower observation deck",
+    "tags": [
+      "iconic",
+      "retro",
+      "night-visit",
+      "photography"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Shibuya Crossing",
+    "nameJa": "渋谷スクランブル交差点",
+    "category": "Neighborhood",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "hours": "24/7",
+    "admissionCost": "Free",
+    "timeNeeded": "30 minutes",
+    "description": "The world's busiest pedestrian crossing. Up to 3,000 people cross simultaneously when the lights change. Best viewed from above at the Shibuya Sky observation deck or the Starbucks in TSUTAYA building.",
+    "tips": "Cross it yourself for the ground-level experience, then watch from the Starbucks 2F in TSUTAYA building (get a window seat). Shibuya Sky (¥2000) has the best aerial view. Most dramatic at night in the rain.",
+    "mapsQuery": "Shibuya Scramble Crossing Tokyo",
+    "tags": [
+      "iconic",
+      "free",
+      "photography",
+      "night-visit"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Shibuya Sky",
+    "nameJa": "渋谷スカイ",
+    "category": "Viewpoint",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "hours": "10:00-22:30 (last entry 21:20)",
+    "admissionCost": "¥2000",
+    "timeNeeded": "1 hour",
+    "description": "An open-air rooftop observation deck on top of Shibuya Scramble Square at 229m. Unobstructed 360-degree views with a glass-edge section for daring photos. The best sunset views in Tokyo.",
+    "tips": "Book online in advance - often sells out for sunset times. The open-air rooftop is weather-dependent. Bring a jacket - it's windy up top. The indoor bar is a great spot to linger.",
+    "mapsQuery": "Shibuya Sky observation deck Tokyo",
+    "tags": [
+      "must-visit",
+      "viewpoint",
+      "sunset",
+      "photography"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Harajuku & Takeshita Street",
+    "nameJa": "原宿 竹下通り",
+    "category": "Neighborhood",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station",
+    "hours": "Shops generally 10:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "Tokyo's youth fashion epicenter. Takeshita Street is a narrow lane packed with kawaii shops, crepe stands, and wild fashion stores. The back streets (Ura-Hara) have more sophisticated boutiques.",
+    "tips": "Walk Takeshita Street first, then explore the quieter Ura-Harajuku backstreets. Continue to Cat Street and Omotesando for a full afternoon. Try a Harajuku crepe from Marion Crepes.",
+    "mapsQuery": "Takeshita Street Harajuku Tokyo",
+    "tags": [
+      "iconic",
+      "free",
+      "shopping",
+      "youth-culture"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Akihabara Electric Town",
+    "nameJa": "秋葉原",
+    "category": "Neighborhood",
+    "neighborhood": "Akihabara",
+    "nearestStation": "Akihabara Station",
+    "hours": "Most shops 10:00-21:00",
+    "admissionCost": "Free",
+    "timeNeeded": "2-4 hours",
+    "description": "The otaku (geek culture) capital of the world. Massive electronics stores, anime shops, manga floors, retro game arcades, maid cafes, and gashapon (capsule toy) walls. Overwhelming and wonderful.",
+    "tips": "Start at Yodobashi Camera for electronics. Visit Super Potato for retro games. Try a maid cafe for the experience. The side streets have the best hidden shops. Gashapon machines are everywhere.",
+    "mapsQuery": "Akihabara Electric Town Tokyo",
+    "tags": [
+      "iconic",
+      "anime",
+      "gaming",
+      "electronics",
+      "weird"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Shinjuku Gyoen National Garden",
+    "nameJa": "新宿御苑",
+    "category": "Park/Garden",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku-Gyoenmae Station",
+    "hours": "9:00-16:30 (closed Mondays)",
+    "admissionCost": "¥500",
+    "timeNeeded": "1.5-2 hours",
+    "description": "A vast, stunning garden combining Japanese, English, and French garden styles. 58 hectares of green in the middle of the city. The greenhouse has tropical plants. Early plum blossoms possible in late February.",
+    "tips": "No alcohol allowed. The Japanese garden section is the most photogenic. In late February, look for early plum blossoms (ume). Perfect escape from Shinjuku's chaos.",
+    "mapsQuery": "Shinjuku Gyoen National Garden Tokyo",
+    "tags": [
+      "peaceful",
+      "photography",
+      "nature",
+      "plum-blossoms"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Yoyogi Park",
+    "nameJa": "代々木公園",
+    "category": "Park/Garden",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Harajuku Station",
+    "hours": "24/7",
+    "admissionCost": "Free",
+    "timeNeeded": "1-2 hours",
+    "description": "Tokyo's Central Park. A huge green space next to Meiji Shrine where Tokyoites jog, picnic, and play music. On weekends, rockabilly dancers, buskers, and cosplayers gather near the entrance.",
+    "tips": "Sunday afternoons near the entrance bridge have the most performances and people-watching. Combine with Meiji Shrine and Harajuku. Perfect for a casual stroll.",
+    "mapsQuery": "Yoyogi Park Shibuya Tokyo",
+    "tags": [
+      "free",
+      "people-watching",
+      "relaxing",
+      "weekend"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Shimokitazawa",
+    "nameJa": "下北沢",
+    "category": "Neighborhood",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
+    "hours": "Shops ~11:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "3-4 hours",
+    "description": "Tokyo's bohemian neighborhood. Vintage clothing shops, independent cafes, tiny live music venues, and curry restaurants fill the narrow streets. Often compared to Brooklyn or Shoreditch.",
+    "tips": "Best for vintage/thrift shopping (20+ shops). Great curry restaurants. Visit the new Bonus Track development for indie shops. Explore the maze of backstreets. Very walkable.",
+    "mapsQuery": "Shimokitazawa neighborhood Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "vintage",
+      "bohemian",
+      "shopping"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Nakameguro",
+    "nameJa": "中目黒",
+    "category": "Neighborhood",
+    "neighborhood": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
+    "hours": "Various",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "A stylish, tree-lined neighborhood along the Meguro River. Independent boutiques, specialty coffee shops, and excellent restaurants. Home to the stunning Starbucks Reserve Roastery designed by Kengo Kuma.",
+    "tips": "Walk along the Meguro River. Visit the Starbucks Reserve Roastery (even if you don't drink coffee, the architecture is stunning). Great for a relaxed afternoon stroll.",
+    "mapsQuery": "Nakameguro neighborhood Meguro River Tokyo",
+    "tags": [
+      "stylish",
+      "relaxing",
+      "coffee",
+      "architecture"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Yanaka District",
+    "nameJa": "谷中",
+    "category": "Neighborhood",
+    "neighborhood": "Yanaka",
+    "nearestStation": "Nippori Station",
+    "hours": "Shops ~10:00-18:00",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "Old Tokyo preserved. Narrow lanes, wooden buildings, temples, and a famous cemetery. One of the few neighborhoods that survived WWII bombing. The Yanaka Ginza shopping street is the heart.",
+    "tips": "Start at Nippori Station, walk through the cemetery, descend the Yuyake Dandan (sunset steps) at golden hour for magical views over the shotengai. Full of friendly cats.",
+    "mapsQuery": "Yanaka district old town Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "historic",
+      "cats",
+      "sunset",
+      "photography"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Koenji",
+    "nameJa": "高円寺",
+    "category": "Neighborhood",
+    "neighborhood": "Koenji",
+    "nearestStation": "Koenji Station",
+    "hours": "Shops ~12:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "3-4 hours",
+    "description": "Tokyo's punk and counterculture neighborhood. Amazing vintage stores, underground live music venues, quirky bars, and a strong independent spirit. The anti-Shibuya.",
+    "tips": "South side has the best vintage shops. North side has great izakayas. Check live music listings at venues like Koenji High. Visit the shotengai for local street food.",
+    "mapsQuery": "Koenji neighborhood vintage Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "vintage",
+      "punk",
+      "counterculture"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Daikanyama",
+    "nameJa": "代官山",
+    "category": "Neighborhood",
+    "neighborhood": "Daikanyama",
+    "nearestStation": "Daikanyama Station",
+    "hours": "Shops ~11:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "Tokyo's most sophisticated neighborhood. Upscale boutiques, architectural gems, and the famous T-Site (Tsutaya Books) designed by Klein Dytham architecture. Quieter and more refined than Omotesando.",
+    "tips": "Visit T-Site for the architecture and the Anjin Lounge upstairs. Explore Hillside Terrace for mid-century architecture. Walk to nearby Nakameguro along the river.",
+    "mapsQuery": "Daikanyama T-Site neighborhood Tokyo",
+    "tags": [
+      "stylish",
+      "architecture",
+      "refined",
+      "bookstore"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "teamLab Planets",
+    "nameJa": "チームラボプラネッツ",
+    "category": "Museum",
+    "neighborhood": "Toyosu",
+    "nearestStation": "Shin-Toyosu Station",
+    "hours": "9:00-22:00 (varies)",
+    "admissionCost": "¥3600-5400 (varies by time/day)",
+    "timeNeeded": "2-3 hours",
+    "description": "An immersive digital art museum where you wade barefoot through water with projected koi fish, walk through a universe of hanging lights, and lose yourself in infinity mirror rooms. Stunning and otherworldly.",
+    "tips": "Book tickets online in advance - they sell out. Wear pants you can roll above the knee (you wade through water). Go later for shorter lines. No socks allowed inside - they provide bags for shoes.",
+    "mapsQuery": "teamLab Planets Toyosu Tokyo",
+    "tags": [
+      "must-visit",
+      "instagram-worthy",
+      "immersive",
+      "book-ahead"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Mori Art Museum",
+    "nameJa": "森美術館",
+    "category": "Museum",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Roppongi Station",
+    "hours": "10:00-22:00 (Tue until 17:00)",
+    "admissionCost": "¥2000 (includes Tokyo City View)",
+    "timeNeeded": "2-3 hours",
+    "description": "Contemporary art museum on the 53rd floor of Mori Tower with rotating world-class exhibitions. Ticket includes access to Tokyo City View observation deck. Art + views in one visit.",
+    "tips": "Check what exhibition is currently showing. Combined ticket with Tokyo City View observation deck is great value. Open until 10pm most nights - great for evening visits.",
+    "mapsQuery": "Mori Art Museum Roppongi Hills Tokyo",
+    "tags": [
+      "art",
+      "viewpoint",
+      "evening",
+      "rainy-day"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Nezu Museum",
+    "nameJa": "根津美術館",
+    "category": "Museum",
+    "neighborhood": "Minami-Aoyama",
+    "nearestStation": "Omotesando Station",
+    "hours": "10:00-17:00 (closed Mon)",
+    "admissionCost": "¥1300",
+    "timeNeeded": "1.5-2 hours",
+    "description": "A beautiful museum designed by Kengo Kuma housing pre-modern Japanese and East Asian art. The real treasure is the hidden garden behind - a vast green oasis with tea houses and ponds in the heart of Aoyama.",
+    "tips": "The garden alone is worth the admission. Allow 45 minutes for the garden paths. Multiple tea houses dot the landscape. Combine with an Omotesando walk. Autumn colors are spectacular.",
+    "mapsQuery": "Nezu Museum Omotesando Tokyo",
+    "tags": [
+      "peaceful",
+      "garden",
+      "architecture",
+      "art"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Edo-Tokyo Open Air Architectural Museum",
+    "nameJa": "江戸東京たてもの園",
+    "category": "Museum",
+    "neighborhood": "Koganei",
+    "nearestStation": "Musashi-Koganei Station (bus)",
+    "hours": "9:30-17:30 (Oct-Mar until 16:30)",
+    "admissionCost": "¥400",
+    "timeNeeded": "2-3 hours",
+    "description": "30 historic buildings relocated and reconstructed in an open-air park. Walk through Edo-period bathhouses, Meiji-era shops, and Taisho-era residences. Said to be an inspiration for Spirited Away.",
+    "tips": "Take bus from Musashi-Koganei Station (15 min). The Spirited Away connections are in the bathhouse and the shopping street buildings. Allow at least 2 hours. ¥400 admission is a steal.",
+    "mapsQuery": "Edo-Tokyo Open Air Architectural Museum Koganei",
+    "tags": [
+      "off-beaten-path",
+      "architecture",
+      "ghibli",
+      "unique"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Imperial Palace East Gardens",
+    "nameJa": "皇居東御苑",
+    "category": "Park/Garden",
+    "neighborhood": "Chiyoda",
+    "nearestStation": "Otemachi Station",
+    "hours": "9:00-16:30 (varies by season, closed Mon/Fri)",
+    "admissionCost": "Free",
+    "timeNeeded": "1-1.5 hours",
+    "description": "The accessible portion of the Imperial Palace grounds featuring Japanese gardens, old castle ruins, and moats. Peaceful green space surrounded by Tokyo's skyscrapers.",
+    "tips": "Free admission but closed Mondays and Fridays. Enter from Otemon Gate (near Otemachi Station). The ninomaru garden is the highlight. Good plum blossoms in late February.",
+    "mapsQuery": "Imperial Palace East Gardens Tokyo",
+    "tags": [
+      "free",
+      "peaceful",
+      "historic",
+      "plum-blossoms"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Rikugien Garden",
+    "nameJa": "六義園",
+    "category": "Park/Garden",
+    "neighborhood": "Bunkyo",
+    "nearestStation": "Komagome Station",
+    "hours": "9:00-17:00",
+    "admissionCost": "¥300",
+    "timeNeeded": "1-1.5 hours",
+    "description": "One of Tokyo's most beautiful traditional Japanese gardens, built in 1702. A tranquil strolling garden around a central pond with bridges, islands, and tea houses. Far fewer tourists than Shinjuku Gyoen.",
+    "tips": "Much less crowded than Shinjuku Gyoen. The teahouse serves matcha with a traditional sweet. Visit during weeping cherry blossom illumination in spring. Autumn colors are also spectacular.",
+    "mapsQuery": "Rikugien Garden Komagome Tokyo",
+    "tags": [
+      "peaceful",
+      "historic",
+      "uncrowded",
+      "traditional"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Kamakura Day Trip",
+    "nameJa": "鎌倉",
+    "category": "Day Trip",
+    "neighborhood": "Kamakura (Kanagawa)",
+    "nearestStation": "Kamakura Station (JR from Tokyo, ~1hr)",
+    "hours": "Full day recommended",
+    "admissionCost": "Various (train ~¥940 each way)",
+    "timeNeeded": "Full day",
+    "description": "A coastal town with giant Buddha statues, ancient temples, and beautiful bamboo groves. Only 1 hour from Tokyo by train. Visit the Great Buddha at Kotoku-in, Hokokuji Bamboo Temple, and the seaside.",
+    "tips": "Take JR Yokosuka Line from Tokyo Station (1 hour, covered by JR Pass). Visit the Great Buddha (Kotoku-in), Hokokuji Temple (bamboo grove), and Hasedera Temple. End with a walk along the beach.",
+    "mapsQuery": "Kamakura Great Buddha day trip from Tokyo",
+    "tags": [
+      "day-trip",
+      "temples",
+      "beach",
+      "nature"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Hakone Day Trip",
+    "nameJa": "箱根",
+    "category": "Day Trip",
+    "neighborhood": "Hakone (Kanagawa)",
+    "nearestStation": "Hakone-Yumoto Station",
+    "hours": "Full day recommended",
+    "admissionCost": "Hakone Free Pass ¥6100 (covers all transport)",
+    "timeNeeded": "Full day",
+    "description": "Hot springs, Lake Ashi, volcanic valleys, and - on clear days - stunning Mt Fuji views. Take the scenic Hakone Loop route via cable car, ropeway, and pirate ship. Great onsen (hot spring) town.",
+    "tips": "Buy the Hakone Free Pass (¥6100 from Shinjuku) - covers Romancecar train and all Hakone transport. Go on a clear day for Mt Fuji views. Late February has good visibility. Stay at an onsen ryokan if time allows.",
+    "mapsQuery": "Hakone day trip from Tokyo Mount Fuji view",
+    "tags": [
+      "day-trip",
+      "mount-fuji",
+      "onsen",
+      "nature",
+      "scenic"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Asakusa Culture Tourist Information Center",
+    "nameJa": "浅草文化観光センター",
+    "category": "Viewpoint",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station",
+    "hours": "Observation deck until 22:00",
+    "admissionCost": "Free",
+    "timeNeeded": "20-30 minutes",
+    "description": "A Kengo Kuma-designed building with a free observation deck on the 8th floor. Perfect views of Senso-ji's Kaminarimon gate, Nakamise shopping street, and Tokyo Skytree. One of Tokyo's best free views.",
+    "tips": "Free and rarely crowded. Great for photos of Senso-ji from above. The building itself is architecturally interesting - stacked traditional roofs. Observation deck open until 10pm.",
+    "mapsQuery": "Asakusa Culture Tourist Information Center observation deck",
+    "tags": [
+      "free",
+      "viewpoint",
+      "photography",
+      "architecture"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tokyo City View (Roppongi Hills)",
+    "nameJa": "東京シティビュー",
+    "category": "Viewpoint",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Roppongi Station",
+    "hours": "10:00-22:00",
+    "admissionCost": "¥2000-2400",
+    "timeNeeded": "1 hour",
+    "description": "Indoor and rooftop observation deck on the 52nd floor of Roppongi Hills Mori Tower. The outdoor Sky Deck on the roof is spectacular (weather permitting). Often combined with Mori Art Museum.",
+    "tips": "The Sky Deck is the highlight but is weather-dependent (extra fee). Combined ticket with Mori Art Museum is good value. Great at night. Open late.",
+    "mapsQuery": "Tokyo City View Roppongi Hills Mori Tower observation",
+    "tags": [
+      "viewpoint",
+      "night-visit",
+      "art"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Ginza District",
+    "nameJa": "銀座",
+    "category": "Neighborhood",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "hours": "Shops 10:00-20:00, restaurants later",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "Tokyo's most upscale shopping district. Flagship boutiques, department stores, galleries, and Kabuki theater. On weekends, Chuo-dori closes to traffic and becomes a pedestrian paradise.",
+    "tips": "Walk Chuo-dori on weekends when it's pedestrian-only. Visit GINZA SIX for architecture and free rooftop garden. See a single-act Kabuki show at Kabukiza Theatre (cheap day tickets available). Explore the depachika food halls.",
+    "mapsQuery": "Ginza Chuo-dori shopping district Tokyo",
+    "tags": [
+      "upscale",
+      "shopping",
+      "architecture",
+      "weekend"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Ueno Park & Museums",
+    "nameJa": "上野恩賜公園",
+    "category": "Park/Garden",
+    "neighborhood": "Ueno",
+    "nearestStation": "Ueno Station",
+    "hours": "5:00-23:00 (park). Museums vary.",
+    "admissionCost": "Park free. Museums ¥500-1600.",
+    "timeNeeded": "Half day",
+    "description": "Tokyo's museum district - home to Tokyo National Museum, National Museum of Western Art, and several others. Also a park, zoo, temples, and the bustling Ameyoko market nearby.",
+    "tips": "Tokyo National Museum is the highlight (¥1000). The park is free and pleasant for walking. Combine with Ameyoko market for food. Early plum blossoms may be blooming in late February.",
+    "mapsQuery": "Ueno Park Tokyo museums",
+    "tags": [
+      "museums",
+      "free-park",
+      "half-day",
+      "plum-blossoms"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Gotokuji Temple (Cat Temple)",
+    "nameJa": "豪徳寺",
+    "category": "Temple/Shrine",
+    "neighborhood": "Setagaya",
+    "nearestStation": "Gotokuji Station",
+    "hours": "6:00-18:00 (grounds)",
+    "admissionCost": "Free",
+    "timeNeeded": "1 hour",
+    "description": "The temple of the beckoning cat (maneki-neko). Hundreds of white cat figurines are left as offerings, creating surreal photogenic displays. Said to be the birthplace of the lucky cat figure.",
+    "tips": "Buy a maneki-neko at the temple shop and leave it as an offering, or take one home. The display of hundreds of cats is incredible to photograph. Off the tourist trail - very peaceful.",
+    "mapsQuery": "Gotokuji Temple maneki-neko cat Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "unique",
+      "photography",
+      "cats",
+      "free"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Nezu Shrine",
+    "nameJa": "根津神社",
+    "category": "Temple/Shrine",
+    "neighborhood": "Bunkyo",
+    "nearestStation": "Nezu Station",
+    "hours": "6:00-17:00",
+    "admissionCost": "Free",
+    "timeNeeded": "45 minutes",
+    "description": "Called 'Tokyo's Fushimi Inari' for its tunnel of vermilion torii gates, but without the Kyoto crowds. Over 1900 years old. The azalea garden in spring is spectacular.",
+    "tips": "Visit early morning for the torii tunnel without others. Free entry. Head to the back of the grounds for the famous torii tunnel. Combine with a Yanaka neighborhood walk.",
+    "mapsQuery": "Nezu Shrine torii gates Bunkyo Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "photography",
+      "torii-gates",
+      "free"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Kabukiza Theatre",
+    "nameJa": "歌舞伎座",
+    "category": "Cultural Experience",
+    "neighborhood": "Ginza",
+    "nearestStation": "Higashi-Ginza Station",
+    "hours": "Varies by performance",
+    "admissionCost": "Single act: ¥1000-2000. Full show: ¥4000-20000",
+    "timeNeeded": "1-4 hours",
+    "description": "Japan's premier Kabuki theater. Single-act tickets let you see one act of a Kabuki performance without committing to the full 4-hour show. Audio guides in English available.",
+    "tips": "Buy single-act tickets on the day (4th floor seats) - no advance booking needed. Get an English audio guide for ¥1000. Even one act gives you the full spectacle of kabuki. The building's exterior is also impressive.",
+    "mapsQuery": "Kabukiza Theatre Ginza single act tickets",
+    "tags": [
+      "cultural",
+      "unique",
+      "budget-option",
+      "traditional"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Ikebukuro",
+    "nameJa": "池袋",
+    "category": "Neighborhood",
+    "neighborhood": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
+    "hours": "Various",
+    "admissionCost": "Free",
+    "timeNeeded": "2-3 hours",
+    "description": "A major entertainment hub with Sunshine City mall, anime shops on Otome Road (aimed at female anime fans), and great ramen. Less touristy than Shibuya or Shinjuku but full of energy.",
+    "tips": "Visit Otome Road for female-oriented anime shops (opposite of Akihabara). Sunshine City has an aquarium, planetarium, and observation deck. Great ramen restaurants in the area. Swallowtail Butler Cafe is here.",
+    "mapsQuery": "Ikebukuro neighborhood Sunshine City Tokyo",
+    "tags": [
+      "anime",
+      "entertainment",
+      "less-touristy"
+    ],
+    "vibeRating": 3
+  },
+  {
+    "name": "Kichijoji & Inokashira Park",
+    "nameJa": "吉祥寺 井の頭公園",
+    "category": "Neighborhood",
+    "neighborhood": "Musashino",
+    "nearestStation": "Kichijoji Station",
+    "hours": "Park 24/7, boats 10:00-17:00",
+    "admissionCost": "Park free. Swan boats ¥700/30min",
+    "timeNeeded": "3-4 hours",
+    "description": "A beloved residential area with a charming park, swan boats on the pond, a lively shopping street, and the Ghibli Museum nearby. Feels like a small town within Tokyo.",
+    "tips": "The Harmonica Yokocho alley has tiny bars and eateries. Swan boats are fun (¥700/30min, closed Wednesdays in winter). The Ghibli Museum needs tickets purchased months in advance. Great for a half-day escape.",
+    "mapsQuery": "Kichijoji Inokashira Park swan boats Tokyo",
+    "tags": [
+      "off-beaten-path",
+      "peaceful",
+      "park",
+      "local-life"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "GINZA SIX Rooftop Garden",
+    "nameJa": "GINZA SIX 屋上庭園",
+    "category": "Viewpoint",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "hours": "7:00-23:00",
+    "admissionCost": "Free",
+    "timeNeeded": "20-30 minutes",
+    "description": "A free rooftop garden atop the GINZA SIX department store with views over Ginza. Seating areas among trees and plants. Magical at night. Most tourists never make it to the roof.",
+    "tips": "Take the elevator to the rooftop. Free entry. Go at sunset or at night for illuminated city views. Bring food from the depachika below for a rooftop picnic.",
+    "mapsQuery": "GINZA SIX rooftop garden Tokyo",
+    "tags": [
+      "free",
+      "hidden-gem",
+      "viewpoint",
+      "night-visit"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Meguro Parasitological Museum",
+    "nameJa": "目黒寄生虫館",
+    "category": "Museum",
+    "neighborhood": "Meguro",
+    "nearestStation": "Meguro Station",
+    "hours": "10:00-17:00 (closed Mon/Tue)",
+    "admissionCost": "Free",
+    "timeNeeded": "30-45 minutes",
+    "description": "The world's only museum dedicated entirely to parasites. 60,000+ specimens including an 8.8-meter tapeworm from a human host. Free admission. Bizarrely fascinating. Gift shop sells parasite T-shirts.",
+    "tips": "Free but donations appreciated. Takes about 30-45 minutes. Not for the squeamish. The gift shop is wonderfully weird. Combine with Meguro restaurants nearby.",
+    "mapsQuery": "Meguro Parasitological Museum Tokyo",
+    "tags": [
+      "free",
+      "weird",
+      "unique",
+      "off-beaten-path"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Intermediatheque",
+    "nameJa": "インターメディアテク",
+    "category": "Museum",
+    "neighborhood": "Marunouchi",
+    "nearestStation": "Tokyo Station",
+    "hours": "11:00-18:00 (Thu/Fri until 20:00, closed Mon)",
+    "admissionCost": "Free",
+    "timeNeeded": "45-60 minutes",
+    "description": "A free museum in the KITTE building displaying University of Tokyo's academic collections. Zoological specimens, minerals, and antique scientific instruments in beautiful Victorian-style cases. A cabinet of curiosities.",
+    "tips": "Free admission. No photography in most areas. In the KITTE building connected to Tokyo Station. Combine with KITTE rooftop for Tokyo Station views.",
+    "mapsQuery": "Intermediatheque KITTE Tokyo Station museum",
+    "tags": [
+      "free",
+      "hidden-gem",
+      "unique",
+      "rainy-day"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Tsukiji Outer Market",
+    "nameJa": "築地場外市場",
+    "category": "Cultural Experience",
+    "neighborhood": "Tsukiji",
+    "nearestStation": "Tsukiji / Tsukijishijo",
+    "hours": "~5:00-14:00 (many stalls close early afternoon)",
+    "admissionCost": "Free (food costs vary)",
+    "timeNeeded": "1-2 hours",
+    "description": "The remaining outer market of the former Tsukiji fish market, packed with hundreds of food stalls, restaurants, and kitchen supply shops. A paradise for street food grazing.",
+    "tips": "Go early and hungry. Try tamagoyaki (sweet egg omelette), fresh sushi, and grilled seafood on sticks. Most shops are cash only.",
+    "mapsQuery": "Tsukiji Outer Market Tokyo",
+    "tags": [
+      "food",
+      "market",
+      "street-food",
+      "morning",
+      "must-see"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Toyosu Fish Market",
+    "nameJa": "豊洲市場",
+    "category": "Cultural Experience",
+    "neighborhood": "Toyosu",
+    "nearestStation": "Shijo-mae",
+    "hours": "Tuna auction viewing from 5:30; market restaurants from ~5:00-15:00. Closed Sun/Wed/holidays.",
+    "admissionCost": "Free",
+    "timeNeeded": "1.5-2 hours",
+    "description": "The world's largest wholesale fish market, successor to Tsukiji's inner market. The tuna auction is legendary and the sushi restaurants here serve some of Tokyo's freshest fish.",
+    "tips": "Tuna auction viewing requires advance online reservation (limited spots). The market restaurants have long queues - arrive before opening.",
+    "mapsQuery": "Toyosu Fish Market Tokyo",
+    "tags": [
+      "food",
+      "market",
+      "early-morning",
+      "sushi"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Hachiko Statue",
+    "nameJa": "ハチ公像",
+    "category": "Viewpoint",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya (Hachiko Exit)",
+    "hours": "24/7",
+    "admissionCost": "Free",
+    "timeNeeded": "10 minutes",
+    "description": "Bronze statue honoring the loyal Akita dog who waited at Shibuya Station for his deceased owner every day for nearly 10 years. Tokyo's most famous meeting spot.",
+    "tips": "It's tiny and always surrounded by tourists taking photos. Quick stop before or after Shibuya Crossing.",
+    "mapsQuery": "Hachiko Statue Shibuya Tokyo",
+    "tags": [
+      "landmark",
+      "free",
+      "quick-stop"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Rainbow Bridge & Odaiba",
+    "nameJa": "レインボーブリッジ・お台場",
+    "category": "Neighborhood",
+    "neighborhood": "Odaiba",
+    "nearestStation": "Odaiba-kaihinkoen / Daiba",
+    "hours": "24/7 (individual attractions vary)",
+    "admissionCost": "Free (bridge walkway and beach)",
+    "timeNeeded": "3-4 hours",
+    "description": "A futuristic waterfront entertainment island connected to the city by the iconic Rainbow Bridge. Features a replica Statue of Liberty, beaches, and malls.",
+    "tips": "Take the Yurikamome monorail for great bridge views. The area is best at sunset/night when the bridge lights up. TeamLab Planets is nearby in Toyosu.",
+    "mapsQuery": "Odaiba Rainbow Bridge Tokyo",
+    "tags": [
+      "waterfront",
+      "night-view",
+      "entertainment",
+      "photography"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Harajuku & Omotesando",
+    "nameJa": "原宿・表参道",
+    "category": "Neighborhood",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku / Meiji-jingumae / Omotesando",
+    "hours": "Shops typically 11:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "2-4 hours",
+    "description": "Harajuku's Takeshita Street is the cradle of Japanese street fashion and kawaii culture, while Omotesando is Tokyo's Champs-Elysees with luxury architecture.",
+    "tips": "Takeshita Street is packed on weekends. Cat Street (parallel) is more relaxed with vintage shops. Omotesando's side streets (ura-Hara) hide great boutiques.",
+    "mapsQuery": "Takeshita Street Harajuku Tokyo",
+    "tags": [
+      "shopping",
+      "fashion",
+      "architecture",
+      "youth-culture"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "teamLab Borderless",
+    "nameJa": "チームラボボーダレス",
+    "category": "Museum",
+    "neighborhood": "Azabudai Hills",
+    "nearestStation": "Kamiyacho / Roppongi-itchome",
+    "hours": "10:00-21:00 (varies by season)",
+    "admissionCost": "~¥3800-4200",
+    "timeNeeded": "2-3 hours",
+    "description": "A massive immersive digital art museum where projections flow between rooms, responding to your presence. Relocated to Azabudai Hills in 2024.",
+    "tips": "Book tickets online well in advance - sells out fast. Wear light-colored clothing for better projection effects. Allow at least 2 hours.",
+    "mapsQuery": "teamLab Borderless Azabudai Hills Tokyo",
+    "tags": [
+      "art",
+      "digital",
+      "immersive",
+      "must-see",
+      "instagram"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Ghibli Museum",
+    "nameJa": "三鷹の森ジブリ美術館",
+    "category": "Museum",
+    "neighborhood": "Mitaka",
+    "nearestStation": "Mitaka",
+    "hours": "10:00-18:00 (closed Tuesdays)",
+    "admissionCost": "¥1000",
+    "timeNeeded": "2-3 hours",
+    "description": "A whimsical museum designed by Hayao Miyazaki featuring original artwork, short films, and immersive recreations from Studio Ghibli's beloved animated films.",
+    "tips": "Tickets MUST be purchased in advance online and sell out months ahead - book as early as possible. No photos allowed inside. Combine with Inokashira Park.",
+    "mapsQuery": "Ghibli Museum Mitaka Tokyo",
+    "tags": [
+      "anime",
+      "ghibli",
+      "art",
+      "must-book-ahead"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Tokyo National Museum",
+    "nameJa": "東京国立博物館",
+    "category": "Museum",
+    "neighborhood": "Ueno",
+    "nearestStation": "Ueno",
+    "hours": "9:30-17:00 (Fri/Sat until 20:00)",
+    "admissionCost": "¥1000",
+    "timeNeeded": "2-3 hours",
+    "description": "Japan's oldest and largest museum with over 110,000 objects spanning Japanese art, samurai armor, ceramics, ukiyo-e prints, and Asian antiquities.",
+    "tips": "The Honkan (main building) and Gallery of Horyuji Treasures are highlights. Friday/Saturday evenings are less crowded and atmospheric.",
+    "mapsQuery": "Tokyo National Museum Ueno Tokyo",
+    "tags": [
+      "museum",
+      "history",
+      "art",
+      "traditional",
+      "world-class"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "National Museum of Nature and Science",
+    "nameJa": "国立科学博物館",
+    "category": "Museum",
+    "neighborhood": "Ueno",
+    "nearestStation": "Ueno",
+    "hours": "9:00-17:00 (Fri/Sat until 20:00)",
+    "admissionCost": "¥630",
+    "timeNeeded": "2-3 hours",
+    "description": "A comprehensive science museum with fascinating exhibits on Japanese natural history, dinosaur fossils, space exploration, and interactive science displays.",
+    "tips": "The Japan Gallery focusing on the archipelago's unique ecology is more interesting than the Global Gallery. Great for a rainy day.",
+    "mapsQuery": "National Museum of Nature and Science Ueno Tokyo",
+    "tags": [
+      "museum",
+      "science",
+      "family-friendly",
+      "rainy-day"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "21_21 Design Sight",
+    "nameJa": "21_21 DESIGN SIGHT",
+    "category": "Museum",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Roppongi / Nogizaka",
+    "hours": "10:00-19:00 (closed Tuesdays)",
+    "admissionCost": "~¥1200",
+    "timeNeeded": "1-1.5 hours",
+    "description": "A design gallery directed by Issey Miyake in a Tadao Ando-designed building. Hosts thoughtful exhibitions exploring the intersection of design and daily life.",
+    "tips": "Check the current exhibition before visiting as it changes. Located in Tokyo Midtown's garden, nice to combine with a walk.",
+    "mapsQuery": "21_21 Design Sight Roppongi Tokyo",
+    "tags": [
+      "design",
+      "architecture",
+      "contemporary",
+      "small"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Mori Building Digital Art Museum",
+    "nameJa": "森ビル デジタルアートミュージアム",
+    "category": "Museum",
+    "neighborhood": "Odaiba",
+    "nearestStation": "Aomi",
+    "hours": "Check current schedule online",
+    "admissionCost": "~¥3800",
+    "timeNeeded": "1.5-2 hours",
+    "description": "Another teamLab collaboration with Mori Building offering large-scale immersive digital art installations in a warehouse-like space on the Odaiba waterfront.",
+    "tips": "Can be combined with Odaiba sightseeing. Similar to Borderless but with different installations. Check if still operating as teamLab venues shift locations.",
+    "mapsQuery": "Mori Building Digital Art Museum Odaiba Tokyo",
+    "tags": [
+      "art",
+      "digital",
+      "immersive"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Koishikawa Korakuen Garden",
+    "nameJa": "小石川後楽園",
+    "category": "Park/Garden",
+    "neighborhood": "Bunkyo",
+    "nearestStation": "Iidabashi / Korakuen",
+    "hours": "9:00-17:00",
+    "admissionCost": "¥300",
+    "timeNeeded": "1-1.5 hours",
+    "description": "Tokyo's oldest garden (1629), built by a feudal lord with Chinese and Japanese design elements. The juxtaposition of ancient garden with Tokyo Dome next door is surreal.",
+    "tips": "Beautiful plum blossoms in February, making it perfect for a winter visit. Less crowded than Rikugien. The full moon bridge (Engetsukyo) is the star feature.",
+    "mapsQuery": "Koishikawa Korakuen Garden Tokyo",
+    "tags": [
+      "garden",
+      "historic",
+      "plum-blossoms",
+      "peaceful",
+      "february"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Tokyo Metropolitan Government Building",
+    "nameJa": "東京都庁展望室",
+    "category": "Viewpoint",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Tochomae / Shinjuku",
+    "hours": "9:30-23:00 (South tower until 17:30)",
+    "admissionCost": "Free",
+    "timeNeeded": "30-45 minutes",
+    "description": "Free observation decks on the 45th floor of the Shinjuku government building with panoramic views including Mt. Fuji on clear days.",
+    "tips": "North tower has longer hours and a bar. Best for clear winter days to see Mt. Fuji. No reservation needed - just show up.",
+    "mapsQuery": "Tokyo Metropolitan Government Building observation deck",
+    "tags": [
+      "viewpoint",
+      "free",
+      "must-see",
+      "mt-fuji"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Mori Tower / Tokyo City View",
+    "nameJa": "東京シティビュー",
+    "category": "Viewpoint",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Roppongi",
+    "hours": "10:00-22:00 (Sky Deck 11:00-20:00)",
+    "admissionCost": "~¥2000 (Sky Deck additional ¥500)",
+    "timeNeeded": "1 hour",
+    "description": "Indoor and open-air rooftop observation decks atop the 52nd-53rd floors of Roppongi Hills, with unobstructed Tokyo Tower views. Often bundled with Mori Art Museum.",
+    "tips": "The open-air Sky Deck is the highlight but closes in bad weather. Combo with Mori Art Museum for best value. Great for Tokyo Tower photos at night.",
+    "mapsQuery": "Tokyo City View Roppongi Hills observation",
+    "tags": [
+      "viewpoint",
+      "photography",
+      "art",
+      "night-view"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Skytree Observation Decks",
+    "nameJa": "スカイツリー展望台",
+    "category": "Viewpoint",
+    "neighborhood": "Sumida",
+    "nearestStation": "Tokyo Skytree",
+    "hours": "10:00-21:00",
+    "admissionCost": "~¥2100-3400",
+    "timeNeeded": "1 hour",
+    "description": "The highest observation point in Tokyo at 450m (Tembo Gallery), with a glass floor section and sprawling views of the entire Kanto plain.",
+    "tips": "The Tembo Gallery (450m) is worth the extra cost for the glass floor corridor. Clear winter days offer the best Mt. Fuji visibility.",
+    "mapsQuery": "Tokyo Skytree observation deck",
+    "tags": [
+      "viewpoint",
+      "photography",
+      "highest"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Omotesando Architecture Walk",
+    "nameJa": "表参道建築",
+    "category": "Architecture",
+    "neighborhood": "Omotesando",
+    "nearestStation": "Omotesando / Harajuku",
+    "hours": "Exterior 24/7, shops ~11:00-20:00",
+    "admissionCost": "Free",
+    "timeNeeded": "1-2 hours",
+    "description": "A boulevard of luxury brand flagships each designed by world-renowned architects - Dior (SANAA), Tod's (Toyo Ito), Louis Vuitton (Jun Aoki), and more.",
+    "tips": "Walk from Harajuku end to Omotesando crossing to see them all. Even if you don't shop, the architecture is world-class.",
+    "mapsQuery": "Omotesando luxury brand architecture Tokyo",
+    "tags": [
+      "architecture",
+      "luxury",
+      "free",
+      "design",
+      "walking"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Prada Aoyama",
+    "nameJa": "プラダ青山店",
+    "category": "Architecture",
+    "neighborhood": "Aoyama",
+    "nearestStation": "Omotesando",
+    "hours": "11:00-20:00",
+    "admissionCost": "Free to enter",
+    "timeNeeded": "15-30 minutes",
+    "description": "A crystalline diamond-grid glass building designed by Herzog & de Meuron that's considered one of the most iconic retail buildings in the world.",
+    "tips": "Best photographed at dusk when it glows from within. You can walk in and browse even if you're not buying. Right near the Nezu Museum.",
+    "mapsQuery": "Prada Aoyama Tokyo Herzog de Meuron",
+    "tags": [
+      "architecture",
+      "luxury",
+      "photography",
+      "free"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "National Art Center Tokyo",
+    "nameJa": "国立新美術館",
+    "category": "Architecture",
+    "neighborhood": "Roppongi",
+    "nearestStation": "Nogizaka",
+    "hours": "10:00-18:00 (Fri until 20:00, closed Tuesdays)",
+    "admissionCost": "Varies by exhibition (building free)",
+    "timeNeeded": "1-2 hours",
+    "description": "Japan's largest exhibition space designed by Kisho Kurokawa, featuring an undulating glass curtain wall facade. The building itself is the art, with no permanent collection.",
+    "tips": "The Brasserie Paul Bocuse on the inverted-cone inside is stunning for lunch. Check what exhibitions are on. The wavy glass facade is best from outside.",
+    "mapsQuery": "National Art Center Tokyo Roppongi",
+    "tags": [
+      "architecture",
+      "art",
+      "exhibitions",
+      "design"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Nakagin Capsule Tower Site",
+    "nameJa": "中銀カプセルタワー跡地",
+    "category": "Architecture",
+    "neighborhood": "Ginza",
+    "nearestStation": "Shimbashi",
+    "hours": "Exterior only (building demolished 2022)",
+    "admissionCost": "Free",
+    "timeNeeded": "10 minutes",
+    "description": "The site of Kisho Kurokawa's iconic 1972 Metabolism-movement capsule tower, now demolished. Some capsules were preserved and relocated to museums worldwide.",
+    "tips": "The building was demolished in 2022, so only the site remains. Some preserved capsules can be seen at museums. A pilgrimage for architecture fans.",
+    "mapsQuery": "Nakagin Capsule Tower site Ginza Tokyo",
+    "tags": [
+      "architecture",
+      "historic",
+      "demolished",
+      "quick-stop"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Senso-ji at Dawn",
+    "nameJa": "浅草寺の夜明け",
+    "category": "Photo Spot",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa",
+    "hours": "Pre-dawn to early morning",
+    "admissionCost": "Free",
+    "timeNeeded": "1 hour",
+    "description": "Senso-ji temple grounds at dawn are nearly empty, offering a magical photo opportunity with the massive lantern, pagoda, and main hall without crowds.",
+    "tips": "Arrive 30 minutes before sunrise. The Kaminarimon lantern is lit at night and turned off around dawn - catch it while still glowing.",
+    "mapsQuery": "Senso-ji Temple dawn morning Asakusa",
+    "tags": [
+      "photography",
+      "dawn",
+      "peaceful",
+      "crowd-free"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Plum Blossom Viewing (Ume)",
+    "nameJa": "梅の花見",
+    "category": "Cultural Experience",
+    "neighborhood": "Various",
+    "nearestStation": "Varies",
+    "hours": "Garden hours (typically 9:00-17:00)",
+    "admissionCost": "¥0-500 depending on garden",
+    "timeNeeded": "1-2 hours",
+    "description": "February is prime plum blossom season in Tokyo, with pink and white ume trees blooming weeks before cherry blossoms. A beautiful and less crowded alternative.",
+    "tips": "Best spots: Koishikawa Korakuen, Hanegi Park (free), Yushima Tenjin shrine, and Shinjuku Gyoen. Peak is usually mid-to-late February.",
+    "mapsQuery": "plum blossom ume viewing Tokyo February",
+    "tags": [
+      "seasonal",
+      "february",
+      "flowers",
+      "photography",
+      "nature"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Setsubun Festival",
+    "nameJa": "節分祭",
+    "category": "Cultural Experience",
+    "neighborhood": "Various temples/shrines",
+    "nearestStation": "Varies",
+    "hours": "Usually mid-morning to afternoon, February 3",
+    "admissionCost": "Free",
+    "timeNeeded": "1-2 hours",
+    "description": "A lively February 3rd tradition where beans are thrown to drive out demons and welcome spring. Temples and shrines hold ceremonies with celebrity bean-throwers.",
+    "tips": "Senso-ji, Zojoji, and Meiji Shrine hold major Setsubun events. The crowd shouts 'Oni wa soto! Fuku wa uchi!' (Demons out! Luck in!).",
+    "mapsQuery": "Setsubun festival Tokyo temples bean throwing",
+    "tags": [
+      "festival",
+      "february",
+      "cultural",
+      "traditional",
+      "free"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Early Kawazu-zakura Cherry Blossoms",
+    "nameJa": "河津桜",
+    "category": "Cultural Experience",
+    "neighborhood": "Various",
+    "nearestStation": "Varies",
+    "hours": "24/7 (outdoor)",
+    "admissionCost": "Free",
+    "timeNeeded": "1-2 hours",
+    "description": "A special early-blooming cherry blossom variety that flowers from mid-February, weeks before the main sakura season. Deep pink and absolutely gorgeous.",
+    "tips": "In Tokyo, find them along the Kawazu-zakura Promenade near Oshiage/Skytree, Yoyogi Park, and Rinshi no Mori Park. The blossoms are deeper pink than regular sakura.",
+    "mapsQuery": "Kawazu-zakura early cherry blossoms Tokyo February",
+    "tags": [
+      "seasonal",
+      "february",
+      "cherry-blossoms",
+      "photography",
+      "free"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "KITTE Rooftop Garden",
+    "nameJa": "KITTE屋上庭園",
+    "category": "Viewpoint",
+    "neighborhood": "Marunouchi",
+    "nearestStation": "Tokyo",
+    "hours": "11:00-23:00 (Sun until 22:00)",
+    "admissionCost": "Free",
+    "timeNeeded": "20-30 minutes",
+    "description": "A free rooftop garden atop the KITTE commercial building with a unique bird's-eye view directly over the Tokyo Station red-brick building and its Marunouchi side.",
+    "tips": "Perfect for photographing Tokyo Station's beautiful Marunouchi facade from above. Combine with Intermediatheque museum in the same building.",
+    "mapsQuery": "KITTE Rooftop Garden Marunouchi Tokyo",
+    "tags": [
+      "viewpoint",
+      "free",
+      "photography",
+      "quick-stop"
+    ],
+    "vibeRating": 4
+  },
+  {
+    "name": "Nikko Day Trip",
+    "nameJa": "日光",
+    "category": "Day Trip",
+    "neighborhood": "Nikko (Tochigi)",
+    "nearestStation": "Tobu-Nikko (Tobu line from Asakusa, ~2hr)",
+    "hours": "Shrines 8:00-17:00 (16:00 in winter)",
+    "admissionCost": "~¥2800 train + ~¥1300 shrine combo ticket",
+    "timeNeeded": "Full day",
+    "description": "A UNESCO World Heritage mountain town with the spectacularly ornate Toshogu Shrine (the most lavishly decorated shrine in Japan) and beautiful surrounding nature.",
+    "tips": "Buy the Tobu Nikko combo pass for discount rail + bus. The 'see no evil, hear no evil, speak no evil' monkeys carving is here. Shinkyo Bridge and Kegon Falls are highlights.",
+    "mapsQuery": "Nikko Toshogu Shrine day trip from Tokyo",
+    "tags": [
+      "day-trip",
+      "shrine",
+      "UNESCO",
+      "ornate",
+      "nature"
+    ],
+    "vibeRating": 5
+  },
+  {
+    "name": "Tokyo International Forum",
+    "nameJa": "東京国際フォーラム",
+    "category": "Architecture",
+    "neighborhood": "Marunouchi",
+    "nearestStation": "Yurakucho / Tokyo",
+    "hours": "Building open 7:00-23:00",
+    "admissionCost": "Free (public areas)",
+    "timeNeeded": "20-30 minutes",
+    "description": "A spectacular glass-and-steel atrium shaped like a ship's hull, designed by Rafael Vinoly. The soaring interior is one of Tokyo's great architectural spaces.",
+    "tips": "The glass atrium (Hall A) is the star - walk the upper-level skywalks for dramatic photos. Free to walk through. Hosts an antique market on some Sundays.",
+    "mapsQuery": "Tokyo International Forum glass atrium",
+    "tags": [
+      "architecture",
+      "free",
+      "photography",
+      "glass"
+    ],
+    "vibeRating": 4
+  }
+]

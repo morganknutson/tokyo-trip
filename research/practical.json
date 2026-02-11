@@ -1,0 +1,85 @@
+{
+  "transportation": {
+    "suica": "Get a Suica or Pasmo IC card for seamless travel. For iPhone users, the new Welcome Suica Mobile app (launched March 2025) lets you create a virtual Suica card and top up via Apple Pay - no more hunting for physical cards. It stays valid for 180 days (vs 28 days for physical Welcome Suica). Physical cards available at JR station ticket machines (¥500 deposit). Works on all trains, buses, and at convenience stores/vending machines. By autumn 2025, the app added ticketless Shinkansen travel, and by spring 2026, Green Car support on local lines.",
+    "trainTips": "Tokyo's train system is world-class but complex. Key lines: JR Yamanote (the loop line connecting major stations), Tokyo Metro (9 lines), Toei Subway (4 lines). Google Maps is extremely accurate for routing and real-time delays. Trains run approximately 5am-midnight. Rush hour (7:30-9:30am) is intense - avoid with luggage. Train station signage is in English. Platform screens show upcoming trains and destinations.",
+    "lastTrains": "Last trains typically run around midnight-12:30am. Miss it and your options are: taxi (~¥3,000-8,000 depending on distance), late-night bus services, manga cafe or internet cafe (¥1,500-3,000 for overnight with free drinks), or capsule hotel. First trains resume around 5:00am. Google Maps will warn you when the last train is approaching.",
+    "apps": "Google Maps (best for train routing, extremely accurate), Welcome Suica Mobile (iPhone IC card), Navitime for Japan Travel (backup transit app with English), Japan Transit Planner"
+  },
+  "connectivity": {
+    "wifi": "Free WiFi is spotty outside hotels. Most konbini (7-Eleven, Lawson, FamilyMart) offer free WiFi. Starbucks and major train stations have free WiFi. Consider the Japan WiFi Auto-Connect app to automatically connect to free hotspots across the country.",
+    "esim": "Strongly recommended: Get an eSIM before you travel. Top options for 2025-2026: Airalo (SoftBank network, 5GB/30 days ~$8.50 with sign-up discount, good urban coverage), Ubigi (NTT DOCOMO network, 10GB/30 days ~$17, better rural coverage), or Sim Local (best value for money per GB). Data-only plans start from ~$4-5/week. Much easier than renting a pocket WiFi device. Activate before landing in Japan. Both Airalo and Ubigi have well-rated apps for setup."
+  },
+  "money": {
+    "cashVsCard": "Japan is increasingly card-friendly but still significantly cash-dependent, especially at small restaurants, ramen shops, izakayas, shrines, markets, and many smaller businesses. Always carry ¥10,000-20,000 in cash. 7-Eleven ATMs (Seven Bank) and Japan Post ATMs reliably accept foreign Visa/Mastercard. Convenience store ATMs are available 24/7 in most locations. Visa/Mastercard tap-to-pay acceptance is growing rapidly in 2025-2026.",
+    "tipping": "Never tip in Japan. It can be considered rude or confusing. Service charges are included where applicable. Exceptional service is simply the cultural standard.",
+    "taxFree": "Spend ¥5,000+ (before tax) at a single participating store in one day to get the 10% consumption tax exempted. Look for 'Tax-Free' or '免税' signs. Bring your passport. Major changes coming November 2026: new refund system at airports instead of in-store exemption, potentially allowing combined spending across multiple shops. Current system: show passport at tax-free counter, items are sealed in a bag (consumables) or recorded electronically."
+  },
+  "language": [
+    {"phrase": "Hello", "japanese": "こんにちは", "pronunciation": "Konnichiwa"},
+    {"phrase": "Thank you", "japanese": "ありがとうございます", "pronunciation": "Arigatou gozaimasu"},
+    {"phrase": "Excuse me", "japanese": "すみません", "pronunciation": "Sumimasen"},
+    {"phrase": "Yes / No", "japanese": "はい / いいえ", "pronunciation": "Hai / Iie"},
+    {"phrase": "Please", "japanese": "おねがいします", "pronunciation": "Onegaishimasu"},
+    {"phrase": "Sorry", "japanese": "ごめんなさい", "pronunciation": "Gomen nasai"},
+    {"phrase": "I don't understand", "japanese": "わかりません", "pronunciation": "Wakarimasen"},
+    {"phrase": "Do you speak English?", "japanese": "英語を話しますか？", "pronunciation": "Eigo wo hanashimasu ka?"},
+    {"phrase": "How much?", "japanese": "いくらですか？", "pronunciation": "Ikura desu ka?"},
+    {"phrase": "Where is...?", "japanese": "…はどこですか？", "pronunciation": "...wa doko desu ka?"},
+    {"phrase": "Check please", "japanese": "お会計おねがいします", "pronunciation": "Okaikei onegaishimasu"},
+    {"phrase": "Delicious!", "japanese": "おいしい！", "pronunciation": "Oishii!"},
+    {"phrase": "One of these please", "japanese": "これをひとつ", "pronunciation": "Kore wo hitotsu"},
+    {"phrase": "Cheers!", "japanese": "乾杯！", "pronunciation": "Kanpai!"},
+    {"phrase": "Good morning", "japanese": "おはようございます", "pronunciation": "Ohayou gozaimasu"},
+    {"phrase": "Good evening", "japanese": "こんばんは", "pronunciation": "Konbanwa"},
+    {"phrase": "Goodbye", "japanese": "さようなら", "pronunciation": "Sayounara"},
+    {"phrase": "Beer please", "japanese": "ビールください", "pronunciation": "Biiru kudasai"},
+    {"phrase": "This one please", "japanese": "これください", "pronunciation": "Kore kudasai"},
+    {"phrase": "Bathroom", "japanese": "トイレ", "pronunciation": "Toire"}
+  ],
+  "etiquette": [
+    "Never tip - it's considered rude or confusing",
+    "Remove shoes when entering homes, some restaurants, and temples (look for shoe racks or a raised entrance area)",
+    "Stand on the left side of escalators in Tokyo (right side for walking) - reversed from Osaka",
+    "Don't eat while walking - stop to eat street food, find a bench, or eat at the stall",
+    "Bow slightly when greeting people - a small nod is fine for tourists",
+    "Don't talk on your phone on trains - set to silent mode (manner mode). Texting is fine",
+    "Don't blow your nose in public - go to the restroom or step aside discreetly",
+    "Sort your trash - Japan has specific bins for burnable, plastic bottles, cans, and glass. Trash cans are rare on streets; carry a small bag",
+    "Queue politely - line jumping is seriously frowned upon. Japanese queuing is immaculate",
+    "Use two hands when giving/receiving business cards, gifts, or money",
+    "Onsen etiquette: Wash thoroughly before entering the bath. No swimsuits. Small towels kept out of the water. Tattoos are increasingly accepted but check the specific onsen first - some have relaxed policies, others still prohibit",
+    "It's OK to slurp noodles loudly - it's considered a sign of enjoyment and cools the noodles",
+    "Say 'itadakimasu' (I humbly receive) before eating and 'gochisousama deshita' (thank you for the meal) after",
+    "Don't point at people - use an open hand gesture instead",
+    "Umbrellas: always use the umbrella stand/lock outside shops. Taking the wrong umbrella is a faux pas"
+  ],
+  "apps": [
+    {"name": "Google Maps", "description": "Essential for train routing - extremely accurate in Tokyo with real-time delay info. Shows walking routes, train transfers, platform numbers, and costs."},
+    {"name": "Welcome Suica Mobile", "description": "Official JR East app (launched March 2025) for iPhone. Create a virtual Suica IC card for contactless transit payments and store purchases. Top up via Apple Pay. Valid 180 days."},
+    {"name": "Tabelog", "description": "Japan's #1 restaurant review site with millions of reviews. Scores above 3.5 are excellent (top ~5% of restaurants). Scores above 4.0 are exceptional. Has English interface. More trusted locally than Google Reviews."},
+    {"name": "Navitime for Japan Travel", "description": "Backup transit app with full English support. Good for multi-day trip planning and finding nearby stations."},
+    {"name": "Google Translate", "description": "Camera mode for real-time translation of menus, signs, and labels. Download Japanese language pack offline before your trip. Conversation mode works well for basic communication."},
+    {"name": "Japan WiFi Auto-Connect", "description": "Auto-connects to free WiFi hotspots at convenience stores, stations, and public spaces across Japan. Useful backup if your eSIM has data limits."},
+    {"name": "Suica (Apple Wallet)", "description": "Alternative to Welcome Suica - add a Suica card directly to Apple Wallet. Works for transit, vending machines, and konbini payments. Requires iPhone 8 or later."},
+    {"name": "PayPay", "description": "Japan's most popular QR payment app (70M+ users), accepted at 3.7M+ locations. Note: requires Japanese phone number to register. However, foreign e-wallet users (Alipay, WeChat Pay, GCash, etc.) can pay at PayPay merchants through partner integrations."},
+    {"name": "XE Currency", "description": "Real-time currency conversion. Helpful for quickly checking prices when shopping. Download offline rates before your trip."}
+  ],
+  "weather": "Late February in Tokyo: Cold but mild compared to many Western cities. Temperatures around 2-10°C (35-50°F). Occasional rain, rare snow. Low humidity. Pack layers, a warm jacket, and a compact umbrella. Not as cold as many expect. Some early plum blossoms (ume) may be blooming at shrines and parks - a beautiful preview of cherry blossom season coming in late March. Sunset around 5:30pm.",
+  "luggage": "Coin lockers are everywhere in train stations. Small (¥400), Medium (¥500), Large (¥700). Most now accept IC cards (Suica/Pasmo) in addition to coins. For oversized bags, use Yamato Transport (Kuroneko - look for the black cat logo) to ship luggage between hotels for ~¥2,000-3,000 per bag, same-day or next-day delivery. Hotels can arrange this for you. Also available at convenience stores.",
+  "electrical": "Japan uses Type A plugs (same as US/Canada - 2 flat prongs). Voltage is 100V (slightly lower than US 120V but all modern chargers, laptops, and phone chargers work perfectly with no adapter). No adapter needed for US travelers. European/UK travelers need a Type A adapter. Some older buildings only have 2-prong outlets (no grounding).",
+  "emergencyNumbers": {
+    "police": "110",
+    "ambulance": "119",
+    "embassy": "03-3224-5000 (US Embassy Tokyo)",
+    "tourist_helpline": "050-3816-2787 (Japan Visitor Hotline, 24/7, multilingual including English)"
+  },
+  "usefulLinks": [
+    {"name": "Japan Rail Pass Calculator", "url": "https://www.japan-guide.com/railpass/"},
+    {"name": "Tokyo Metro Map (Official)", "url": "https://www.tokyometro.jp/en/subwaymap/"},
+    {"name": "Tabelog Restaurant Search", "url": "https://tabelog.com/en/tokyo/"},
+    {"name": "Japan Travel Official (JNTO)", "url": "https://www.japan.travel/en/"},
+    {"name": "Hyperdia Train Search", "url": "https://www.hyperdia.com/"},
+    {"name": "Oedo Antique Market Schedule", "url": "https://www.antique-market.jp/english/"},
+    {"name": "Japan Tax-Free Info (JNTO)", "url": "https://www.japan.travel/en/plan/japans-tax-exemption/"}
+  ]
+}

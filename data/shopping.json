@@ -1,0 +1,1481 @@
+[
+  {
+    "name": "Kappabashi Kitchen Street",
+    "nameJa": "かっぱ橋道具街",
+    "category": "Kitchen/Cookware",
+    "neighborhood": "Asakusa/Taito",
+    "nearestStation": "Tawaramachi Station",
+    "priceRange": "¥1000-50000+",
+    "hours": "9:00-17:00 (most shops, closed Sun)",
+    "description": "A 170+ shop street dedicated entirely to kitchen equipment. Japanese knives, ceramics, fake food samples, restaurant supplies. Knife enthusiasts will lose their minds here.",
+    "whatToBuy": "Japanese kitchen knives (from ¥5000 to ¥50000+), ceramic tableware, chopsticks, bento supplies, and incredibly realistic plastic food samples as souvenirs.",
+    "tips": "Most shops closed Sunday. For knives, visit Kama Asa (founded 1908) or Tsubaya. Staff will help you choose the right knife for your cooking style. Fake food samples make unique gifts.",
+    "mapsQuery": "Kappabashi Kitchen Street Tokyo knives",
+    "tags": [
+      "must-visit",
+      "knives",
+      "unique-souvenirs",
+      "foodie"
+    ]
+  },
+  {
+    "name": "Tower Records Shibuya",
+    "nameJa": "タワーレコード渋谷店",
+    "category": "Records/Music",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥500-5000",
+    "hours": "10:00-23:00",
+    "description": "The world's largest Tower Records. Nine floors of music. While Tower Records died everywhere else, Japan's flagship thrives. The 6th floor vinyl section has new and vintage records. A cultural institution.",
+    "whatToBuy": "Japanese pressing vinyl exclusives, limited edition CDs with bonus tracks, J-pop merchandise, and city pop records. Check the listening booths.",
+    "tips": "6th floor for vinyl. Japanese pressings of Western albums often have bonus tracks. In-store live events happen regularly. Open until 11pm.",
+    "mapsQuery": "Tower Records Shibuya flagship 9 floors Tokyo",
+    "tags": [
+      "must-visit",
+      "vinyl",
+      "music",
+      "open-late"
+    ]
+  },
+  {
+    "name": "HMV Record Shop Shibuya",
+    "nameJa": "HMV record shop 渋谷",
+    "category": "Records/Music",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥500-10000",
+    "hours": "11:00-21:00",
+    "description": "Vinyl-focused shop with 80,000 records. 70% used vinyl with new arrivals daily. First floor: rock/pop. Second floor: jazz, soul, hip-hop. The gallery space upstairs hosts art exhibitions.",
+    "whatToBuy": "Used vinyl - particularly Japanese pressings which are known for superior quality. Rare imports. Jazz records are especially strong.",
+    "tips": "New used vinyl arrives daily - each visit is different. They buy records from Europe/UK directly for rare pressings. Appraisal services if you're selling. Gallery on 2F worth checking.",
+    "mapsQuery": "HMV Record Shop Shibuya Udagawacho Tokyo vinyl",
+    "tags": [
+      "vinyl",
+      "used-records",
+      "jazz",
+      "hip-hop"
+    ]
+  },
+  {
+    "name": "Disk Union Shibuya",
+    "nameJa": "ディスクユニオン渋谷",
+    "category": "Records/Music",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥300-30000+",
+    "hours": "11:00-21:00",
+    "description": "Japan's biggest secondhand record chain with genre-specific stores. The Shibuya/Shinjuku area has separate stores for jazz, rock, punk, soul, and more. Serious crate-digger territory.",
+    "whatToBuy": "Rare Japanese pressings, city pop vinyl, obscure jazz records, punk 7-inches. Each genre-specific store is a deep dive.",
+    "tips": "Multiple locations in Shibuya and Shinjuku, each specializing in different genres. The jazz-specific store is legendary. Prices are fair. Staff are knowledgeable. Bring cash for smaller locations.",
+    "mapsQuery": "Disk Union record shop Shibuya Tokyo",
+    "tags": [
+      "vinyl",
+      "crate-digging",
+      "genre-specialist",
+      "secondhand"
+    ]
+  },
+  {
+    "name": "Mandarake Nakano Broadway",
+    "nameJa": "まんだらけ 中野ブロードウェイ",
+    "category": "Anime/Manga",
+    "neighborhood": "Nakano",
+    "nearestStation": "Nakano Station",
+    "priceRange": "¥100-100000+",
+    "hours": "12:00-20:00",
+    "description": "Multiple Mandarake shops inside Nakano Broadway, each specializing in different genres of manga, anime, vintage toys, and collectibles. More authentic and less touristy than Akihabara. Serious collectors' paradise.",
+    "whatToBuy": "Vintage manga, rare anime cels, retro toys, action figures, doujinshi (fan-made manga), cosplay items.",
+    "tips": "Different Mandarake shops on different floors specialize in different genres. Upper floors are more interesting. Way less crowded than Akihabara with better finds. Walk through Nakano Sun Mall to get there.",
+    "mapsQuery": "Mandarake Nakano Broadway Tokyo anime manga",
+    "tags": [
+      "anime",
+      "manga",
+      "vintage",
+      "collectors"
+    ]
+  },
+  {
+    "name": "Shimokitazawa Vintage Shops",
+    "nameJa": "下北沢 古着屋",
+    "category": "Vintage/Thrift",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
+    "priceRange": "¥500-10000",
+    "hours": "12:00-20:00 (most shops)",
+    "description": "20+ vintage clothing stores concentrated in a walkable area. From carefully curated high-end vintage to chaotic bargain bins. American vintage, European workwear, military surplus, and Japanese vintage all represented.",
+    "whatToBuy": "American vintage denim, band tees, vintage Levi's, military jackets, '90s streetwear, unique one-of-a-kind pieces.",
+    "tips": "Start on the south side of the station. Flamingo and Stick Out are great starting points. New-York Joe Exchange has great prices. The tiny side-street shops often have the best finds.",
+    "mapsQuery": "Shimokitazawa vintage clothing shops Tokyo",
+    "tags": [
+      "must-visit",
+      "vintage",
+      "fashion",
+      "budget-to-splurge"
+    ]
+  },
+  {
+    "name": "Koenji Vintage Shops",
+    "nameJa": "高円寺 古着屋",
+    "category": "Vintage/Thrift",
+    "neighborhood": "Koenji",
+    "nearestStation": "Koenji Station",
+    "priceRange": "¥300-8000",
+    "hours": "12:00-20:00",
+    "description": "Even more vintage shops than Shimokitazawa, with a more underground, punk-influenced selection. Cheaper prices and more eclectic finds. The south side streets are densely packed with shops.",
+    "whatToBuy": "Punk and alternative fashion, vintage band merch, military surplus, weird and wonderful one-offs. Generally cheaper than Shimokitazawa.",
+    "tips": "South exit is vintage shop territory. Prices are generally lower than Shimokitazawa. Sokkyou and Safari are standout shops. Combine with the neighborhood's live music venues and bars.",
+    "mapsQuery": "Koenji vintage thrift shops south side Tokyo",
+    "tags": [
+      "vintage",
+      "punk",
+      "budget",
+      "underground"
+    ]
+  },
+  {
+    "name": "Isetan Shinjuku",
+    "nameJa": "伊勢丹新宿店",
+    "category": "Department Store",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku-Sanchome Station",
+    "priceRange": "¥¥¥-¥¥¥¥",
+    "hours": "10:00-20:00",
+    "description": "Japan's most prestigious department store. The menswear floors are legendary among fashion enthusiasts. The basement depachika is a food wonderland. Tax-free shopping available for tourists.",
+    "whatToBuy": "Japanese designer fashion, premium wagashi and food gifts from the depachika, high-end cosmetics, and seasonal limited items.",
+    "tips": "The depachika basement is a must even if you don't shop the fashion floors. Tax-free counter for tourists. The menswear building across the street is equally impressive.",
+    "mapsQuery": "Isetan department store Shinjuku Tokyo",
+    "tags": [
+      "luxury",
+      "fashion",
+      "depachika",
+      "tax-free"
+    ]
+  },
+  {
+    "name": "Itoya Ginza",
+    "nameJa": "伊東屋 銀座本店",
+    "category": "Stationery/Art",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station",
+    "priceRange": "¥100-10000",
+    "hours": "10:00-20:00 (Sun until 19:00)",
+    "description": "A 12-floor stationery paradise since 1904. Every type of pen, paper, notebook, and art supply imaginable. The letter-writing floor and the custom envelope service are uniquely Japanese.",
+    "whatToBuy": "Japanese fountain pens, washi tape, premium notebooks, calligraphy supplies, letter sets, unique postcards. The custom envelope service is special.",
+    "tips": "Each floor has a different theme. The top floors have a small cafe and vegetable garden. Budget at least an hour. Stationery lovers will need to be dragged out.",
+    "mapsQuery": "Itoya stationery Ginza main store Tokyo",
+    "tags": [
+      "must-visit",
+      "stationery",
+      "unique-gifts",
+      "12-floors"
+    ]
+  },
+  {
+    "name": "Tokyu Hands Shibuya",
+    "nameJa": "東急ハンズ渋谷店",
+    "category": "Stationery/Art",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥100-10000",
+    "hours": "10:00-21:00",
+    "description": "A multi-floor DIY/lifestyle/stationery store that's hard to categorize. Craft supplies, kitchen gadgets, travel gear, beauty products, party goods, and incredibly niche Japanese inventions all under one roof.",
+    "whatToBuy": "Japanese travel gadgets, unique kitchen tools, craft supplies, beauty tools, and quirky inventions you never knew you needed.",
+    "tips": "Renamed to 'Hands' but still called Tokyu Hands by locals. The Shibuya location is the flagship. Allow at least an hour to browse. Great for unique souvenirs.",
+    "mapsQuery": "Tokyu Hands Shibuya Tokyo",
+    "tags": [
+      "unique",
+      "gadgets",
+      "gifts",
+      "browsing"
+    ]
+  },
+  {
+    "name": "Loft Shibuya",
+    "nameJa": "ロフト渋谷店",
+    "category": "Stationery/Art",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥100-5000",
+    "hours": "10:00-21:00",
+    "description": "A lifestyle and stationery store similar to Tokyu Hands but more design-focused. Known for seasonal items, creative stationery, and home goods. The Shibuya location is huge.",
+    "whatToBuy": "Seasonal stationery, planners and journals, cosmetics, home fragrance, and character goods. Great for well-designed everyday items.",
+    "tips": "Check the seasonal floor for limited items. More curated than Tokyu Hands. Good for design-conscious gifts. Multiple locations across Tokyo.",
+    "mapsQuery": "Loft Shibuya lifestyle store Tokyo",
+    "tags": [
+      "stationery",
+      "design",
+      "seasonal",
+      "gifts"
+    ]
+  },
+  {
+    "name": "Kakimori",
+    "nameJa": "カキモリ",
+    "category": "Stationery/Art",
+    "neighborhood": "Kuramae",
+    "nearestStation": "Kuramae Station",
+    "priceRange": "¥3000-8000",
+    "hours": "Tue-Sun 11:00-18:00 (closed Mon)",
+    "description": "A stationery shop where you build your own custom notebook. Choose from 60 cover types, 30 paper varieties, and various bindings. Staff assemble it in 20 minutes. Next door, mix your own fountain pen ink.",
+    "whatToBuy": "Custom-made order notebook (choose cover, paper, binding), custom-mixed fountain pen ink at the Ink Stand next door, pens, and writing accessories.",
+    "tips": "The custom notebook experience takes about 30-40 minutes total. The Ink Stand next door lets you mix your own unique ink color. In the trendy Kuramae maker district - explore the neighborhood too.",
+    "mapsQuery": "Kakimori custom notebook stationery Kuramae Tokyo",
+    "tags": [
+      "must-visit",
+      "custom",
+      "artisan",
+      "unique-experience"
+    ]
+  },
+  {
+    "name": "Daiso (100 Yen Shop)",
+    "nameJa": "ダイソー",
+    "category": "Discount/100yen",
+    "neighborhood": "Everywhere (Harajuku flagship)",
+    "nearestStation": "Various",
+    "priceRange": "¥100-300",
+    "hours": "10:00-21:00",
+    "description": "Japan's biggest 100-yen shop chain. Everything from kitchen tools to stationery to snacks to beauty products for ¥100 (~$0.70). The quality is shockingly good for the price.",
+    "whatToBuy": "Japanese kitchen gadgets, bento supplies, chopsticks, face masks, snacks, travel items, stationery, cleaning products. Everything is ¥100.",
+    "tips": "The Harajuku flagship is the biggest in Tokyo. Great for cheap souvenirs and gifts. The quality far exceeds dollar stores back home. Beauty products and kitchen items are the best value.",
+    "mapsQuery": "Daiso 100 yen shop Harajuku flagship Tokyo",
+    "tags": [
+      "ultra-budget",
+      "souvenirs",
+      "everything-¥100"
+    ]
+  },
+  {
+    "name": "Don Quijote (Donki)",
+    "nameJa": "ドン・キホーテ",
+    "category": "Discount/100yen",
+    "neighborhood": "Various (Shibuya Mega Store)",
+    "nearestStation": "Various",
+    "priceRange": "Varies widely",
+    "hours": "24 hours (most locations)",
+    "description": "Japan's wildest discount chain. Aisles packed floor to ceiling with snacks, cosmetics, electronics, costumes, souvenirs, and things you never knew existed. The theme song is unforgettable. Open 24 hours.",
+    "whatToBuy": "Japanese snacks (KitKat flavors, Pocky, rice crackers), beauty products, electronics, weird novelty items, and character goods. Tax-free for tourists.",
+    "tips": "Bring your passport for tax-free shopping over ¥5000. The Shibuya Mega Store is the flagship. Go at night for the full experience. The cramped aisles are intentional. Budget time - you'll get lost.",
+    "mapsQuery": "Don Quijote Mega Store Shibuya Tokyo",
+    "tags": [
+      "must-visit",
+      "24-hours",
+      "souvenirs",
+      "tax-free"
+    ]
+  },
+  {
+    "name": "Yodobashi Camera Akihabara",
+    "nameJa": "ヨドバシカメラ秋葉原",
+    "category": "Electronics",
+    "neighborhood": "Akihabara",
+    "nearestStation": "Akihabara Station",
+    "priceRange": "Varies",
+    "hours": "9:30-22:00",
+    "description": "A massive 9-floor electronics megastore right next to Akihabara Station. Cameras, computers, headphones, appliances, and Japanese tech gadgets. Tax-free and often cheaper than elsewhere.",
+    "whatToBuy": "Japanese electronics, cameras, headphones, rice cookers, Japanese tech gadgets, and gaming equipment.",
+    "tips": "Tax-free counter for tourists. Compare prices before buying. The camera floor is particularly impressive. Staff are knowledgeable. There's also a restaurant floor on top.",
+    "mapsQuery": "Yodobashi Camera Akihabara Multimedia Tokyo",
+    "tags": [
+      "electronics",
+      "tax-free",
+      "cameras",
+      "gadgets"
+    ]
+  },
+  {
+    "name": "Daikanyama T-Site (Tsutaya Books)",
+    "nameJa": "代官山T-SITE",
+    "category": "Records/Music",
+    "neighborhood": "Daikanyama",
+    "nearestStation": "Daikanyama Station",
+    "priceRange": "¥500-5000",
+    "hours": "7:00-2:00",
+    "description": "A stunning three-building bookstore complex designed by Klein Dytham Architecture. Books, vinyl, magazines, and a beautiful lounge. Open until 2am. The architecture alone is worth the visit.",
+    "whatToBuy": "Art books, vinyl records, Japanese design magazines, and rare international publications. The Anjin Lounge upstairs has vintage magazines.",
+    "tips": "Open 7am-2am (one of Tokyo's latest bookstores). The architecture is T-shaped walls of interlocking Ts. Visit the Anjin Lounge on the 2nd floor for a drink among vintage magazines.",
+    "mapsQuery": "Daikanyama T-Site Tsutaya Books Tokyo",
+    "tags": [
+      "architecture",
+      "books",
+      "vinyl",
+      "open-late",
+      "beautiful"
+    ]
+  },
+  {
+    "name": "Toraya Akasaka (Wagashi)",
+    "nameJa": "とらや 赤坂店",
+    "category": "Food Souvenirs",
+    "neighborhood": "Akasaka",
+    "nearestStation": "Akasaka-Mitsuke Station",
+    "priceRange": "¥500-5000",
+    "hours": "Weekdays 9:00-18:00, Weekends 9:30-18:00",
+    "description": "A 500-year-old wagashi (traditional Japanese sweets) maker. Purveyor to the Imperial Family since the 16th century. The yokan (sweet bean jelly) and seasonal confections are edible art.",
+    "whatToBuy": "Yokan (sweet bean jelly) - the signature product. Seasonal wagashi that change monthly. Beautifully packaged gift sets.",
+    "tips": "The tea room on the 3rd floor serves wagashi with matcha. The basement gallery hosts exhibitions on wagashi culture. Beautiful packaging makes these ideal gifts.",
+    "mapsQuery": "Toraya wagashi Akasaka store Tokyo",
+    "tags": [
+      "traditional",
+      "luxury-gifts",
+      "imperial",
+      "edible-art"
+    ]
+  },
+  {
+    "name": "Tokyo Banana (Tokyo Station)",
+    "nameJa": "東京ばな奈",
+    "category": "Food Souvenirs",
+    "neighborhood": "Various (Tokyo Station is best)",
+    "nearestStation": "Tokyo Station",
+    "priceRange": "¥500-1500",
+    "hours": "Station shop hours (~8:00-21:00)",
+    "description": "THE quintessential Tokyo souvenir - soft banana-shaped sponge cakes filled with banana custard cream. Available everywhere but Tokyo Station has the widest selection including limited flavors.",
+    "whatToBuy": "Classic Tokyo Banana, plus seasonal and limited edition flavors. The Tokyo Station exclusive varieties are special.",
+    "tips": "Available at airports and stations but Tokyo Station's First Avenue has the biggest selection. They make great omiyage (gifts for colleagues/friends). Shelf life is about a week.",
+    "mapsQuery": "Tokyo Banana shop Tokyo Station First Avenue",
+    "tags": [
+      "must-buy",
+      "omiyage",
+      "classic-souvenir"
+    ]
+  },
+  {
+    "name": "KitKat Chocolatory",
+    "nameJa": "キットカット ショコラトリー",
+    "category": "Food Souvenirs",
+    "neighborhood": "Various (Tokyo Station Daimaru)",
+    "nearestStation": "Tokyo Station",
+    "priceRange": "¥300-3000",
+    "hours": "10:00-20:00",
+    "description": "Premium KitKat shop with exclusive flavors you can't find anywhere else. Japan has 300+ KitKat flavors including matcha, sake, wasabi, strawberry cheesecake, and seasonal specialties.",
+    "whatToBuy": "Premium Sublime series, Japan-exclusive flavors, seasonal limited editions. The matcha is the most popular. Gift boxes are beautifully packaged.",
+    "tips": "Tokyo Station's Daimaru basement location has the widest selection. Also check convenience stores and Don Quijote for regional flavors. KitKat in Japanese sounds like 'kitto katsu' (you will surely win) - they're lucky charms for exams.",
+    "mapsQuery": "KitKat Chocolatory Tokyo Station Daimaru",
+    "tags": [
+      "must-buy",
+      "souvenirs",
+      "unique-flavors"
+    ]
+  },
+  {
+    "name": "Matsumoto Kiyoshi Shibuya",
+    "nameJa": "マツモトキヨシ渋谷店",
+    "category": "Beauty/Skincare",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station",
+    "priceRange": "¥300-5000",
+    "hours": "10:00-22:00",
+    "description": "Japan's largest drugstore chain. Japanese skincare, beauty products, and cosmetics at 10-20% cheaper than other stores. The Shibuya Dogenzaka flagship has 3 floors dedicated to beauty.",
+    "whatToBuy": "Japanese sunscreen (Biore, Anessa), sheet face masks, Shiseido skincare, Canmake cosmetics, DHC products, and unique beauty gadgets.",
+    "tips": "Tax-free shopping for tourists over ¥5000 (bring passport). Testers available for most products. The Shibuya flagship is the most impressive. Staff speak English at major locations.",
+    "mapsQuery": "Matsumoto Kiyoshi Shibuya Dogenzaka flagship Tokyo",
+    "tags": [
+      "beauty",
+      "tax-free",
+      "japanese-skincare",
+      "budget"
+    ]
+  },
+  {
+    "name": "Oedo Antique Market",
+    "nameJa": "大江戸骨董市",
+    "category": "Market/Flea Market",
+    "neighborhood": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
+    "priceRange": "¥500-50000+",
+    "hours": "9:00-16:00 (1st and 3rd Sunday)",
+    "description": "Tokyo's biggest outdoor antique market with 250+ vendors at Tokyo International Forum. Kimono, ceramics, woodblock prints, vintage jewelry, old cameras, and traditional crafts. Free admission.",
+    "whatToBuy": "Vintage kimono and obi, Japanese ceramics, woodblock prints (ukiyo-e), vintage cameras, old maps, and traditional crafts.",
+    "tips": "1st and 3rd Sunday of each month only. Canceled if it rains. Arrive early for the best finds. Bargaining is acceptable but gentle. Free admission. Great for unique souvenirs you won't find elsewhere.",
+    "mapsQuery": "Oedo Antique Market Tokyo International Forum",
+    "tags": [
+      "antiques",
+      "weekend-only",
+      "unique-finds",
+      "free-entry"
+    ]
+  },
+  {
+    "name": "Omotesando (Fashion Avenue)",
+    "nameJa": "表参道",
+    "category": "Fashion",
+    "neighborhood": "Omotesando",
+    "nearestStation": "Omotesando Station",
+    "priceRange": "¥¥¥-¥¥¥¥",
+    "hours": "11:00-20:00 (most shops)",
+    "description": "Tokyo's Champs-Élysées. A tree-lined boulevard with flagship stores from every luxury brand, each in a building designed by a world-famous architect. The architecture is as much the attraction as the shopping.",
+    "whatToBuy": "High-end fashion, Japanese designer brands. But honestly, come for the architecture - Tadao Ando's Omotesando Hills, Toyo Ito's Tod's building, MVRDV's Gyre, and more.",
+    "tips": "Even if you don't shop luxury, walk the street for the architectural tour. The backstreets (Ura-Hara) have independent boutiques. Continues into Cat Street for more relaxed shopping.",
+    "mapsQuery": "Omotesando avenue fashion architecture Tokyo",
+    "tags": [
+      "luxury",
+      "architecture",
+      "flagship-stores"
+    ]
+  },
+  {
+    "name": "Jimbocho Book District",
+    "nameJa": "神保町古書街",
+    "category": "Records/Music",
+    "neighborhood": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
+    "priceRange": "¥100-100000+",
+    "hours": "10:00-18:00 (most shops, closed some days)",
+    "description": "The world's largest used bookstore district with 175+ bookshops. Specialties range from antique maps to vintage photography to manga to academic texts. A bibliophile's paradise.",
+    "whatToBuy": "Rare books, vintage Japanese prints, art photography books, old maps, manga, and academic texts. Some shops specialize in English-language books.",
+    "tips": "Each shop has a specialty - browse the storefronts to find your niche. The curry restaurants in the area are famously good (Jimbocho is also known for curry). Great for a rainy day afternoon.",
+    "mapsQuery": "Jimbocho book district used bookstore Tokyo",
+    "tags": [
+      "books",
+      "rare-finds",
+      "bibliophile",
+      "rainy-day"
+    ]
+  },
+  {
+    "name": "Shibuya 109",
+    "nameJa": "SHIBUYA109",
+    "category": "Fashion",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
+    "priceRange": "$$",
+    "hours": "10:00-21:00 daily",
+    "description": "Iconic cylindrical fashion tower and the epicenter of Japanese youth fashion since 1979. Over 100 shops across basement to 8th floor, targeting teens and twentysomethings. Recently renovated with 20+ new stores in 2025 including Dr. Martens and HTH. The B2 floor has MOG MOG STAND food area with cafes.",
+    "whatToBuy": "Trendy Japanese streetwear, Gyaru fashion, Accessories, Japanese brand clothing, K-beauty influenced fashion",
+    "tips": "Visit on weekdays to avoid crowds. The basement food floor is great for a break. Tax-free counter available for tourists.",
+    "mapsQuery": "Shibuya 109 Shibuya Tokyo",
+    "tags": [
+      "fashion",
+      "youth-culture",
+      "landmark",
+      "shibuya",
+      "trendy"
+    ]
+  },
+  {
+    "name": "Laforet Harajuku",
+    "nameJa": "ラフォーレ原宿",
+    "category": "Fashion",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Meiji-Jingumae Station (Chiyoda/Fukutoshin Line)",
+    "priceRange": "$$-$$$",
+    "hours": "11:00-20:00 (irregular holidays)",
+    "description": "Trend-setting fashion complex since 1978 at the Jingumae intersection. A curated mix of Gothic & Lolita, Korean trends, genderless fashion, and avant-garde Japanese designers. Six floors of independent boutiques and emerging brands. More curated and fashion-forward than Shibuya 109.",
+    "whatToBuy": "Gothic & Lolita fashion, Avant-garde Japanese design, Korean fashion trends, Independent label clothing, Unique accessories",
+    "tips": "Route tip: Hit Takeshita Street for energy first, then Laforet for curation, then Omotesando Hills for a refined finish. Check their website for seasonal sales and pop-up events.",
+    "mapsQuery": "Laforet Harajuku Tokyo",
+    "tags": [
+      "fashion",
+      "harajuku",
+      "alternative",
+      "gothic-lolita",
+      "curated"
+    ]
+  },
+  {
+    "name": "Omotesando Hills",
+    "nameJa": "表参道ヒルズ",
+    "category": "Fashion",
+    "neighborhood": "Omotesando",
+    "nearestStation": "Omotesando Station (Ginza/Chiyoda/Hanzomon Line)",
+    "priceRange": "$$$-$$$$",
+    "hours": "11:00-21:00 (Sun 11:00-20:00, restaurants until 22:30)",
+    "description": "Tadao Ando-designed luxury shopping complex on Tokyo's Champs-Elysees. A spiraling six-floor ramp connects around 100 high-end boutiques and restaurants. The architecture itself is worth visiting - clean concrete with dramatic natural light. Houses both international luxury and cutting-edge Japanese designers.",
+    "whatToBuy": "Luxury fashion, Japanese designer brands, High-end accessories, Artisan goods",
+    "tips": "The spiral walkway design means you naturally pass every store. Great for window shopping even if prices are steep. Combine with a stroll down the tree-lined Omotesando boulevard.",
+    "mapsQuery": "Omotesando Hills Tokyo",
+    "tags": [
+      "fashion",
+      "luxury",
+      "architecture",
+      "omotesando",
+      "designer"
+    ]
+  },
+  {
+    "name": "BEAMS Harajuku",
+    "nameJa": "ビームス 原宿",
+    "category": "Fashion",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Meiji-Jingumae Station (Chiyoda/Fukutoshin Line)",
+    "priceRange": "$$-$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Flagship of BEAMS, one of Japan's most influential select shops since 1976. Known for expertly curating a mix of international brands with Japanese labels and their own in-house lines. The Harajuku flagship carries men's and women's wear with a focus on smart-casual Americana meets Japanese sensibility.",
+    "whatToBuy": "Curated menswear and womenswear, BEAMS original line, Japanese x Western fusion style, Limited collaboration items",
+    "tips": "BEAMS has multiple sub-labels (BEAMS+, BEAMS Boy, BEAMS T) - each shop has a slightly different vibe. The Harajuku flagship gives you the full picture. Check out BEAMS Japan in Shinjuku for Japan-themed goods and crafts.",
+    "mapsQuery": "BEAMS Harajuku Tokyo",
+    "tags": [
+      "fashion",
+      "select-shop",
+      "harajuku",
+      "japanese-brands",
+      "curated"
+    ]
+  },
+  {
+    "name": "United Arrows Harajuku",
+    "nameJa": "ユナイテッドアローズ 原宿本店",
+    "category": "Fashion",
+    "neighborhood": "Harajuku / Jingumae",
+    "nearestStation": "Meiji-Jingumae Station (Chiyoda/Fukutoshin Line)",
+    "priceRange": "$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Flagship of United Arrows, one of Japan's premier select shops. More refined and grown-up than BEAMS, focusing on elevated casual to semi-formal wear. Known for exceptional quality basics and sharp tailoring. Sub-labels include Beauty & Youth (younger, more casual) and UNITED ARROWS & SONS (streetwear-influenced).",
+    "whatToBuy": "Elevated basics, Smart casual wear, Quality knitwear and outerwear, Japanese-made accessories",
+    "tips": "If BEAMS is the cool older brother, United Arrows is the sophisticated one. Great for wardrobe staples you'll keep for years. Look for their Green Label Relaxing sub-brand for more affordable options.",
+    "mapsQuery": "United Arrows Harajuku flagship Tokyo",
+    "tags": [
+      "fashion",
+      "select-shop",
+      "harajuku",
+      "quality",
+      "elevated-casual"
+    ]
+  },
+  {
+    "name": "Comme des Garcons",
+    "nameJa": "コム デ ギャルソン",
+    "category": "Fashion",
+    "neighborhood": "Aoyama",
+    "nearestStation": "Omotesando Station (Ginza/Chiyoda/Hanzomon Line)",
+    "priceRange": "$$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "The Aoyama flagship of Rei Kawakubo's legendary fashion house. A pilgrimage site for fashion devotees. The building itself is an architectural statement. Carries the full range of CDG lines. For more accessible prices, Dover Street Market Ginza carries CDG alongside other avant-garde designers in a multi-brand concept store.",
+    "whatToBuy": "Comme des Garcons mainline, CDG Play (heart logo), Wallet accessories, CDG Parfum fragrances",
+    "tips": "CDG Play (the heart logo line) is the most accessible price point. For the full CDG universe, visit Dover Street Market Ginza which houses multiple CDG sub-labels plus other designers. Trading Museum in Minami-Aoyama is another CDG multi-brand store.",
+    "mapsQuery": "Comme des Garcons Aoyama Tokyo",
+    "tags": [
+      "fashion",
+      "luxury",
+      "avant-garde",
+      "designer",
+      "aoyama"
+    ]
+  },
+  {
+    "name": "Dover Street Market Ginza",
+    "nameJa": "ドーバー ストリート マーケット ギンザ",
+    "category": "Fashion",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station (Ginza/Marunouchi/Hibiya Line)",
+    "priceRange": "$$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Rei Kawakubo's multi-brand concept store spanning multiple floors of avant-garde fashion. Houses Comme des Garcons lines alongside brands like Sacai, Junya Watanabe, Noir Kei Ninomiya, and rotating emerging designers. Each floor is a curated art installation that changes seasonally. The Ginza location is the original DSM.",
+    "whatToBuy": "CDG sub-labels, Sacai, Emerging designers, Limited edition collaborations, Nike x CDG exclusives",
+    "tips": "Even if you can't afford to buy, visit for the visual experience - it's part gallery, part store. The Rose Bakery cafe on the top floor is a nice spot for lunch. New installations every few months.",
+    "mapsQuery": "Dover Street Market Ginza Tokyo",
+    "tags": [
+      "fashion",
+      "luxury",
+      "concept-store",
+      "ginza",
+      "avant-garde"
+    ]
+  },
+  {
+    "name": "Chicago Shimokitazawa",
+    "nameJa": "シカゴ 下北沢店",
+    "category": "Vintage",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
+    "priceRange": "$-$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Popular vintage chain with a great Shimokitazawa location. Unique for carrying secondhand kimono and yukata alongside American and European vintage clothing. A blend of Japanese, American, and European goods at reasonable prices. Their kimono section is particularly special - great place to find affordable, wearable kimono.",
+    "whatToBuy": "Secondhand kimono and yukata, Vintage American denim, Retro jackets and coats, Kimono accessories and obi belts",
+    "tips": "The kimono selection here is one of the best for tourists - staff can help you find pieces that work as modern fashion. Also has locations in Harajuku and Kichijoji. Shimokitazawa itself is walkable with dozens of vintage shops in a compact area.",
+    "mapsQuery": "Chicago vintage shop Shimokitazawa Tokyo",
+    "tags": [
+      "vintage",
+      "shimokitazawa",
+      "kimono",
+      "thrift",
+      "affordable"
+    ]
+  },
+  {
+    "name": "RagTag Shibuya",
+    "nameJa": "RAGTAG 渋谷店",
+    "category": "Vintage",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
+    "priceRange": "$$-$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "High-end consignment store specializing in designer and brand-name secondhand clothing. Think of it as Japan's answer to The RealReal but with physical stores. Extremely well-organized with pieces authenticated and priced by condition. Find Issey Miyake, Yohji Yamamoto, Comme des Garcons, and international brands at 30-70% off retail.",
+    "whatToBuy": "Secondhand Japanese designer clothing, Discounted luxury brands, Vintage Issey Miyake pleats, Pre-owned Yohji Yamamoto",
+    "tips": "RagTag is the best option for designer vintage at fair prices. Everything is authenticated and clearly priced. Multiple locations in Tokyo - Shibuya and Harajuku stores have the best selection. If you're selling, they also buy designer pieces.",
+    "mapsQuery": "RAGTAG Shibuya Tokyo",
+    "tags": [
+      "vintage",
+      "designer",
+      "consignment",
+      "shibuya",
+      "luxury-resale"
+    ]
+  },
+  {
+    "name": "BIC Camera Yurakucho",
+    "nameJa": "ビックカメラ 有楽町店",
+    "category": "Electronics",
+    "neighborhood": "Yurakucho / Ginza",
+    "nearestStation": "Yurakucho Station (JR Yamanote Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "10:00-22:00 daily",
+    "description": "Major electronics retailer with a massive Yurakucho flagship near Ginza. Competitor to Yodobashi with similar range but slightly different brand selections. Multiple floors of electronics, cameras, watches, beauty gadgets, and even luggage and alcohol. The Yurakucho location is convenient if you're shopping in Ginza.",
+    "whatToBuy": "Japanese beauty gadgets, Watches (Casio, Seiko, Citizen), Electronics accessories, Travel gadgets, Japanese audio equipment",
+    "tips": "BIC Camera accepts foreign credit cards and offers tax-free shopping. Often has slightly different pricing than Yodobashi - worth checking both. The Yurakucho location is connected to Ginza by walking, making it easy to combine with department store shopping. Show your passport for additional tourist discounts.",
+    "mapsQuery": "BIC Camera Yurakucho Tokyo",
+    "tags": [
+      "electronics",
+      "ginza",
+      "cameras",
+      "watches",
+      "tax-free"
+    ]
+  },
+  {
+    "name": "Akihabara Radio Center",
+    "nameJa": "秋葉原ラジオセンター",
+    "category": "Electronics",
+    "neighborhood": "Akihabara",
+    "nearestStation": "Akihabara Station (JR/Tsukuba Express/Hibiya Line)",
+    "priceRange": "$-$$",
+    "hours": "10:00-19:00 (varies by shop, closed Sundays for some)",
+    "description": "Retro electronics market located directly under the JR tracks at Akihabara Station. A maze of tiny stalls selling electronic components, resistors, capacitors, vintage radio parts, cables, and connectors. The original spirit of Akihabara as an electronics district. Feels like stepping back in time to postwar Japan's tech boom.",
+    "whatToBuy": "Electronic components, Vintage radio parts, Cables and connectors, Soldering supplies, Obscure electronic parts",
+    "tips": "This is for electronics enthusiasts and makers, not general tourists. Many vendors are elderly specialists who have been here for decades. Fascinating even just to walk through and photograph. Mostly cash only. Combine with a walk through the broader Akihabara district.",
+    "mapsQuery": "Akihabara Radio Center Tokyo",
+    "tags": [
+      "electronics",
+      "akihabara",
+      "retro",
+      "components",
+      "maker"
+    ]
+  },
+  {
+    "name": "Sofmap Akihabara",
+    "nameJa": "ソフマップ AKIBA",
+    "category": "Electronics",
+    "neighborhood": "Akihabara",
+    "nearestStation": "Akihabara Station (JR/Tsukuba Express/Hibiya Line)",
+    "priceRange": "$$-$$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Major electronics retailer in Akihabara specializing in PCs, gaming, and secondhand electronics. Part of the BIC Camera group but with a distinct identity. Great for used laptops, gaming PCs, retro game consoles, and PC components. Multiple specialty stores across Akihabara focusing on different categories.",
+    "whatToBuy": "Used and refurbished electronics, Gaming PCs and parts, Retro game consoles, Secondhand cameras, PC peripherals",
+    "tips": "Sofmap is the go-to for used electronics in Akihabara. Their secondhand section has rigorous quality grading so you know exactly what you're getting. Great for finding deals on last-gen electronics and retro gaming hardware.",
+    "mapsQuery": "Sofmap Akihabara Tokyo",
+    "tags": [
+      "electronics",
+      "akihabara",
+      "gaming",
+      "used-electronics",
+      "pc"
+    ]
+  },
+  {
+    "name": "Kamata Hakensha (Knife Shop)",
+    "nameJa": "釜浅商店 鍛冶屋",
+    "category": "Kitchen",
+    "neighborhood": "Kappabashi / Taito",
+    "nearestStation": "Tawaramachi Station (Ginza Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "10:00-17:30 (closed Sundays)",
+    "description": "Founded in 1923, Kamata is a legendary knife specialist on Kappabashi Street. Four generations of sharpening expertise with over 800 types of knives in stock at all times. Known for their hand-done personalized engraving (free with purchase) and professional sharpening services. Staff can help you choose the right knife for your cooking style.",
+    "whatToBuy": "Professional Japanese kitchen knives, Santoku, Gyuto, Nakiri knives, Custom engraved knives, Sharpening stones (whetstones)",
+    "tips": "Free hand-engraving on purchased knives, done while you wait. Paid sharpening service also available. Staff are very experienced with foreign customers. Budget around 10,000-30,000 yen for a quality knife. Bring your knife home in carry-on luggage (checked bags only for flights).",
+    "mapsQuery": "Kamata knife shop Kappabashi Tokyo",
+    "tags": [
+      "kitchen",
+      "knives",
+      "traditional-craft",
+      "kappabashi",
+      "engraving"
+    ]
+  },
+  {
+    "name": "Kama-Asa",
+    "nameJa": "釜浅商店",
+    "category": "Kitchen",
+    "neighborhood": "Kappabashi / Taito",
+    "nearestStation": "Tawaramachi Station (Ginza Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "10:00-17:30 (closed Sundays)",
+    "description": "Operating since 1908, Kama-Asa is one of Kappabashi's most respected kitchenware shops. The store is split into two buildings - one for general kitchenware and one dedicated entirely to knives. Known for having English and French-speaking staff who provide expert consultation to help you choose the perfect knife without compromise.",
+    "whatToBuy": "Japanese kitchen knives (wide selection), Cast iron pans and pots, Copper cookware, Professional kitchen tools, Whetstones",
+    "tips": "The dedicated knife building is a must-visit. Staff speak English and French and will spend time helping you find exactly what you need. More of a consultation experience than just shopping. They also carry excellent cast iron and copper cookware. Tax-free available.",
+    "mapsQuery": "Kama-Asa Kappabashi Tokyo",
+    "tags": [
+      "kitchen",
+      "knives",
+      "cookware",
+      "kappabashi",
+      "english-speaking"
+    ]
+  },
+  {
+    "name": "Union Commerce (Tsubaya)",
+    "nameJa": "つば屋庖丁店",
+    "category": "Kitchen",
+    "neighborhood": "Kappabashi / Taito",
+    "nearestStation": "Tawaramachi Station (Ginza Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "9:00-17:45 (closed Sundays and holidays)",
+    "description": "Another top-tier knife shop on Kappabashi Street, Tsubaya is one of the three most well-known knife specialists alongside Kamata and Kama-Asa. Experienced with foreign customers and offers a wide range of Japanese and Western-style kitchen knives from various forging regions across Japan.",
+    "whatToBuy": "Japanese kitchen knives, Specialty fish knives (deba, yanagiba), Western-style Japanese knives, Knife care accessories",
+    "tips": "Tsubaya is particularly good if you already know what style of knife you want - their range across different steel types and forging regions is impressive. All three major knife shops (Kamata, Kama-Asa, Tsubaya) are within walking distance of each other on Kappabashi Street.",
+    "mapsQuery": "Tsubaya knife shop Kappabashi Tokyo",
+    "tags": [
+      "kitchen",
+      "knives",
+      "kappabashi",
+      "specialty",
+      "traditional-craft"
+    ]
+  },
+  {
+    "name": "Mandarake Shibuya",
+    "nameJa": "まんだらけ 渋谷店",
+    "category": "Anime/Manga",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
+    "priceRange": "$-$$$",
+    "hours": "12:00-20:00 daily",
+    "description": "Shibuya branch of the legendary Mandarake chain. More compact than the Nakano mothership but conveniently located in central Shibuya. Focuses on manga, anime figures, cosplay items, and doujinshi (fan-made comics). A good option if you don't have time to trek to Nakano.",
+    "whatToBuy": "Used manga, Anime figures, Cosplay items, Doujinshi, Anime merchandise",
+    "tips": "Smaller than Nakano but saves you a trip if you're already in Shibuya. Good for casual browsing and picking up manga at great prices. The doujinshi section is particularly strong.",
+    "mapsQuery": "Mandarake Shibuya Tokyo",
+    "tags": [
+      "anime",
+      "manga",
+      "shibuya",
+      "otaku",
+      "doujinshi"
+    ]
+  },
+  {
+    "name": "Animate Ikebukuro Flagship",
+    "nameJa": "アニメイト池袋本店",
+    "category": "Anime/Manga",
+    "neighborhood": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station (JR/Metro/Tobu/Seibu)",
+    "priceRange": "$-$$$",
+    "hours": "10:00-21:00 daily",
+    "description": "Officially certified by Guinness World Records in 2024 as the world's largest anime store. 9 above-ground floors and 2 basement levels totaling over 8,500 square meters. Every floor is themed: gashapon machines and goods (1F), character merchandise (4-5F), CDs/DVDs/games (6F), pop-up shops (7F), and exhibition space (8-9F). The street outside was officially renamed 'Animate Street.'",
+    "whatToBuy": "Latest anime merchandise, Manga and light novels, Anime CDs, DVDs, Blu-ray, Character goods, Gashapon capsule toys, Limited edition items",
+    "tips": "The Ikebukuro east side ('Otome Road') is Tokyo's center for female anime fans, with BL (boys' love) shops and idol stores nearby. Animate is the anchor. The basement theater hosts live events and performances. Pop-up collaborations on the 7th floor rotate frequently - check their website for current events. Ikebukuro is 2 stops from Shinjuku on the JR Yamanote Line.",
+    "mapsQuery": "Animate Ikebukuro flagship store Tokyo",
+    "tags": [
+      "anime",
+      "manga",
+      "ikebukuro",
+      "worlds-largest",
+      "must-visit"
+    ]
+  },
+  {
+    "name": "Akihabara Anime & Manga District",
+    "nameJa": "秋葉原電気街",
+    "category": "Anime/Manga",
+    "neighborhood": "Akihabara",
+    "nearestStation": "Akihabara Station (JR/Tsukuba Express/Hibiya Line)",
+    "priceRange": "$-$$$",
+    "hours": "10:00-20:00 (varies by shop)",
+    "description": "The original and most famous otaku district in the world. Dozens of anime, manga, and gaming shops packed into a few blocks. Key stores include Animate Akihabara, AmiAmi (figures), Kotobukiya (model kits and figures), and numerous small specialty shops. Also home to maid cafes, arcade centers, and gashapon alleys. The sensory overload of neon signs and anime imagery is an experience in itself.",
+    "whatToBuy": "Anime figures and models, Manga (new and used), Video games (retro and current), Trading cards, Cosplay supplies, Gashapon capsule toys",
+    "tips": "Akihabara can be overwhelming - start at the main Electric Town exit of JR Akihabara Station and walk down Chuo-dori (the main street). For new figures, AmiAmi and Kotobukiya are best. For used manga, BookOff has multi-floor locations with 100-yen sections. The side streets have the most interesting small specialty shops. Sunday afternoons Chuo-dori becomes a pedestrian-only zone.",
+    "mapsQuery": "Akihabara Electric Town Tokyo",
+    "tags": [
+      "anime",
+      "manga",
+      "akihabara",
+      "gaming",
+      "maid-cafe",
+      "otaku"
+    ]
+  },
+  {
+    "name": "Jump Shop Tokyo",
+    "nameJa": "ジャンプショップ 東京ドームシティ店",
+    "category": "Anime/Manga",
+    "neighborhood": "Suidobashi",
+    "nearestStation": "Suidobashi Station (JR/Mita Line)",
+    "priceRange": "$$",
+    "hours": "10:00-20:00 daily",
+    "description": "Official merchandise store for Shonen Jump manga series (One Piece, Dragon Ball, Naruto, My Hero Academia, Jujutsu Kaisen, etc.). Located in Tokyo Dome City. Carries exclusive goods you won't find elsewhere - from character snacks and stationery to apparel and figures. Regular character collaboration events and limited seasonal merchandise.",
+    "whatToBuy": "One Piece exclusive merchandise, Dragon Ball goods, Jujutsu Kaisen items, Jump collaboration sweets, Character stationery and apparel",
+    "tips": "Also has a location in Tokyo Station's Character Street (underground shopping area). Stock rotates frequently with new anime seasons. Great for gifts, especially the character-branded snacks and stationery that are Japan-exclusive.",
+    "mapsQuery": "Jump Shop Tokyo Dome City",
+    "tags": [
+      "anime",
+      "manga",
+      "shonen-jump",
+      "official-merchandise",
+      "gifts"
+    ]
+  },
+  {
+    "name": "Nakamise-dori (Senso-ji Shopping Street)",
+    "nameJa": "仲見世通り",
+    "category": "Traditional",
+    "neighborhood": "Asakusa",
+    "nearestStation": "Asakusa Station (Ginza/Asakusa/Tsukuba Express Line)",
+    "priceRange": "$-$$",
+    "hours": "9:00-18:00 (varies by shop)",
+    "description": "Historic 250-meter shopping street leading to Senso-ji temple, one of Tokyo's oldest and most famous commercial streets dating back to the Edo period. Around 90 shops selling traditional Japanese souvenirs, snacks, and crafts. While touristy, many shops are multi-generational family businesses selling authentic goods. The atmosphere is unmatched, especially combined with visiting Senso-ji and the iconic Kaminarimon gate.",
+    "whatToBuy": "Traditional Japanese fans (sensu, uchiwa), Chopsticks and chopstick rests, Tenugui (hand towels), Ningyo-yaki sweet cakes, Japanese hair accessories (kanzashi), Yukata and kimono accessories, Japanese snacks and crackers",
+    "tips": "Visit early morning (before 10am) or late afternoon to avoid peak crowds. The ningyo-yaki (small filled cakes) made fresh at multiple stalls are a must-try. The side streets branching off Nakamise-dori have less touristy shops with better prices. Combine with Senso-ji temple visit and a walk along the Sumida River.",
+    "mapsQuery": "Nakamise-dori Asakusa Senso-ji Tokyo",
+    "tags": [
+      "traditional",
+      "asakusa",
+      "souvenirs",
+      "senso-ji",
+      "historic"
+    ]
+  },
+  {
+    "name": "Bingoya Folk Crafts",
+    "nameJa": "備後屋",
+    "category": "Traditional",
+    "neighborhood": "Wakamatsu-Kawada",
+    "nearestStation": "Wakamatsu-Kawada Station (Toei Oedo Line)",
+    "priceRange": "$$-$$$",
+    "hours": "10:00-19:00 (closed Mondays)",
+    "description": "Five floors of traditional Japanese folk crafts (mingei) from every region of Japan. A hidden gem that most tourists miss. Carries handmade ceramics, textiles, woodwork, lacquerware, baskets, kokeshi dolls, and paper crafts - all made by artisans across Japan. Each floor focuses on different materials. A curated museum-quality selection at fair prices.",
+    "whatToBuy": "Regional Japanese ceramics, Handwoven textiles, Kokeshi dolls, Lacquerware, Bamboo baskets, Washi paper crafts, Japanese glass",
+    "tips": "This is a gem for finding authentic, artisan-made Japanese crafts rather than mass-produced souvenirs. Staff are knowledgeable about the artisans and regions. Less convenient location but absolutely worth the trip for craft lovers. Prices are fair for handmade goods. Closed Mondays.",
+    "mapsQuery": "Bingoya folk crafts Tokyo",
+    "tags": [
+      "traditional",
+      "folk-craft",
+      "mingei",
+      "artisan",
+      "hidden-gem"
+    ]
+  },
+  {
+    "name": "Japan Traditional Crafts Aoyama Square",
+    "nameJa": "伝統工芸 青山スクエア",
+    "category": "Traditional",
+    "neighborhood": "Aoyama / Akasaka",
+    "nearestStation": "Aoyama-itchome Station (Ginza/Hanzomon/Oedo Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "11:00-19:00 daily",
+    "description": "Government-supported gallery and shop showcasing designated traditional Japanese crafts from all 47 prefectures. Over 230 officially designated craft forms are represented. Rotating exhibitions feature specific crafts and regions, often with artisan demonstrations. A refined, gallery-like setting that's more upscale than Bingoya. Great for understanding the breadth of Japan's craft traditions.",
+    "whatToBuy": "Government-designated traditional crafts, Fine ceramics (Arita, Kutani, Mashiko), Lacquerware, Metalwork, Textiles and weaving, Premium gift items",
+    "tips": "Free admission to the gallery space. Regular artisan demonstrations where you can watch craftspeople work. More premium pricing but everything is certified authentic traditional craft. Great for high-quality gifts. The convenient Aoyama location makes it easy to combine with Omotesando shopping.",
+    "mapsQuery": "Japan Traditional Crafts Aoyama Square Tokyo",
+    "tags": [
+      "traditional",
+      "government-certified",
+      "crafts",
+      "aoyama",
+      "gallery"
+    ]
+  },
+  {
+    "name": "Hasegawa Saketen (Tokyo Station GranSta)",
+    "nameJa": "長谷川酒店 グランスタ東京店",
+    "category": "Whisky/Sake",
+    "neighborhood": "Tokyo Station",
+    "nearestStation": "Tokyo Station (JR/Marunouchi Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "8:00-22:00 daily (Mon-Sat), 8:00-21:00 (Sun & Holidays)",
+    "description": "Sake specialist shop inside Tokyo Station's GranSta underground shopping area, operating since 1960. Over 300 types of sake, shochu, and other Japanese spirits. Perfect for picking up sake to drink on the Shinkansen or to bring home as souvenirs. Expert staff can guide you through regional sake varieties. Part of the Hasegawa family of shops that has championed premium sake for decades.",
+    "whatToBuy": "Regional sake from across Japan, Premium daiginjo sake, Hasegawa Saketen original products, Small-format sake for train rides, Sake gift sets",
+    "tips": "Note: The main shop is undergoing reconstruction as of mid-2025, operating temporarily at their Kameido Clock location. The GranSta Tokyo Station shop should remain accessible. Tell staff your flavor preferences (dry, fruity, rich) and budget - they'll recommend perfectly. Small bottles (300ml) are great for trying varieties without committing to full bottles.",
+    "mapsQuery": "Hasegawa Saketen GranSta Tokyo Station",
+    "tags": [
+      "sake",
+      "whisky",
+      "tokyo-station",
+      "souvenir",
+      "specialty"
+    ]
+  },
+  {
+    "name": "Liquors Hasegawa",
+    "nameJa": "リカーズハセガワ 本店",
+    "category": "Whisky/Sake",
+    "neighborhood": "Yaesu (near Tokyo Station)",
+    "nearestStation": "Tokyo Station (JR Yaesu exit)",
+    "priceRange": "$$$-$$$$",
+    "hours": "10:00-20:00 (Mon-Fri), 10:00-19:00 (Sat), closed Sun",
+    "description": "Separate from Hasegawa Saketen, this is the whisky and spirits specialist. Located in a basement shopping arcade near Tokyo Station's Yaesu side. An incredible selection of Japanese whisky (Suntory, Nikka, Chichibu, and more), craft gin, shochu, and international spirits. One of the best places in Tokyo to find allocated Japanese whiskies.",
+    "whatToBuy": "Japanese whisky (Yamazaki, Hakushu, Nikka), Craft Japanese gin, Premium shochu, Rare and allocated bottles, Miniature whisky sets",
+    "tips": "Japanese whisky availability fluctuates - rare bottles sell out fast. Prices are at retail (much cheaper than bars or resellers). Staff are incredibly knowledgeable. Even if you can't find the rarest bottles, their selection of lesser-known Japanese craft spirits is excellent. Great miniature sets for gifts.",
+    "mapsQuery": "Liquors Hasegawa Tokyo Station Yaesu",
+    "tags": [
+      "whisky",
+      "spirits",
+      "tokyo-station",
+      "japanese-whisky",
+      "specialty"
+    ]
+  },
+  {
+    "name": "Bar & Whisky Experiences",
+    "nameJa": "ウイスキーバー",
+    "category": "Whisky/Sake",
+    "neighborhood": "Various (Ginza, Shinjuku, Shibuya)",
+    "nearestStation": "Various",
+    "priceRange": "$$$-$$$$",
+    "hours": "Typically 17:00-midnight or later",
+    "description": "Tokyo has some of the world's finest whisky bars. Notable spots include: Zoetrope (Shinjuku) - over 300 Japanese whiskies in a tiny, atmospheric bar; Bar Tram/Trench (Ebisu) - world-class cocktails; Star Bar (Ginza) - legendary cocktail bar with perfect ice; Bar High Five (Ginza) - Takao Mori's famous bespoke cocktails. Japanese bartending is an art form with precise technique and stunning ice work.",
+    "whatToBuy": "Whisky flights to taste rare Japanese whisky, Expertly crafted cocktails, The experience itself",
+    "tips": "Bar Zoetrope in Shinjuku is the best value for tasting rare Japanese whiskies (many unavailable to buy). Star Bar and High Five in Ginza are formal - dress smart casual. Many hotel bars (Park Hyatt's New York Bar, Aman Tokyo) also have exceptional whisky programs. Expect to pay 1,500-5,000 yen per drink at premium bars. Cover charges (500-1,500 yen) are standard.",
+    "mapsQuery": "Bar Zoetrope Shinjuku Japanese whisky Tokyo",
+    "tags": [
+      "whisky",
+      "bars",
+      "cocktails",
+      "nightlife",
+      "experience"
+    ]
+  },
+  {
+    "name": "Tokyo Station First Avenue & GranSta",
+    "nameJa": "東京駅一番街 & グランスタ東京",
+    "category": "Food Souvenirs",
+    "neighborhood": "Tokyo Station",
+    "nearestStation": "Tokyo Station (JR/Marunouchi Line)",
+    "priceRange": "$-$$",
+    "hours": "Various (most shops 8:00-21:00 or later)",
+    "description": "The massive underground shopping complex at Tokyo Station is a food souvenir paradise. GranSta Tokyo has gourmet foods and bento, while Tokyo Station First Avenue (Ichibangai) has character streets and regional snack shops. You'll find regional specialties from across Japan, limited Tokyo Station exclusives, and seasonal treats. The sheer density of food gift shops is overwhelming.",
+    "whatToBuy": "Regional snacks from across Japan, Tokyo Station-exclusive sweets, Premium bento for Shinkansen, Character-themed snacks, Wagashi (Japanese sweets)",
+    "tips": "This is the last-stop souvenir shopping destination before catching a Shinkansen. Budget extra time before your train - you'll want at least 30 minutes to browse. The 'Character Street' section has themed shops for various anime and characters. Don't miss Rokurinsha (tsukemen) in Ramen Street if you're hungry.",
+    "mapsQuery": "Tokyo Station First Avenue GranSta",
+    "tags": [
+      "food-souvenir",
+      "tokyo-station",
+      "regional-snacks",
+      "bento",
+      "one-stop"
+    ]
+  },
+  {
+    "name": "Department Store Depachika (Food Basements)",
+    "nameJa": "デパ地下",
+    "category": "Food Souvenirs",
+    "neighborhood": "Various (Shinjuku, Ginza, Nihonbashi)",
+    "nearestStation": "Various",
+    "priceRange": "$$-$$$",
+    "hours": "10:00-20:00 (varies by department store)",
+    "description": "The basement food halls of Japanese department stores are culinary wonderlands. Premium food halls featuring exquisite wagashi, artisan chocolates, gourmet bento, fresh pastries, and regional specialties. The top depachika include Isetan Shinjuku (B1), Mitsukoshi Ginza (B2-B3), Daimaru Tokyo Station (B1), and Takashimaya Shinjuku (B1-B2). Everything is beautifully packaged and gift-ready.",
+    "whatToBuy": "Wagashi (Japanese confections), Artisan chocolates, Premium bento and prepared foods, Seasonal fruit (picture-perfect gift melons, strawberries), Japanese tea and sweets gift sets",
+    "tips": "Depachika are free to browse and sample. Go around 30-60 minutes before closing for markdowns on prepared foods and bento (look for discount stickers). Isetan Shinjuku is widely considered the best overall food basement. Mitsukoshi Ginza excels at traditional Japanese sweets. The packaging alone makes everything feel luxurious.",
+    "mapsQuery": "Isetan Shinjuku depachika food basement Tokyo",
+    "tags": [
+      "food-souvenir",
+      "depachika",
+      "wagashi",
+      "gourmet",
+      "department-store"
+    ]
+  },
+  {
+    "name": "Wagashi & Traditional Sweet Shops",
+    "nameJa": "和菓子専門店",
+    "category": "Food Souvenirs",
+    "neighborhood": "Various (Ginza, Nihonbashi, Asakusa)",
+    "nearestStation": "Various",
+    "priceRange": "$$",
+    "hours": "Varies (typically 9:00-18:00)",
+    "description": "Japanese traditional confections (wagashi) are edible art. Notable shops include Toraya (Akasaka/Ginza) - Japan's most prestigious wagashi maker since the 1500s; Higashiya (Ginza/Minami-Aoyama) - modern wagashi in stunning packaging; Funawa (Asakusa) - famous for imo yokan (sweet potato jelly). Wagashi are seasonal, reflecting the time of year in color and flavor.",
+    "whatToBuy": "Yokan (sweet bean jelly), Namagashi (fresh seasonal sweets), Monaka (bean-filled wafers), Dorayaki (red bean pancakes), Senbei (rice crackers)",
+    "tips": "Wagashi are the most traditionally Japanese souvenir you can bring home. Toraya's yokan has very long shelf life and travels well. Higashiya in Ginza is beautiful for modern-Japanese aesthetic gifts. For fresh namagashi (must eat within days), visit as a personal treat. Many depachika have excellent wagashi counters too.",
+    "mapsQuery": "Toraya wagashi Ginza Tokyo",
+    "tags": [
+      "food-souvenir",
+      "wagashi",
+      "traditional",
+      "gifts",
+      "seasonal"
+    ]
+  },
+  {
+    "name": "Seria",
+    "nameJa": "セリア",
+    "category": "100 Yen Shop",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "10:00-21:00 (varies by location)",
+    "description": "Japan's stylish 100-yen shop. While Daiso focuses on sheer variety, Seria is known for more aesthetically pleasing, Instagram-worthy designs. Particularly strong in home decor, kitchen items with clean modern designs, and craft supplies. Everything is strictly 100 yen (plus tax), making it one of the most consistent in pricing. Popular with Japanese homemakers for its design-forward approach.",
+    "whatToBuy": "Stylish home decor items, Craft and DIY supplies, Minimalist kitchen goods, Instagram-worthy storage containers, Seasonal decorations",
+    "tips": "Seria is the 100-yen shop to visit if you appreciate design and aesthetics. Their kitchen and home storage items look far more expensive than 100 yen. Great for finding gifts that look premium on a budget. Less tourist-focused than Daiso but that's part of the charm.",
+    "mapsQuery": "Seria 100 yen shop Tokyo",
+    "tags": [
+      "100-yen",
+      "budget",
+      "design",
+      "home",
+      "aesthetic"
+    ]
+  },
+  {
+    "name": "Can Do",
+    "nameJa": "キャンドゥ",
+    "category": "100 Yen Shop",
+    "neighborhood": "Various",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "10:00-21:00 (varies by location)",
+    "description": "The third major 100-yen chain, Can Do is particularly strong in character goods and cute items. Known for Disney, Sanrio, and anime character merchandise at 100 yen, as well as a solid selection of snacks and beauty items. More compact stores than Daiso, making browsing quicker and less overwhelming.",
+    "whatToBuy": "Character merchandise (Disney, Sanrio), Japanese snacks and candy, Beauty and cosmetic tools, Cute accessories, Phone accessories",
+    "tips": "Can Do is the go-to 100-yen shop for character goods. If you want Sanrio or Disney items at 100 yen, this is your best bet. Smaller stores mean faster shopping. Their snack and candy aisle is also excellent for affordable souvenirs. Many locations in train station complexes for convenient shopping.",
+    "mapsQuery": "Can Do 100 yen shop Tokyo",
+    "tags": [
+      "100-yen",
+      "budget",
+      "character-goods",
+      "cute",
+      "snacks"
+    ]
+  },
+  {
+    "name": "@cosme Tokyo (Harajuku)",
+    "nameJa": "＠コスメ トーキョー",
+    "category": "Beauty",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station (JR Yamanote Line)",
+    "priceRange": "$-$$$",
+    "hours": "10:00-21:00 daily",
+    "description": "The physical store of Japan's #1 beauty review platform. @cosme's rankings are the gold standard for Japanese beauty products. The Harajuku flagship carries products curated from their ranking data, so everything in stock is proven popular. Three floors organized by category with testers for nearly everything. Real-time ranking displays show you what's trending right now.",
+    "whatToBuy": "Top-ranked Japanese skincare, Trending cosmetics, Award-winning beauty products, K-beauty curated for the Japanese market, Limited edition beauty items",
+    "tips": "Use the @cosme website/app to research products before visiting. Scores above 5.0 (out of 7) are considered very good. The store layout follows their rankings, making it easy to find the best products. Great for discovering Japanese beauty brands you've never heard of. Testers available for almost everything.",
+    "mapsQuery": "@cosme Tokyo Harajuku store",
+    "tags": [
+      "beauty",
+      "skincare",
+      "harajuku",
+      "rankings",
+      "japanese-beauty"
+    ]
+  },
+  {
+    "name": "Ainz & Tulpe Harajuku",
+    "nameJa": "アインズ＆トルぺ 原宿店",
+    "category": "Beauty",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station (JR Yamanote Line)",
+    "priceRange": "$-$$",
+    "hours": "10:00-22:00 daily",
+    "description": "Trendy beauty drugstore popular with younger shoppers. Focuses on cosmetics and beauty with a more curated, boutique feel than traditional drugstores. Excellent selection of Japanese and Korean beauty products, hair care, and beauty tools. The Harajuku location draws a young, beauty-conscious crowd.",
+    "whatToBuy": "Japanese and Korean cosmetics, Hair styling tools and products, Trendy beauty items, False eyelashes and accessories, Beauty supplements",
+    "tips": "Ainz & Tulpe fills the gap between drugstore (Matsumoto Kiyoshi) and department store cosmetics. Good for finding trendy, youth-oriented beauty products. The Harajuku location is convenient for combining with other Harajuku shopping. Less crowded than MatsuKiyo for a more relaxed browse.",
+    "mapsQuery": "Ainz and Tulpe Harajuku Tokyo",
+    "tags": [
+      "beauty",
+      "cosmetics",
+      "harajuku",
+      "trendy",
+      "k-beauty"
+    ]
+  },
+  {
+    "name": "Takashimaya Shinjuku",
+    "nameJa": "高島屋 新宿店",
+    "category": "Department Store",
+    "neighborhood": "Shinjuku (South Exit)",
+    "nearestStation": "Shinjuku Station (JR South Exit, directly connected)",
+    "priceRange": "$$$-$$$$",
+    "hours": "10:00-20:00 daily (restaurants until 23:00)",
+    "description": "Major department store directly connected to Shinjuku Station's south exit. Part of the Takashimaya Times Square complex with Tokyu Hands (now Hands), Kinokuniya bookstore, and IMAX cinema. More accessible than Isetan with a broad range of fashion, home goods, and an excellent food floor. The Kinokuniya bookstore in the building has an impressive English-language section.",
+    "whatToBuy": "Department store fashion, Depachika foods and gifts, Home goods, English-language books (at Kinokuniya), Cosmetics",
+    "tips": "Directly connected to JR Shinjuku Station south exit, making it one of the most convenient department stores. The restaurant floors have great options. Kinokuniya bookstore (7th-8th floor) has one of Tokyo's best English book selections. Less fashion-forward than Isetan but more convenient location.",
+    "mapsQuery": "Takashimaya Times Square Shinjuku Tokyo",
+    "tags": [
+      "department-store",
+      "shinjuku",
+      "convenient",
+      "bookstore",
+      "restaurants"
+    ]
+  },
+  {
+    "name": "Mitsukoshi Ginza",
+    "nameJa": "三越 銀座店",
+    "category": "Department Store",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station (Ginza/Marunouchi/Hibiya Line)",
+    "priceRange": "$$$-$$$$",
+    "hours": "10:00-20:00 daily",
+    "description": "The Ginza flagship of Japan's oldest department store chain (founded 1673). Mitsukoshi embodies traditional Japanese department store elegance. Excellent for luxury shopping, traditional Japanese goods, and an outstanding depachika specializing in wagashi and Japanese sweets. The basement food floors (B2-B3) are among Tokyo's best for traditional confections.",
+    "whatToBuy": "Traditional Japanese gifts, Premium wagashi (Japanese sweets), Luxury fashion, Kimonos and traditional clothing, Depachika specialties",
+    "tips": "Mitsukoshi Ginza's food basement is particularly strong in traditional Japanese sweets and gift-ready confections. The building also houses an annex with more contemporary brands. The rooftop garden offers a nice break from shopping. Combine with Ginza Six and the Ginza shopping district.",
+    "mapsQuery": "Mitsukoshi Ginza department store Tokyo",
+    "tags": [
+      "department-store",
+      "ginza",
+      "traditional",
+      "luxury",
+      "wagashi"
+    ]
+  },
+  {
+    "name": "Ginza Six",
+    "nameJa": "GINZA SIX",
+    "category": "Department Store",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station (Ginza/Marunouchi/Hibiya Line)",
+    "priceRange": "$$$$",
+    "hours": "10:30-20:30 daily (restaurants 11:00-23:00)",
+    "description": "Ginza's largest and most modern luxury shopping complex, opened in 2017. Six floors of premium and luxury brands including Dior, Celine, Saint Laurent, and Valentino alongside Japanese luxury brands. The striking architecture features a massive art installation in the central atrium that changes seasonally. Rooftop garden with views. A modern counterpoint to Ginza's traditional department stores.",
+    "whatToBuy": "International luxury brands, High-end Japanese fashion, Art books (Tsutaya Books basement), Luxury food gifts (B2), Contemporary art",
+    "tips": "The basement Tsutaya Books is a stunning art and design bookstore worth visiting alone. The rooftop garden (free access) has seasonal installations and city views. The rotating central art installation is always Instagram-worthy. More contemporary luxury than traditional Mitsukoshi across the street.",
+    "mapsQuery": "GINZA SIX Tokyo",
+    "tags": [
+      "department-store",
+      "luxury",
+      "ginza",
+      "architecture",
+      "modern"
+    ]
+  },
+  {
+    "name": "Setagaya Boroichi (Boro Market)",
+    "nameJa": "世田谷ボロ市",
+    "category": "Market",
+    "neighborhood": "Setagaya",
+    "nearestStation": "Kamimachi Station (Tokyu Setagaya Line)",
+    "priceRange": "$-$$",
+    "hours": "9:00-20:00 (December 15-16 and January 15-16 only)",
+    "description": "Historic flea market dating back over 440 years, held only four days a year (December 15-16 and January 15-16). Over 700 stalls selling antiques, used goods, clothing, food, and miscellaneous items line the streets of the Kamimachi area. A beloved Tokyo tradition that draws hundreds of thousands of visitors. The name 'boro' means rags/scraps, reflecting its origins as a textile market.",
+    "whatToBuy": "Antiques and vintage goods, Used kimono, Handmade crafts, Cheap bric-a-brac, Festival food",
+    "tips": "Only held 4 days a year so timing is everything: Dec 15-16 and Jan 15-16. Extremely crowded but incredibly atmospheric. Great for experiencing a very local, non-touristy Tokyo event. The Tokyu Setagaya Line is a charming small tram line. Bring cash and arrive early for the best finds.",
+    "mapsQuery": "Setagaya Boroichi market Tokyo",
+    "tags": [
+      "market",
+      "historic",
+      "flea-market",
+      "setagaya",
+      "seasonal"
+    ]
+  },
+  {
+    "name": "Togo Shrine Flea Market",
+    "nameJa": "東郷神社 骨董市",
+    "category": "Market",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Harajuku Station (JR Yamanote Line)",
+    "priceRange": "$-$$",
+    "hours": "4:00-15:00 (1st and 4th Sunday of each month)",
+    "description": "Atmospheric flea market held in the grounds of Togo Shrine in Harajuku. A nice contrast to the surrounding modern shopping. Around 70-80 vendors selling antiques, vintage kimono, ceramics, old tools, and miscellaneous goods. The shrine setting adds a serene backdrop. Held on the 1st and 4th Sunday of each month (weather permitting).",
+    "whatToBuy": "Vintage kimono and obi, Old ceramics, Antique tools and hardware, Vintage accessories, Miscellaneous collectibles",
+    "tips": "The market starts at dawn (4am!) - serious dealers arrive early. For casual browsing, 8-11am is ideal. Combine with Harajuku and Omotesando shopping. Bargaining is expected. Much smaller and more intimate than Oedo Antique Market. The shrine itself is worth exploring too. Check that the market is running before making the trip.",
+    "mapsQuery": "Togo Shrine flea market Harajuku Tokyo",
+    "tags": [
+      "market",
+      "flea-market",
+      "harajuku",
+      "shrine",
+      "monthly"
+    ]
+  },
+  {
+    "name": "MEGA Don Quijote Shibuya",
+    "nameJa": "MEGAドン・キホーテ 渋谷本店",
+    "category": "Don Quijote",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
+    "priceRange": "$-$$",
+    "hours": "24 hours",
+    "description": "The flagship of Japan's legendary discount chain, affectionately called 'Donki.' Open 24 hours and stuffed floor-to-ceiling with everything imaginable: snacks, beauty products, electronics, costumes, luggage, household goods, brand-name items, and the bizarre. Seven floors of organized chaos with narrow aisles and products hanging from every surface. The Shibuya location is the largest MEGA Don Quijote in central Tokyo. Tax-free counters on the 7th floor.",
+    "whatToBuy": "Japanese snacks in bulk, Beauty products (sunscreen, sheet masks), Cheap electronics and gadgets, Costume and cosplay items, Souvenir snacks (variety packs), Luggage, Japanese candy and KitKat flavors, Random weird Japanese products",
+    "tips": "Don Quijote's tax-free deal is excellent: spend 10,000+ yen for 10% tax-free + 5% off, or 30,000+ yen for 10% tax-free + 7% off. Bring your passport. The store is deliberately chaotic - embrace it. Great for late-night shopping (open 24hrs). The 'Don Pen' penguin mascot is iconic. Also has locations in Shinjuku (Kabukicho), Akihabara, Roppongi, and Ikebukuro. The song that plays on loop will haunt your dreams.",
+    "mapsQuery": "MEGA Don Quijote Shibuya Honten Tokyo",
+    "tags": [
+      "discount",
+      "24-hours",
+      "shibuya",
+      "tax-free",
+      "snacks",
+      "must-visit",
+      "everything"
+    ]
+  },
+  {
+    "name": "Uniqlo Ginza Global Flagship",
+    "nameJa": "ユニクロ 銀座店",
+    "category": "Fashion",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station (Ginza/Marunouchi/Hibiya Line)",
+    "priceRange": "$-$$",
+    "hours": "10:00-21:00 daily",
+    "description": "Uniqlo's massive 12-floor global flagship in Ginza. Japan-exclusive items, collaboration pieces, and the widest range of Uniqlo products anywhere. Includes Uniqlo's premium +J and Uniqlo U lines, as well as UTme! stations where you can design custom t-shirts. Japanese Uniqlo prices are significantly cheaper than overseas, making this a legitimate shopping destination.",
+    "whatToBuy": "Japan-exclusive Uniqlo items, Heattech and Airism innerwear, UT graphic tees (Japan-only designs), Collaboration collections, Custom UTme! t-shirts",
+    "tips": "Uniqlo in Japan is 30-50% cheaper than in most Western countries. The Ginza flagship has items you won't find at other locations. HeatTech innerwear is a must for winter travel. Check the Uniqlo app for in-store exclusives. Tax-free available. The Harajuku location is also worth visiting.",
+    "mapsQuery": "Uniqlo Ginza global flagship Tokyo",
+    "tags": [
+      "fashion",
+      "ginza",
+      "affordable",
+      "basics",
+      "japan-exclusive"
+    ]
+  },
+  {
+    "name": "Kiddy Land Harajuku",
+    "nameJa": "キデイランド 原宿店",
+    "category": "Character Goods",
+    "neighborhood": "Harajuku",
+    "nearestStation": "Meiji-Jingumae Station (Chiyoda/Fukutoshin Line)",
+    "priceRange": "$-$$",
+    "hours": "11:00-20:00 daily",
+    "description": "Multi-floor toy and character goods store on Omotesando. Each floor is dedicated to different character universes: Snoopy, Studio Ghibli, Disney, Sanrio, Rilakkuma, and more. Not just for kids - adults will love the Ghibli and character stationery sections. A Harajuku institution since 1950.",
+    "whatToBuy": "Studio Ghibli merchandise, Sanrio (Hello Kitty) goods, Character stationery, Japanese plush toys, Snoopy Museum collaboration items",
+    "tips": "The Ghibli section has items exclusive to this store. Great for character-themed gifts for all ages. The Snoopy floor is surprisingly extensive. Located on Omotesando, easy to combine with other Harajuku/Omotesando shopping.",
+    "mapsQuery": "Kiddy Land Harajuku Omotesando Tokyo",
+    "tags": [
+      "character-goods",
+      "ghibli",
+      "sanrio",
+      "harajuku",
+      "gifts"
+    ]
+  },
+  {
+    "name": "Tokyu Plaza Omotesando Harajuku",
+    "nameJa": "東急プラザ 表参道原宿",
+    "category": "Fashion",
+    "neighborhood": "Harajuku / Omotesando",
+    "nearestStation": "Meiji-Jingumae Station (Chiyoda/Fukutoshin Line)",
+    "priceRange": "$$-$$$",
+    "hours": "11:00-21:00 daily (6-7F restaurants until 23:00)",
+    "description": "Stylish shopping complex at the Harajuku end of Omotesando. The mirror-clad entrance and escalator are iconic photo spots. Houses fashion brands, lifestyle shops, and a rooftop terrace called 'Omohara no Mori' (Omohara Forest) with Starbucks. A good mix of mid-range to higher-end fashion with a relaxed Harajuku sensibility.",
+    "whatToBuy": "Fashion from Japanese and international brands, Lifestyle goods, Beauty items",
+    "tips": "The rooftop terrace is a great spot to rest and recharge with a coffee. The mirrored escalator entrance makes for amazing photos. A good midpoint between the youth energy of Takeshita Street and the luxury of Omotesando Hills.",
+    "mapsQuery": "Tokyu Plaza Omotesando Harajuku Tokyo",
+    "tags": [
+      "fashion",
+      "harajuku",
+      "omotesando",
+      "rooftop",
+      "photo-spot"
+    ]
+  },
+  {
+    "name": "Okachimachi Jewelry Town",
+    "nameJa": "御徒町ジュエリータウン",
+    "category": "Jewelry",
+    "neighborhood": "Okachimachi / Ueno",
+    "nearestStation": "Okachimachi Station (JR Yamanote Line)",
+    "priceRange": "$$-$$$$",
+    "hours": "10:00-18:00 (varies, many closed Sundays)",
+    "description": "Tokyo's wholesale jewelry district between Ueno and Akihabara stations. Hundreds of small jewelry shops and workshops concentrated around JR Okachimachi station, selling gemstones, pearls, gold, and silver at wholesale-to-retail prices. Many shops specialize in Japanese Akoya pearls, which are significantly cheaper here than tourist areas.",
+    "whatToBuy": "Japanese Akoya pearls, Gold and silver jewelry, Loose gemstones, Custom and semi-custom pieces",
+    "tips": "This is where Tokyo jewelers themselves shop. Prices can be 30-50% less than department stores or tourist areas. Many shops cater to the trade but welcome retail customers. Japanese Akoya pearls are a specialty. Some shops can do custom work. The area is walkable from Ueno's Ameyoko market.",
+    "mapsQuery": "Okachimachi Jewelry Town Tokyo",
+    "tags": [
+      "jewelry",
+      "pearls",
+      "wholesale",
+      "okachimachi",
+      "ueno"
+    ]
+  },
+  {
+    "name": "Ameyoko (Ameya-Yokocho)",
+    "nameJa": "アメヤ横丁",
+    "category": "Market",
+    "neighborhood": "Ueno",
+    "nearestStation": "Ueno Station (JR/Metro) or Okachimachi Station (JR)",
+    "priceRange": "$-$$",
+    "hours": "10:00-19:00 daily (varies by shop)",
+    "description": "Bustling open-air market street stretching between Ueno and Okachimachi stations, under the JR train tracks. Born as a postwar black market, it retains a chaotic, energetic atmosphere unlike anywhere else in orderly Tokyo. Over 400 shops selling fresh seafood, dried goods, clothing, sneakers, cosmetics, and street food. The closest Tokyo gets to a Southeast Asian market vibe.",
+    "whatToBuy": "Discounted sneakers and streetwear, Dried seafood and snacks, Cheap cosmetics, Fresh fruit, Street food (yakitori, kebabs, chocolate-covered strawberries)",
+    "tips": "More about the atmosphere and street food than serious shopping. Great for snacking your way through. Prices on clothing and shoes can be haggled. Gets extremely crowded approaching New Year (year-end food shopping rush). Combine with Ueno Park museums and Okachimachi jewelry shopping.",
+    "mapsQuery": "Ameyoko market Ueno Tokyo",
+    "tags": [
+      "market",
+      "street-food",
+      "ueno",
+      "bargain",
+      "atmospheric"
+    ]
+  },
+  {
+    "name": "BookOff / Hard Off",
+    "nameJa": "ブックオフ / ハードオフ",
+    "category": "Secondhand",
+    "neighborhood": "Various (major locations in Shibuya, Shinjuku, Akihabara)",
+    "nearestStation": "Various",
+    "priceRange": "$",
+    "hours": "10:00-21:00 (varies by location)",
+    "description": "Japan's largest chain of secondhand stores. BookOff sells used books, manga, CDs, DVDs, and games at absurdly low prices (manga from 110 yen, CDs from 280 yen). Hard Off (sister chain) sells used electronics, instruments, audio equipment, and hobby items. Both are treasure troves for budget-minded collectors. The Akihabara BookOff is multi-floor with a huge manga and game section.",
+    "whatToBuy": "Manga in bulk (incredibly cheap), Used video games (retro and current), CDs and vinyl, Musical instruments (Hard Off), Used electronics (Hard Off), Vintage audio equipment",
+    "tips": "BookOff's 110-yen manga sections are legendary - you can buy complete manga series for almost nothing. Hard Off is a must for musicians and audiophiles - Japanese people take immaculate care of used goods. The Akihabara BookOff Bazaar has multiple floors. Shibuya and Shinjuku locations are also excellent. Japan's secondhand quality standards are famously high.",
+    "mapsQuery": "BookOff Super Bazaar Akihabara Tokyo",
+    "tags": [
+      "secondhand",
+      "manga",
+      "games",
+      "budget",
+      "music"
+    ]
+  },
+  {
+    "name": "Daimaru Tokyo Station",
+    "nameJa": "大丸 東京店",
+    "category": "Department Store",
+    "neighborhood": "Tokyo Station",
+    "nearestStation": "Tokyo Station (JR Yaesu Central Exit, directly connected)",
+    "priceRange": "$$-$$$",
+    "hours": "10:00-20:00 (B1 food floor from 10:00-21:00)",
+    "description": "Department store directly connected to Tokyo Station's Yaesu side. The B1 food floor is a prime last-stop for food souvenirs before catching the Shinkansen. Carries fashion, cosmetics, and home goods, but the main draw is the food basement with its extensive selection of bento, sweets, and regional delicacies packaged as gifts.",
+    "whatToBuy": "Ekiben (train bento boxes), Food souvenirs and sweets, Premium gift confections, Tokyo Banana and other omiyage",
+    "tips": "The most convenient department store for Shinkansen travelers - literally connected to Tokyo Station. The food basement stays open until 9pm. Great for grabbing a premium bento before your train. The upper fashion floors are less remarkable than Isetan or Mitsukoshi.",
+    "mapsQuery": "Daimaru Tokyo Station department store",
+    "tags": [
+      "department-store",
+      "tokyo-station",
+      "food",
+      "bento",
+      "convenient"
+    ]
+  },
+  {
+    "name": "Nakano Sun Mall & Broadway",
+    "nameJa": "中野サンモール & 中野ブロードウェイ",
+    "category": "Anime/Manga",
+    "neighborhood": "Nakano",
+    "nearestStation": "Nakano Station (JR Chuo/Sobu Line)",
+    "priceRange": "$-$$$",
+    "hours": "12:00-20:00 (varies by shop)",
+    "description": "The covered Sun Mall arcade leads from Nakano Station directly to Nakano Broadway, a retro multi-floor shopping complex that is home to Mandarake and dozens of other otaku, vintage, and specialty shops. Beyond anime goods, Broadway houses used watch dealers, vintage clothing shops, ice cream parlors, and quirky independent stores. A more local, less corporate alternative to Akihabara.",
+    "whatToBuy": "Pre-owned anime and manga collectibles, Vintage watches, Retro toys and games, Idol goods",
+    "tips": "Nakano Broadway has a wonderfully retro, slightly faded glamour. The non-Mandarake shops are worth exploring too - vintage watch dealers and used clothing shops hide real gems. The Sun Mall covered arcade has cheap eats and daily goods. Much less touristy than Akihabara.",
+    "mapsQuery": "Nakano Broadway Sun Mall Tokyo",
+    "tags": [
+      "anime",
+      "manga",
+      "nakano",
+      "retro",
+      "local"
+    ]
+  },
+  {
+    "name": "Tsutaya Books Daikanyama T-Site",
+    "nameJa": "蔦屋書店 代官山T-SITE",
+    "category": "Books & Lifestyle",
+    "neighborhood": "Daikanyama",
+    "nearestStation": "Daikanyama Station (Tokyu Toyoko Line)",
+    "priceRange": "$$-$$$",
+    "hours": "7:00-23:00 daily (books until 23:00, Starbucks from 7:00)",
+    "description": "One of the world's most beautiful bookstores, spread across three interconnected buildings in the upscale Daikanyama neighborhood. Designed by Klein Dytham Architecture with a stunning latticed white facade. Curated books on art, design, travel, fashion, and food, plus vinyl records, magazines, and a premium Starbucks. The kind of bookstore where browsing is an event.",
+    "whatToBuy": "Art and design books, Japanese photography books, Vinyl records, Premium magazines, Travel guides, Stationery",
+    "tips": "Even if you don't buy anything, visit for the architecture and atmosphere. The vinyl section has great Japanese pressings. The on-site Anjin lounge (upstairs) serves cocktails amid shelves of vintage magazines - a stunning space. Daikanyama itself is a lovely upscale neighborhood for a stroll. Open from 7am with Starbucks, making it a great morning destination.",
+    "mapsQuery": "Tsutaya Books Daikanyama T-Site Tokyo",
+    "tags": [
+      "books",
+      "design",
+      "daikanyama",
+      "architecture",
+      "vinyl"
+    ]
+  },
+  {
+    "name": "Flamingo Shimokitazawa",
+    "nameJa": "フラミンゴ 下北沢店",
+    "category": "Vintage",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
+    "priceRange": "$-$$",
+    "hours": "12:00-20:00 daily",
+    "description": "Instantly recognizable by the neon flamingo signs at the entrance. Specializes in American vintage from the 1950s to 1990s with strong old-school Americana vibes. Curated selection of denim, leather jackets, Hawaiian shirts, and vintage tees. The Shimokitazawa location is the most atmospheric.",
+    "whatToBuy": "Vintage Levi's denim, 1950s-90s Americana, Vintage leather jackets, Hawaiian shirts, Retro band tees",
+    "tips": "Flamingo also has locations in Omotesando, Harajuku, and Kichijoji. Prices are reasonable for the quality of curation. The Shimokitazawa area has so many vintage shops you can easily spend a full afternoon browsing.",
+    "mapsQuery": "Flamingo vintage shop Shimokitazawa Tokyo",
+    "tags": [
+      "vintage",
+      "shimokitazawa",
+      "americana",
+      "retro",
+      "curated"
+    ]
+  },
+  {
+    "name": "Stick Out Shimokitazawa",
+    "nameJa": "スティックアウト 下北沢",
+    "category": "Vintage",
+    "neighborhood": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
+    "priceRange": "$-$$",
+    "hours": "12:00-20:00 daily",
+    "description": "A well-curated Shimokitazawa vintage shop known for quality American and European vintage at fair prices. Popular with locals for its carefully selected inventory of workwear, military surplus, and classic casual pieces. Less touristy than Chicago or Flamingo but equally rewarding.",
+    "whatToBuy": "Vintage workwear, Military surplus clothing, Classic denim, Vintage sneakers, Retro outerwear",
+    "tips": "Shimokitazawa has evolved in recent years with the Shimokita Ekiue development near the station adding cafes and shops. Combine vintage shopping with the area's excellent coffee shops and live music venues.",
+    "mapsQuery": "Stick Out vintage Shimokitazawa Tokyo",
+    "tags": [
+      "vintage",
+      "shimokitazawa",
+      "workwear",
+      "military",
+      "curated"
+    ]
+  },
+  {
+    "name": "Disk Union Shinjuku",
+    "nameJa": "ディスクユニオン 新宿本館",
+    "category": "Records",
+    "neighborhood": "Shinjuku",
+    "nearestStation": "Shinjuku-sanchome Station (Toei Shinjuku/Marunouchi/Fukutoshin Line)",
+    "priceRange": "$-$$$",
+    "hours": "11:00-21:00 daily (some locations 12:00-20:00)",
+    "description": "The main Disk Union flagship is an eight-floor tower of vinyl and CDs in Shinjuku. Japan's largest chain of secondhand record stores with an astonishing inventory organized by genre across floors. Shinjuku alone has multiple Disk Union branches within a few blocks, each specializing in different genres. New and used vinyl, CDs, and music-related goods.",
+    "whatToBuy": "Vinyl records (new and used), Japanese pressings of Western albums, Rare Japanese releases, Music books and magazines, CDs at incredible prices",
+    "tips": "Shinjuku and Ochanomizu have the most Disk Union branches. Each branch specializes - jazz, rock, punk, soul, classical, etc. Japanese pressings of Western albums are prized for superior quality. Used CDs can be absurdly cheap (100-500 yen). 1-minute walk from exit A5 of Shinjuku-sanchome Station.",
+    "mapsQuery": "Disk Union Shinjuku main store Tokyo",
+    "tags": [
+      "records",
+      "vinyl",
+      "music",
+      "shinjuku",
+      "must-visit"
+    ]
+  },
+  {
+    "name": "Face Records Shibuya",
+    "nameJa": "Face Records 渋谷",
+    "category": "Records",
+    "neighborhood": "Shibuya",
+    "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
+    "priceRange": "$$-$$$",
+    "hours": "12:00-20:00 daily",
+    "description": "Well-respected independent record shop in Shibuya specializing in soul, funk, jazz, hip-hop, and club music. Known for knowledgeable staff and a carefully curated selection. A favorite among DJs and serious diggers. Less overwhelming than Disk Union, with every record in the bins worth looking at.",
+    "whatToBuy": "Soul and funk vinyl, Jazz records, Hip-hop vinyl, Japanese groove records, Rare DJ-friendly records",
+    "tips": "Face Records is a digger's paradise - smaller but every bin is worth going through. Staff recommendations are gold. If you're into soul, funk, or jazz vinyl, prioritize this over the bigger stores. Also has a location in Miyashita Park.",
+    "mapsQuery": "Face Records Shibuya Tokyo",
+    "tags": [
+      "records",
+      "vinyl",
+      "soul",
+      "funk",
+      "jazz",
+      "dj"
+    ]
+  },
+  {
+    "name": "Muji Ginza (World Flagship)",
+    "nameJa": "無印良品 銀座",
+    "category": "Lifestyle",
+    "neighborhood": "Ginza",
+    "nearestStation": "Ginza Station (Ginza/Marunouchi/Hibiya Line)",
+    "priceRange": "$-$$",
+    "hours": "10:00-21:00 daily",
+    "description": "The world's largest Muji store, spanning multiple floors in Ginza. Japan's beloved minimalist lifestyle brand at its most expansive. Includes the full range of clothing, home goods, stationery, and food, plus a Muji Diner restaurant, bakery, and even a Muji Hotel upstairs. Japan-exclusive products and the famous Muji food section (curry kits, snacks, teas) make this a must-visit.",
+    "whatToBuy": "Muji travel accessories, Japanese curry kits and food, Stationery (gel pens, notebooks), Aroma diffusers and essential oils, Skincare and beauty basics, Muji snacks (baumkuchen, dried fruits)",
+    "tips": "Muji prices in Japan are significantly cheaper than overseas. The food floor has excellent curry kits, snacks, and tea that make great lightweight souvenirs. The travel accessories section has clever packing solutions. The Muji Diner on the upper floor is a great lunch spot. Tax-free available.",
+    "mapsQuery": "Muji Ginza world flagship Tokyo",
+    "tags": [
+      "lifestyle",
+      "minimalist",
+      "ginza",
+      "food",
+      "stationery",
+      "travel-goods"
+    ]
+  }
+]

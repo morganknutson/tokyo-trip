@@ -1,0 +1,739 @@
+{
+  "electrical": "Japan uses Type A plugs (same as US/Canada - 2 flat prongs). Voltage is 100V (slightly lower than US 120V but all modern chargers, laptops, and phone chargers work perfectly with no adapter). No adapter needed for US travelers. European/UK travelers need a Type A adapter. Some older buildings only have 2-prong outlets (no grounding).",
+  "transportation": {
+    "suica": "Get a Suica or Pasmo IC card for seamless travel. For iPhone users, the new Welcome Suica Mobile app (launched March 2025) lets you create a virtual Suica card and top up via Apple Pay - no more hunting for physical cards. It stays valid for 180 days (vs 28 days for physical Welcome Suica). Physical cards available at JR station ticket machines (¥500 deposit). Works on all trains, buses, and at convenience stores/vending machines. By autumn 2025, the app added ticketless Shinkansen travel, and by spring 2026, Green Car support on local lines.",
+    "trainTips": "Tokyo's train system is world-class but complex. Key lines: JR Yamanote (the loop line connecting major stations), Tokyo Metro (9 lines), Toei Subway (4 lines). Google Maps is extremely accurate for routing and real-time delays. Trains run approximately 5am-midnight. Rush hour (7:30-9:30am) is intense - avoid with luggage. Train station signage is in English. Platform screens show upcoming trains and destinations.",
+    "lastTrains": "Last trains typically run around midnight-12:30am. Miss it and your options are: taxi (~¥3,000-8,000 depending on distance), late-night bus services, manga cafe or internet cafe (¥1,500-3,000 for overnight with free drinks), or capsule hotel. First trains resume around 5:00am. Google Maps will warn you when the last train is approaching.",
+    "apps": "Google Maps (best for train routing, extremely accurate), Welcome Suica Mobile (iPhone IC card), Navitime for Japan Travel (backup transit app with English), Japan Transit Planner"
+  },
+  "emergencyNumbers": {
+    "police": "110",
+    "ambulance": "119",
+    "embassy": "03-3224-5000 (US Embassy Tokyo)",
+    "tourist_helpline": "050-3816-2787 (Japan Visitor Hotline, 24/7, multilingual including English)"
+  },
+  "apps": [
+    {
+      "name": "Google Maps",
+      "description": "Essential for train routing - extremely accurate in Tokyo with real-time delay info. Shows walking routes, train transfers, platform numbers, and costs."
+    },
+    {
+      "name": "Welcome Suica Mobile",
+      "description": "Official JR East app (launched March 2025) for iPhone. Create a virtual Suica IC card for contactless transit payments and store purchases. Top up via Apple Pay. Valid 180 days."
+    },
+    {
+      "name": "Tabelog",
+      "description": "Japan's #1 restaurant review site with millions of reviews. Scores above 3.5 are excellent (top ~5% of restaurants). Scores above 4.0 are exceptional. Has English interface. More trusted locally than Google Reviews."
+    },
+    {
+      "name": "Navitime for Japan Travel",
+      "description": "Backup transit app with full English support. Good for multi-day trip planning and finding nearby stations."
+    },
+    {
+      "name": "Google Translate",
+      "description": "Camera mode for real-time translation of menus, signs, and labels. Download Japanese language pack offline before your trip. Conversation mode works well for basic communication."
+    },
+    {
+      "name": "Japan WiFi Auto-Connect",
+      "description": "Auto-connects to free WiFi hotspots at convenience stores, stations, and public spaces across Japan. Useful backup if your eSIM has data limits."
+    },
+    {
+      "name": "Suica (Apple Wallet)",
+      "description": "Alternative to Welcome Suica - add a Suica card directly to Apple Wallet. Works for transit, vending machines, and konbini payments. Requires iPhone 8 or later."
+    },
+    {
+      "name": "PayPay",
+      "description": "Japan's most popular QR payment app (70M+ users), accepted at 3.7M+ locations. Note: requires Japanese phone number to register. However, foreign e-wallet users (Alipay, WeChat Pay, GCash, etc.) can pay at PayPay merchants through partner integrations."
+    },
+    {
+      "name": "XE Currency",
+      "description": "Real-time currency conversion. Helpful for quickly checking prices when shopping. Download offline rates before your trip."
+    }
+  ],
+  "connectivity": {
+    "wifi": "Free WiFi is spotty outside hotels. Most konbini (7-Eleven, Lawson, FamilyMart) offer free WiFi. Starbucks and major train stations have free WiFi. Consider the Japan WiFi Auto-Connect app to automatically connect to free hotspots across the country.",
+    "esim": "Strongly recommended: Get an eSIM before you travel. Top options for 2025-2026: Airalo (SoftBank network, 5GB/30 days ~$8.50 with sign-up discount, good urban coverage), Ubigi (NTT DOCOMO network, 10GB/30 days ~$17, better rural coverage), or Sim Local (best value for money per GB). Data-only plans start from ~$4-5/week. Much easier than renting a pocket WiFi device. Activate before landing in Japan. Both Airalo and Ubigi have well-rated apps for setup."
+  },
+  "luggage": "Coin lockers are everywhere in train stations. Small (¥400), Medium (¥500), Large (¥700). Most now accept IC cards (Suica/Pasmo) in addition to coins. For oversized bags, use Yamato Transport (Kuroneko - look for the black cat logo) to ship luggage between hotels for ~¥2,000-3,000 per bag, same-day or next-day delivery. Hotels can arrange this for you. Also available at convenience stores.",
+  "usefulLinks": [
+    {
+      "name": "Japan Rail Pass Calculator",
+      "url": "https://www.japan-guide.com/railpass/"
+    },
+    {
+      "name": "Tokyo Metro Map (Official)",
+      "url": "https://www.tokyometro.jp/en/subwaymap/"
+    },
+    {
+      "name": "Tabelog Restaurant Search",
+      "url": "https://tabelog.com/en/tokyo/"
+    },
+    {
+      "name": "Japan Travel Official (JNTO)",
+      "url": "https://www.japan.travel/en/"
+    },
+    {
+      "name": "Hyperdia Train Search",
+      "url": "https://www.hyperdia.com/"
+    },
+    {
+      "name": "Oedo Antique Market Schedule",
+      "url": "https://www.antique-market.jp/english/"
+    },
+    {
+      "name": "Japan Tax-Free Info (JNTO)",
+      "url": "https://www.japan.travel/en/plan/japans-tax-exemption/"
+    }
+  ],
+  "etiquette": [
+    "Never tip - it's considered rude or confusing",
+    "Remove shoes when entering homes, some restaurants, and temples (look for shoe racks or a raised entrance area)",
+    "Stand on the left side of escalators in Tokyo (right side for walking) - reversed from Osaka",
+    "Don't eat while walking - stop to eat street food, find a bench, or eat at the stall",
+    "Bow slightly when greeting people - a small nod is fine for tourists",
+    "Don't talk on your phone on trains - set to silent mode (manner mode). Texting is fine",
+    "Don't blow your nose in public - go to the restroom or step aside discreetly",
+    "Sort your trash - Japan has specific bins for burnable, plastic bottles, cans, and glass. Trash cans are rare on streets; carry a small bag",
+    "Queue politely - line jumping is seriously frowned upon. Japanese queuing is immaculate",
+    "Use two hands when giving/receiving business cards, gifts, or money",
+    "Onsen etiquette: Wash thoroughly before entering the bath. No swimsuits. Small towels kept out of the water. Tattoos are increasingly accepted but check the specific onsen first - some have relaxed policies, others still prohibit",
+    "It's OK to slurp noodles loudly - it's considered a sign of enjoyment and cools the noodles",
+    "Say 'itadakimasu' (I humbly receive) before eating and 'gochisousama deshita' (thank you for the meal) after",
+    "Don't point at people - use an open hand gesture instead",
+    "Umbrellas: always use the umbrella stand/lock outside shops. Taking the wrong umbrella is a faux pas"
+  ],
+  "language": [
+    {
+      "phrase": "Hello",
+      "japanese": "こんにちは",
+      "pronunciation": "Konnichiwa"
+    },
+    {
+      "phrase": "Thank you",
+      "japanese": "ありがとうございます",
+      "pronunciation": "Arigatou gozaimasu"
+    },
+    {
+      "phrase": "Excuse me",
+      "japanese": "すみません",
+      "pronunciation": "Sumimasen"
+    },
+    {
+      "phrase": "Yes / No",
+      "japanese": "はい / いいえ",
+      "pronunciation": "Hai / Iie"
+    },
+    {
+      "phrase": "Please",
+      "japanese": "おねがいします",
+      "pronunciation": "Onegaishimasu"
+    },
+    {
+      "phrase": "Sorry",
+      "japanese": "ごめんなさい",
+      "pronunciation": "Gomen nasai"
+    },
+    {
+      "phrase": "I don't understand",
+      "japanese": "わかりません",
+      "pronunciation": "Wakarimasen"
+    },
+    {
+      "phrase": "Do you speak English?",
+      "japanese": "英語を話しますか？",
+      "pronunciation": "Eigo wo hanashimasu ka?"
+    },
+    {
+      "phrase": "How much?",
+      "japanese": "いくらですか？",
+      "pronunciation": "Ikura desu ka?"
+    },
+    {
+      "phrase": "Where is...?",
+      "japanese": "…はどこですか？",
+      "pronunciation": "...wa doko desu ka?"
+    },
+    {
+      "phrase": "Check please",
+      "japanese": "お会計おねがいします",
+      "pronunciation": "Okaikei onegaishimasu"
+    },
+    {
+      "phrase": "Delicious!",
+      "japanese": "おいしい！",
+      "pronunciation": "Oishii!"
+    },
+    {
+      "phrase": "One of these please",
+      "japanese": "これをひとつ",
+      "pronunciation": "Kore wo hitotsu"
+    },
+    {
+      "phrase": "Cheers!",
+      "japanese": "乾杯！",
+      "pronunciation": "Kanpai!"
+    },
+    {
+      "phrase": "Good morning",
+      "japanese": "おはようございます",
+      "pronunciation": "Ohayou gozaimasu"
+    },
+    {
+      "phrase": "Good evening",
+      "japanese": "こんばんは",
+      "pronunciation": "Konbanwa"
+    },
+    {
+      "phrase": "Goodbye",
+      "japanese": "さようなら",
+      "pronunciation": "Sayounara"
+    },
+    {
+      "phrase": "Beer please",
+      "japanese": "ビールください",
+      "pronunciation": "Biiru kudasai"
+    },
+    {
+      "phrase": "This one please",
+      "japanese": "これください",
+      "pronunciation": "Kore kudasai"
+    },
+    {
+      "phrase": "Bathroom",
+      "japanese": "トイレ",
+      "pronunciation": "Toire"
+    }
+  ],
+  "weather": "Late February in Tokyo: Cold but mild compared to many Western cities. Temperatures around 2-10°C (35-50°F). Occasional rain, rare snow. Low humidity. Pack layers, a warm jacket, and a compact umbrella. Not as cold as many expect. Some early plum blossoms (ume) may be blooming at shrines and parks - a beautiful preview of cherry blossom season coming in late March. Sunset around 5:30pm.",
+  "money": {
+    "cashVsCard": "Japan is increasingly card-friendly but still significantly cash-dependent, especially at small restaurants, ramen shops, izakayas, shrines, markets, and many smaller businesses. Always carry ¥10,000-20,000 in cash. 7-Eleven ATMs (Seven Bank) and Japan Post ATMs reliably accept foreign Visa/Mastercard. Convenience store ATMs are available 24/7 in most locations. Visa/Mastercard tap-to-pay acceptance is growing rapidly in 2025-2026.",
+    "tipping": "Never tip in Japan. It can be considered rude or confusing. Service charges are included where applicable. Exceptional service is simply the cultural standard.",
+    "taxFree": "Spend ¥5,000+ (before tax) at a single participating store in one day to get the 10% consumption tax exempted. Look for 'Tax-Free' or '免税' signs. Bring your passport. Major changes coming November 2026: new refund system at airports instead of in-store exemption, potentially allowing combined spending across multiple shops. Current system: show passport at tax-free counter, items are sealed in a bag (consumables) or recorded electronically."
+  },
+  "airportDirections": {
+    "narita": {
+      "title": "From Narita (NRT)",
+      "options": [
+        {
+          "method": "Narita Express (N'EX) + Metro",
+          "time": "~90 min",
+          "cost": "~¥3,250",
+          "steps": "Narita Express to Tokyo Station (~60 min, ¥3,250). Transfer to Marunouchi Line toward Ogikubo. Ride 3 stops to Akasaka-mitsuke (~7 min). Walk 5 min to hotel.",
+          "recommended": true
+        },
+        {
+          "method": "Keisei Skyliner + Metro",
+          "time": "~80 min",
+          "cost": "~¥2,720",
+          "steps": "Skyliner to Ueno (~41 min, ¥2,520). Transfer to Ginza Line toward Shibuya. Ride to Akasaka-mitsuke (~15 min, ¥200). Walk 5 min to hotel."
+        },
+        {
+          "method": "Airport Limousine Bus",
+          "time": "~100-120 min",
+          "cost": "~¥3,200",
+          "steps": "Limousine Bus to Akasaka Excel Hotel Tokyu or ANA InterContinental (~100 min). Short walk/taxi to hotel. Comfortable but slower, can get stuck in traffic."
+        }
+      ]
+    },
+    "haneda": {
+      "title": "From Haneda (HND)",
+      "options": [
+        {
+          "method": "Keikyu Line + Metro",
+          "time": "~45 min",
+          "cost": "~¥650",
+          "steps": "Keikyu Airport Line to Shinagawa (~15 min). Transfer to JR Yamanote or Ginza Line. Easiest: Yamanote to Shimbashi, then Ginza Line to Akasaka-mitsuke. Walk 5 min to hotel.",
+          "recommended": true
+        },
+        {
+          "method": "Tokyo Monorail + Metro",
+          "time": "~50 min",
+          "cost": "~¥700",
+          "steps": "Monorail to Hamamatsucho (~18 min). Walk to Daimon Station. Toei Oedo Line to Roppongi or Aoyama-itchome, then short transfer or walk."
+        },
+        {
+          "method": "Taxi",
+          "time": "~30-40 min",
+          "cost": "~¥6,000-8,000",
+          "steps": "Direct to hotel. Most convenient, especially late at night or with heavy luggage. Fixed-rate highway taxis available."
+        }
+      ]
+    }
+  },
+  "neighborhoods": {
+    "akasaka": {
+      "title": "Akasaka — Your Home Base",
+      "description": "A central, well-connected neighborhood mixing business hotels, government buildings, and excellent dining. Quieter than Shinjuku/Shibuya but perfectly positioned to reach everywhere fast.",
+      "stations": "Akasaka-mitsuke (Ginza + Marunouchi Lines), Akasaka (Chiyoda Line), Tameike-Sanno (Ginza + Namboku Lines)",
+      "walkable": [
+        "Hie Shrine (日枝神社) — 5 min walk, beautiful hilltop shrine with unique tunnel of torii gates",
+        "TBS Akasaka Sacas — 3 min, entertainment complex with restaurants",
+        "Akasaka Biz Tower — 5 min, dining and shopping",
+        "Roppongi — 15 min walk (or 1 stop on Chiyoda Line)",
+        "Nagatacho / National Diet — 10 min walk",
+        "Aoyama-itchome — 10 min walk",
+        "Toraya Akasaka — 5 min, legendary wagashi (traditional sweets) shop"
+      ],
+      "nearbyFood": "The Akasaka area has tons of lunch spots for salarymen. Walk toward Roppongi for nightlife dining, or toward Ginza (2 stops on Ginza Line) for high-end sushi and tempura.",
+      "lateNight": "Akasaka itself quiets down at night, but Roppongi is a 15 min walk for late-night bars and clubs."
+    },
+    "shibuya": {
+      "title": "Shibuya — Conference Area",
+      "description": "Trunk Hotel is on Cat Street in Jingumae, the stylish backstreet corridor between Shibuya and Harajuku. This is one of the best areas in Tokyo.",
+      "gettingThere": "From Akasaka-mitsuke: Ginza Line to Omotesando (10 min, 3 stops), walk 8 min to Trunk Hotel. OR Hanzomon Line from Nagatacho to Shibuya (direct, 10 min), walk 10 min.",
+      "nearTrunk": [
+        "Cat Street — right outside, independent boutiques and cafes",
+        "Omotesando — 5 min walk, luxury brand flagships and stunning architecture",
+        "Harajuku / Takeshita Street — 10 min walk",
+        "Shibuya Crossing — 10 min walk",
+        "Meiji Shrine / Yoyogi Park — 15 min walk",
+        "Nezu Museum — 10 min walk",
+        "Shibuya Sky — 12 min walk"
+      ],
+      "afterConference": "Post-conference drinks: the streets between Cat Street and Shibuya are packed with izakayas and bars. Nonbei Yokocho (Drunkard's Alley) near the station is great for tiny atmospheric bars."
+    }
+  },
+  "itineraries": [
+    {
+      "day": "Sun 15 — Arrival Day",
+      "theme": "Settle In + Akasaka Area",
+      "slots": [
+        {
+          "time": "3:00 PM",
+          "activity": "Arrive and check in at Hotel Mystays Akasaka"
+        },
+        {
+          "time": "4:00 PM",
+          "activity": "Walk to Hie Shrine (5 min), peaceful hilltop shrine"
+        },
+        {
+          "time": "5:00 PM",
+          "activity": "Explore Akasaka Sacas / Biz Tower area"
+        },
+        {
+          "time": "6:30 PM",
+          "activity": "Dinner nearby — try a local ramen or izakaya to start easy"
+        },
+        {
+          "time": "8:00 PM",
+          "activity": "Walk to Roppongi for Tokyo Tower night views from Roppongi Hills area, or just rest up"
+        }
+      ]
+    },
+    {
+      "day": "Mon 16 — Free Afternoon, Conference Evening",
+      "theme": "Ginza + Tsukiji, then Conference",
+      "slots": [
+        {
+          "time": "10:00 AM",
+          "activity": "Ginza Line to Tsukiji — Tsukiji Outer Market for breakfast/brunch (try tamagoyaki, fresh sushi)"
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Walk to Ginza — Itoya (stationery), Uniqlo flagship, Mitsukoshi depachika"
+        },
+        {
+          "time": "2:00 PM",
+          "activity": "Cafe de l'Ambre for legendary aged coffee, or Star Bar Ginza"
+        },
+        {
+          "time": "3:30 PM",
+          "activity": "Head back to hotel to freshen up"
+        },
+        {
+          "time": "Evening",
+          "activity": "Conference @ Trunk Hotel, Shibuya"
+        }
+      ]
+    },
+    {
+      "day": "Thu 19 — Free Day 1",
+      "theme": "East Tokyo: Asakusa → Ueno → Akihabara",
+      "slots": [
+        {
+          "time": "6:00 AM",
+          "activity": "Optional: Senso-ji at dawn (magical, empty, incredible photos)"
+        },
+        {
+          "time": "8:00 AM",
+          "activity": "Nakamise-dori for traditional snacks, explore Asakusa backstreets"
+        },
+        {
+          "time": "10:00 AM",
+          "activity": "Walk along Sumida River toward Skytree (great photos from river)"
+        },
+        {
+          "time": "11:30 AM",
+          "activity": "Train to Ueno — Ameyoko Market for street food lunch"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Ueno Park museums: Tokyo National Museum or National Museum of Nature and Science"
+        },
+        {
+          "time": "3:30 PM",
+          "activity": "Train to Akihabara — Super Potato (retro games), arcades, manga shops"
+        },
+        {
+          "time": "6:00 PM",
+          "activity": "Train to Shinjuku for dinner — Fuunji tsukemen or Omoide Yokocho yakitori"
+        },
+        {
+          "time": "8:30 PM",
+          "activity": "Golden Gai bar-hopping (start at Albatross, then Death Match in Hell)"
+        }
+      ]
+    },
+    {
+      "day": "Fri 20 — Free Day 2",
+      "theme": "West Tokyo: Harajuku → Shibuya → Shimokitazawa → Shinjuku",
+      "slots": [
+        {
+          "time": "9:00 AM",
+          "activity": "Meiji Shrine morning walk (peaceful, forested)"
+        },
+        {
+          "time": "10:30 AM",
+          "activity": "Harajuku — Takeshita Street, Cat Street, vintage shops"
+        },
+        {
+          "time": "12:00 PM",
+          "activity": "Omotesando architecture walk + lunch at Maisen (tonkatsu) or Harajuku Gyoza Lou"
+        },
+        {
+          "time": "2:00 PM",
+          "activity": "Shibuya Sky for aerial views, then experience Shibuya Crossing"
+        },
+        {
+          "time": "3:30 PM",
+          "activity": "Train to Shimokitazawa — vintage shopping, Bear Pond Espresso, indie vibes"
+        },
+        {
+          "time": "5:30 PM",
+          "activity": "Train to Shinjuku — explore Kabukicho neon district"
+        },
+        {
+          "time": "7:00 PM",
+          "activity": "Dinner: Gyukatsu Motomura (beef cutlet) or try the Zauo fishing restaurant"
+        },
+        {
+          "time": "9:00 PM",
+          "activity": "New York Bar at Park Hyatt (Lost in Translation vibes) or Golden Gai round 2"
+        }
+      ]
+    },
+    {
+      "day": "Sat 21 — Free Day 3",
+      "theme": "Option A: Kamakura Day Trip / Option B: Deep Tokyo",
+      "slots": [
+        {
+          "time": "",
+          "activity": "OPTION A — KAMAKURA DAY TRIP"
+        },
+        {
+          "time": "8:00 AM",
+          "activity": "JR Yokosuka Line from Tokyo Station to Kamakura (~1hr)"
+        },
+        {
+          "time": "9:30 AM",
+          "activity": "Hokoku-ji bamboo temple + matcha in the bamboo grove"
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Great Buddha at Kotoku-in"
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Komachi-dori street for lunch and shopping"
+        },
+        {
+          "time": "2:00 PM",
+          "activity": "Hase-dera temple, then Enoden tram along the coast"
+        },
+        {
+          "time": "4:00 PM",
+          "activity": "Train back to Tokyo, evening in Ebisu (Afuri ramen, Ebisu Yokocho)"
+        },
+        {
+          "time": "",
+          "activity": "— OR —"
+        },
+        {
+          "time": "",
+          "activity": "OPTION B — DEEP TOKYO"
+        },
+        {
+          "time": "9:00 AM",
+          "activity": "Yanaka — old Tokyo neighborhood, Yanaka Ginza shopping street, cats"
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Jimbocho — book district, Sabouru kissaten"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Koenji — vintage shops, counterculture vibes, lunch at a local spot"
+        },
+        {
+          "time": "3:00 PM",
+          "activity": "Nakano Broadway — underground manga/collectibles haven"
+        },
+        {
+          "time": "5:00 PM",
+          "activity": "Kiyosumi-Shirakawa — Blue Bottle Coffee, gallery neighborhood"
+        },
+        {
+          "time": "7:00 PM",
+          "activity": "Last big dinner: splurge at Yoroniku (wagyu), or Kagaya (insane performance izakaya)"
+        }
+      ]
+    },
+    {
+      "day": "Sun 22 — Departure Day",
+      "theme": "Last Morning",
+      "slots": [
+        {
+          "time": "Early",
+          "activity": "If time: 7-Eleven breakfast run (egg sandwich + onigiri + Boss coffee)"
+        },
+        {
+          "time": "Morning",
+          "activity": "Last walk around Akasaka, pick up any Tokyo Banana or KitKat souvenirs at the station"
+        },
+        {
+          "time": "",
+          "activity": "Head to airport (reverse your arrival route)"
+        }
+      ]
+    }
+  ],
+  "reservations": [
+    {
+      "name": "Den (傳)",
+      "urgency": "ASAP",
+      "how": "Book via their website. One of the hardest reservations in Tokyo. Try months ahead.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Narisawa",
+      "urgency": "ASAP",
+      "how": "Book via their website well in advance.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Florilege",
+      "urgency": "ASAP",
+      "how": "Reserve through their website. Counter seats facing the kitchen are best.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Sushi Yoshitake",
+      "urgency": "ASAP",
+      "how": "Three Michelin stars. Try hotel concierge or booking service. ¥30,000+ per person.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Kagaya (かがや)",
+      "urgency": "ASAP",
+      "how": "Email well in advance. Insane comedy izakaya, very hard to get.",
+      "price": "¥¥"
+    },
+    {
+      "name": "Ghibli Museum",
+      "urgency": "ASAP",
+      "how": "Tickets sold online, limited daily, often sell out months ahead.",
+      "price": "¥1,000"
+    },
+    {
+      "name": "Sushi Saito",
+      "urgency": "Extremely hard",
+      "how": "Typically requires a concierge at a top hotel. Near-impossible for tourists.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Birdland (yakitori)",
+      "urgency": "2-3 weeks ahead",
+      "how": "Reservations essential. Located in Ginza basement.",
+      "price": "¥¥¥"
+    },
+    {
+      "name": "Yoroniku (wagyu)",
+      "urgency": "2-3 weeks ahead",
+      "how": "Reservation essential, book weeks in advance.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Ushigoro (yakiniku)",
+      "urgency": "1-2 weeks ahead",
+      "how": "Reservations essential, especially weekends.",
+      "price": "¥¥¥¥"
+    },
+    {
+      "name": "Gen Yamamoto (cocktails)",
+      "urgency": "1-2 weeks ahead",
+      "how": "Reservation essential. 4-cocktail course ~¥4,400.",
+      "price": "¥¥¥"
+    },
+    {
+      "name": "Star Bar Ginza",
+      "urgency": "1 week ahead",
+      "how": "Reservations strongly recommended. No photos.",
+      "price": "¥¥¥"
+    },
+    {
+      "name": "Blue Note Tokyo",
+      "urgency": "Check lineup",
+      "how": "Book ahead for big-name acts.",
+      "price": "¥¥¥"
+    },
+    {
+      "name": "teamLab Borderless",
+      "urgency": "1-2 weeks ahead",
+      "how": "Book tickets online, sells out fast.",
+      "price": "~¥3,800"
+    },
+    {
+      "name": "Shibuya Sky",
+      "urgency": "A few days ahead",
+      "how": "Book online to save money and skip lines. Sunset slots go fast.",
+      "price": "~¥2,000"
+    }
+  ],
+  "packingList": {
+    "essentials": [
+      "Passport (needed for tax-free shopping too)",
+      "eSIM activated before departure",
+      "Portable battery pack (you will use your phone constantly)",
+      "Compact umbrella (occasional Feb rain)",
+      "Comfortable walking shoes (you will walk 15,000-25,000 steps/day)"
+    ],
+    "clothing": [
+      "Warm jacket or coat (2-10°C / 35-50°F)",
+      "Layers — sweater, long sleeve, light base layer",
+      "Scarf and light gloves (mornings are cold)",
+      "One nicer outfit for fine dining (Den, Narisawa, etc.)",
+      "Slip-on shoes (easy to remove at temples, some restaurants)",
+      "Moisture-wicking socks (lots of walking)"
+    ],
+    "tech": [
+      "No power adapter needed (US plugs work in Japan)",
+      "Download Google Maps offline map for Tokyo",
+      "Download Google Translate Japanese offline pack",
+      "Set up Suica in Apple Wallet before you go"
+    ],
+    "misc": [
+      "Small day bag / packable tote (for shopping)",
+      "Ziplock bag for trash (public bins are rare)",
+      "Hand towel / handkerchief (many restrooms lack paper towels)",
+      "Cash: withdraw ¥20,000-30,000 on arrival at 7-Eleven ATM",
+      "Motion sickness meds if needed (some trains are crowded)",
+      "Business cards if attending conference"
+    ]
+  },
+  "rainyDay": [
+    {
+      "activity": "teamLab Borderless or Planets",
+      "why": "Fully indoor immersive art, 2-3 hours"
+    },
+    {
+      "activity": "Museum day in Ueno",
+      "why": "Tokyo National Museum + National Museum of Nature and Science, covered walkways"
+    },
+    {
+      "activity": "Depachika food hall crawl",
+      "why": "Mitsukoshi Ginza, Isetan Shinjuku, Takashimaya — spend hours sampling free food"
+    },
+    {
+      "activity": "Akihabara arcade + shopping",
+      "why": "Multi-floor arcades, manga shops, electronics — all indoors"
+    },
+    {
+      "activity": "Onsen / Sento",
+      "why": "Thermae-Yu in Kabukicho (open 24hr), Spa LaQua at Tokyo Dome — perfect rainy day"
+    },
+    {
+      "activity": "Ramen crawl",
+      "why": "Hit 2-3 ramen shops across different styles. Small bowls, duck between rain"
+    },
+    {
+      "activity": "Shibuya Sky + shopping",
+      "why": "Observation deck, then Shibuya 109, Tokyu Hands, Loft — all connected"
+    },
+    {
+      "activity": "Kissaten (coffee house) hopping",
+      "why": "Cafe de l'Ambre, Chatei Hatou, Kayaba Coffee — old-school Tokyo charm"
+    },
+    {
+      "activity": "Ghibli Museum",
+      "why": "Indoor, magical, and rain adds to the Miyazaki atmosphere"
+    },
+    {
+      "activity": "Karaoke",
+      "why": "Big Echo or Joysound, get a private room for 2-3 hours with unlimited drinks"
+    }
+  ],
+  "budget": {
+    "daily": {
+      "budget": {
+        "amount": "¥5,000-8,000",
+        "usd": "~$33-53",
+        "description": "Konbini meals, standing sushi, ramen, free sights, walking"
+      },
+      "moderate": {
+        "amount": "¥12,000-18,000",
+        "usd": "~$80-120",
+        "description": "Mix of casual and sit-down restaurants, 1-2 paid attractions, metro pass"
+      },
+      "splurge": {
+        "amount": "¥25,000-50,000+",
+        "usd": "~$165-330+",
+        "description": "Fine dining (omakase, kaiseki), cocktail bars, premium experiences"
+      }
+    },
+    "references": [
+      "Ramen bowl: ¥850-1,500",
+      "Conveyor belt sushi: ¥1,000-2,500",
+      "Nice izakaya dinner + drinks: ¥3,000-6,000",
+      "Omakase sushi: ¥15,000-40,000+",
+      "Konbini meal: ¥500-800",
+      "Coffee (kissaten): ¥500-900",
+      "Craft beer: ¥700-1,200",
+      "Metro single ride: ¥170-320",
+      "24hr metro pass: ¥600 (Tokyo Metro only)",
+      "Taxi base fare: ¥500 (then ~¥100/400m)",
+      "Coin locker: ¥400-700"
+    ]
+  },
+  "keyStations": [
+    {
+      "line": "Ginza Line (orange)",
+      "from": "Akasaka-mitsuke",
+      "note": "Your main line. Direct to Shibuya (conference), Omotesando, Ginza, Ueno. Runs right past your hotel."
+    },
+    {
+      "line": "Marunouchi Line (red)",
+      "from": "Akasaka-mitsuke",
+      "note": "Direct to Tokyo Station (Shinkansen, Narita Express), Shinjuku, Ikebukuro. Also at your station."
+    },
+    {
+      "line": "Chiyoda Line (green)",
+      "from": "Akasaka (1 stop away)",
+      "note": "Direct to Meiji-jingumae (Harajuku), Omotesando, Roppongi area (Nogizaka)."
+    },
+    {
+      "line": "Namboku Line (teal)",
+      "from": "Tameike-Sanno (5 min walk)",
+      "note": "Direct to Roppongi-itchome (teamLab Borderless at Azabudai Hills)."
+    },
+    {
+      "line": "Hanzomon Line (purple)",
+      "from": "Nagatacho (7 min walk)",
+      "note": "Direct to Shibuya, Omotesando, Oshiage (Skytree). Fast Shibuya route."
+    },
+    {
+      "line": "JR Yamanote Loop (green loop)",
+      "from": "Nearest: Shimbashi or Yotsuya",
+      "note": "The big loop connecting all major areas: Shibuya, Shinjuku, Ikebukuro, Ueno, Tokyo, Akihabara. Transfer to it from Ginza Line."
+    }
+  ]
+}
