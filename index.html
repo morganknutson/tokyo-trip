@@ -330,13 +330,20 @@ body{
   font-size:0.75rem;
   color:var(--text-tertiary);
   display:flex;
-  align-items:center;
+  align-items:flex-start;
   gap:4px;
 }
-.card-location svg{width:11px;height:11px;flex-shrink:0}
+.card-location svg{width:11px;height:11px;flex-shrink:0;margin-top:2px}
 
+.card-ratings{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:6px;
+  min-height:0;
+}
 .card-vibe{
-  display:flex;gap:3px;margin-left:auto;padding-top:2px;
+  display:flex;gap:3px;
 }
 .card-vibe .dot{
   width:6px;height:6px;border-radius:50%;
@@ -429,7 +436,7 @@ body{
 .weirdness{
   display:flex;align-items:center;gap:5px;
   font-size:0.7rem;color:var(--text-tertiary);
-  margin-left:6px;
+  margin-left:auto;
 }
 .weirdness-bar{
   display:flex;gap:2px;
@@ -448,11 +455,10 @@ body{
   backdrop-filter:blur(20px);
   -webkit-backdrop-filter:blur(20px);
   border-top:1px solid var(--border);
-  display:flex;
-  justify-content:space-around;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
   padding:8px 0 calc(8px + var(--safe-bottom));
   z-index:100;
-  height:calc(var(--nav-height) + var(--safe-bottom));
 }
 .nav-item{
   display:flex;flex-direction:column;align-items:center;gap:3px;
@@ -462,7 +468,7 @@ body{
   font-size:0.65rem;
   font-weight:500;
   cursor:pointer;
-  padding:4px 12px;
+  padding:4px 0;
   transition:color 0.2s;
   -webkit-tap-highlight-color:transparent;
   letter-spacing:0.04em;
@@ -752,9 +758,93 @@ body{
   min-height:1.2em;transition:opacity 0.2s;
 }
 
+/* Nav expanded grid */
+.nav-drawer{
+  grid-column:1 / -1;
+  overflow:hidden;
+  max-height:0;
+  transition:max-height 0.35s cubic-bezier(0.4,0,0.2,1), padding 0.35s cubic-bezier(0.4,0,0.2,1);
+  padding:0;
+}
+.bottom-nav.expanded .nav-drawer{
+  max-height:400px;
+  padding:16px 0 100px;
+}
+.nav-divider{
+  height:1px;
+  background:var(--border);
+  margin:0 16px 12px;
+}
+.nav-drawer-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:4px 0;
+  padding:0 4px;
+}
+.info-grid-item{
+  background:none;
+  border:1px solid transparent;
+  border-radius:var(--radius-sm);
+  padding:10px 4px 8px;
+  display:flex;flex-direction:column;align-items:center;gap:5px;
+  cursor:pointer;transition:all 0.2s;
+  -webkit-tap-highlight-color:transparent;
+}
+.info-grid-item:active{background:var(--surface-hover)}
+.info-grid-item.active{border-color:var(--accent);background:var(--accent-glow)}
+.info-grid-item svg{width:20px;height:20px;color:var(--text-tertiary)}
+.info-grid-item.active svg{color:var(--accent)}
+.info-grid-item span{
+  font-size:0.6rem;font-weight:500;
+  color:var(--text-tertiary);
+  text-transform:uppercase;letter-spacing:0.03em;
+  text-align:center;line-height:1.3;
+}
+.info-grid-item.active span{color:var(--accent)}
+.nav-more-btn{
+  display:flex;flex-direction:column;align-items:center;gap:3px;
+  background:none;border:none;
+  color:var(--text-tertiary);
+  font-family:'Outfit',sans-serif;
+  font-size:0.65rem;font-weight:500;
+  cursor:pointer;padding:4px 0;
+  transition:color 0.2s;
+  -webkit-tap-highlight-color:transparent;
+  letter-spacing:0.04em;
+  text-transform:uppercase;
+}
+.nav-more-icons{display:flex;align-items:center;gap:2px}
+.nav-more-chevron{width:16px;height:16px;transition:transform 0.3s}
+.nav-more-btn.open .nav-more-chevron{transform:rotate(180deg)}
+.nav-more-icon{display:none}
+.nav-more-icon svg{width:20px;height:20px}
+.nav-more-icon.has-icon{display:block}
+.nav-more-btn:hover{color:var(--text-secondary)}
+.nav-more-btn.active{color:var(--accent)}
+
+/* Info page header */
+.info-page-header{
+  padding:20px 20px 0;
+}
+.info-page-header h1{
+  font-family:'Fraunces',serif;
+  font-size:1.6rem;
+  font-weight:700;
+  margin-bottom:4px;
+}
+.info-page-header p{
+  font-size:0.84rem;
+  color:var(--text-secondary);
+  margin-bottom:20px;
+}
+
+/* Info page sections - hide by default when page system active */
+.info-page-group{display:none}
+.info-page-group.active{display:block}
+
 /* Desktop max width */
 @media(min-width:600px){
-  .header,.controls,.cards,.info-section{max-width:520px;margin-left:auto;margin-right:auto}
+  .header,.controls,.cards,.info-section,.info-page-header{max-width:520px;margin-left:auto;margin-right:auto}
   .bottom-nav{max-width:520px;left:50%;transform:translateX(-50%);border-radius:16px 16px 0 0}
 }
 </style>
@@ -813,7 +903,7 @@ body{
 <div id="tabShop" class="tab-content"><div class="cards" id="shopCards"></div></div>
 <div id="tabInfo" class="tab-content"><div id="infoContent"></div></div>
 
-<nav class="bottom-nav">
+<nav class="bottom-nav" id="bottomNav">
   <button class="nav-item active" data-tab="Food">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><path d="M6 1v3M10 1v3M14 1v3"/></svg>
     Food
@@ -830,10 +920,17 @@ body{
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18M16 10a4 4 0 01-8 0"/></svg>
     Shop
   </button>
-  <button class="nav-item" data-tab="Info">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-    Info
+  <button class="nav-more-btn" id="navMore">
+    <div class="nav-more-icons">
+      <span id="navMoreIcon" class="nav-more-icon"></span>
+      <svg class="nav-more-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+    </div>
+    <span id="navMoreLabel">More</span>
   </button>
+  <div class="nav-drawer" id="navDrawer">
+    <div class="nav-divider"></div>
+    <div class="nav-drawer-grid" id="navDrawerGrid"></div>
+  </div>
 </nav>
 
 <script>
@@ -883,8 +980,19 @@ const state = {
   search: '',
   favorites: JSON.parse(localStorage.getItem('tokyoFavs') || '{}'),
   data: { food: [], sights: [], nightlife: [], shopping: [], hidden: [], practical: null },
-  expanded: {}
+  expanded: {},
+  infoPage: 'stay'
 };
+
+const infoPages = [
+  { id:'stay', label:'Stay', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>' },
+  { id:'transport', label:'Transport', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="14" rx="2"/><circle cx="8.5" cy="20" r="1.5"/><circle cx="15.5" cy="20" r="1.5"/><path d="M4 11h16"/></svg>' },
+  { id:'itineraries', label:'Itineraries', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>' },
+  { id:'money', label:'Money', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>' },
+  { id:'packing', label:'Packing', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>' },
+  { id:'phrases', label:'Phrases', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5h12M9 3v2m1.048 3.5A18.24 18.24 0 016 20.5M3 17c1-1.5 3-3.5 5-4.5"/><path d="M14 3l7 14h-14"/></svg>' },
+  { id:'essentials', label:'Essentials', icon:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>' },
+];
 
 function saveFavs() {
   localStorage.setItem('tokyoFavs', JSON.stringify(state.favorites));
@@ -1001,9 +1109,8 @@ function renderCard(item, idx) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
               ${item.neighborhood}${item.nearestStation ? ' · ' + item.nearestStation : ''}
             </span>
-            ${vibeHtml ? `<span class="card-vibe">${vibeHtml}</span>` : ''}
-            ${weirdHtml}
           </div>
+          ${vibeHtml || weirdHtml ? `<div class="card-ratings">${vibeHtml ? `<span class="card-vibe">${vibeHtml}</span>` : '<span></span>'}${weirdHtml}</div>` : ''}
         </div>
         <button class="card-fav ${fav ? 'active' : ''}" onclick="event.stopPropagation();toggleFav(getItemById('${id}'),this)">
           <svg viewBox="0 0 24 24" fill="${fav ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
@@ -1095,26 +1202,86 @@ function setTab(tab) {
   document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
   document.getElementById('tab' + tab).classList.add('active');
   document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.tab === tab));
+  document.getElementById('navMore').classList.toggle('active', tab === 'Info');
+  closeInfoPanel();
   render();
   window.scrollTo({top:0});
 }
 
+// Nav drawer functions
+function toggleInfoPanel() {
+  state.infoPanelOpen = !state.infoPanelOpen;
+  document.getElementById('bottomNav').classList.toggle('expanded', state.infoPanelOpen);
+  document.getElementById('navMore').classList.toggle('open', state.infoPanelOpen);
+  if (state.infoPanelOpen) renderInfoPanel();
+}
+
+function closeInfoPanel() {
+  state.infoPanelOpen = false;
+  document.getElementById('bottomNav').classList.remove('expanded');
+  document.getElementById('navMore').classList.remove('open');
+}
+
+function renderInfoPanel() {
+  document.getElementById('navDrawerGrid').innerHTML = infoPages.map(p => `
+    <div class="info-grid-item ${state.infoPage === p.id ? 'active' : ''}" onclick="selectInfoPage('${p.id}')">
+      ${p.icon}
+      <span>${p.label}</span>
+    </div>
+  `).join('');
+}
+
+function updateMoreIcon() {
+  const page = infoPages.find(p => p.id === state.infoPage);
+  const iconEl = document.getElementById('navMoreIcon');
+  if (page) {
+    iconEl.innerHTML = page.icon;
+    iconEl.classList.add('has-icon');
+  }
+}
+
+function selectInfoPage(pageId) {
+  state.infoPage = pageId;
+  closeInfoPanel();
+  const page = infoPages.find(p => p.id === pageId);
+  document.getElementById('navMoreLabel').textContent = page.label;
+  updateMoreIcon();
+  if (state.tab !== 'Info') {
+    setTab('Info');
+  } else {
+    render();
+    window.scrollTo({top:0});
+  }
+}
+
+// Info page renderers
 function renderInfo() {
   const p = state.data.practical;
   if (!p) return;
   const el = document.getElementById('infoContent');
+  const page = state.infoPage || 'stay';
   const lineColors = {'Ginza Line (orange)':'#f39c12','Marunouchi Line (red)':'#e74c3c','Chiyoda Line (green)':'#27ae60','Namboku Line (teal)':'#1abc9c','Hanzomon Line (purple)':'#8e44ad','JR Yamanote Loop (green loop)':'#80c341'};
 
-  el.innerHTML = `
-    <div class="header" style="padding-top:0">
-      <h1 style="font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;margin-bottom:4px">Practical Info</h1>
-      <p style="font-size:0.84rem;color:var(--text-secondary);margin-bottom:20px">Everything you need to know for your Tokyo trip.</p>
-    </div>
+  const titles = {
+    stay: ['Your Stay', 'Hotel, conference venue & neighborhoods.'],
+    transport: ['Getting Around', 'Trains, metro lines & airport transfers.'],
+    itineraries: ['Itineraries', 'Suggested daily plans for your trip.'],
+    money: ['Money & Budget', 'Budget, prices, reservations & payments.'],
+    packing: ['Packing & Weather', 'What to bring and what to expect.'],
+    phrases: ['Language & Culture', 'Key phrases and etiquette tips.'],
+    essentials: ['Essentials', 'Connectivity, apps, emergency info & more.'],
+  };
 
+  const [title, subtitle] = titles[page] || titles.stay;
+
+  let html = `<div class="info-page-header"><h1>${title}</h1><p>${subtitle}</p></div>`;
+
+  if (page === 'stay') {
+    html += `
     <div class="info-section">
       <div class="info-section-title">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        Your Stay
+        Accommodation
       </div>
       <div class="info-card">
         <h4>Hotel</h4>
@@ -1129,7 +1296,28 @@ function renderInfo() {
         <div style="margin-top:10px"><a href="https://www.google.com/maps/search/Trunk+Hotel+Shibuya+Tokyo" target="_blank" rel="noopener" class="btn-directions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Directions</a></div>
       </div>
     </div>
+    ${p.neighborhoods ? `
+    <div class="info-section">
+      <div class="info-section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Your Neighborhoods
+      </div>
+      ${Object.values(p.neighborhoods).map(n => `
+        <div class="info-card">
+          <h4>${n.title}</h4>
+          <p style="margin-bottom:10px">${n.description}</p>
+          ${n.stations ? `<p style="font-size:0.75rem;color:var(--accent);margin-bottom:8px"><strong>Stations:</strong> ${n.stations}</p>` : ''}
+          ${n.gettingThere ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-bottom:8px"><strong style="color:var(--text)">Getting there:</strong> ${n.gettingThere}</p>` : ''}
+          ${(n.walkable || n.nearTrunk || []).map(w => `<div class="hood-item">${w}</div>`).join('')}
+          ${n.nearbyFood ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-top:10px">${n.nearbyFood}</p>` : ''}
+          ${n.afterConference ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-top:8px"><strong style="color:var(--text)">After conference:</strong> ${n.afterConference}</p>` : ''}
+        </div>
+      `).join('')}
+    </div>` : ''}`;
+  }
 
+  if (page === 'transport') {
+    html += `
     ${p.airportDirections ? `
     <div class="info-section">
       <div class="info-section-title">
@@ -1155,25 +1343,6 @@ function renderInfo() {
       `).join('')}
     </div>` : ''}
 
-    ${p.neighborhoods ? `
-    <div class="info-section">
-      <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        Your Neighborhoods
-      </div>
-      ${Object.values(p.neighborhoods).map(n => `
-        <div class="info-card">
-          <h4>${n.title}</h4>
-          <p style="margin-bottom:10px">${n.description}</p>
-          ${n.stations ? `<p style="font-size:0.75rem;color:var(--accent);margin-bottom:8px"><strong>Stations:</strong> ${n.stations}</p>` : ''}
-          ${n.gettingThere ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-bottom:8px"><strong style="color:var(--text)">Getting there:</strong> ${n.gettingThere}</p>` : ''}
-          ${(n.walkable || n.nearTrunk || []).map(w => `<div class="hood-item">${w}</div>`).join('')}
-          ${n.nearbyFood ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-top:10px">${n.nearbyFood}</p>` : ''}
-          ${n.afterConference ? `<p style="font-size:0.78rem;color:var(--text-secondary);margin-top:8px"><strong style="color:var(--text)">After conference:</strong> ${n.afterConference}</p>` : ''}
-        </div>
-      `).join('')}
-    </div>` : ''}
-
     ${p.keyStations ? `
     <div class="info-section">
       <div class="info-section-title">
@@ -1191,12 +1360,21 @@ function renderInfo() {
       </div>
     </div>` : ''}
 
-    ${p.itineraries ? `
     <div class="info-section">
       <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-        Suggested Itineraries
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+        Getting Around
       </div>
+      <div class="info-card"><h4>Suica / Pasmo Card</h4><p>${p.transportation.suica}</p></div>
+      <div class="info-card"><h4>Train Tips</h4><p>${p.transportation.trainTips}</p></div>
+      <div class="info-card"><h4>Last Trains</h4><p>${p.transportation.lastTrains}</p></div>
+    </div>`;
+  }
+
+  if (page === 'itineraries') {
+    html += `
+    ${p.itineraries ? `
+    <div class="info-section">
       ${p.itineraries.map(day => `
         <div class="info-card">
           <div class="itin-day-title">${day.day}</div>
@@ -1208,8 +1386,11 @@ function renderInfo() {
           ).join('')}
         </div>
       `).join('')}
-    </div>` : ''}
+    </div>` : '<div class="empty-state"><p>No itineraries loaded yet.</p></div>'}`;
+  }
 
+  if (page === 'money') {
+    html += `
     ${p.reservations ? `
     <div class="info-section">
       <div class="info-section-title">
@@ -1253,6 +1434,27 @@ function renderInfo() {
       </div>
     </div>` : ''}
 
+    <div class="info-section">
+      <div class="info-section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+        Money
+      </div>
+      <div class="info-card"><h4>Cash vs Card</h4><p>${p.money.cashVsCard}</p></div>
+      <div class="info-card"><h4>Tipping</h4><p>${p.money.tipping}</p></div>
+      <div class="info-card"><h4>Tax-Free Shopping</h4><p>${p.money.taxFree}</p></div>
+    </div>`;
+  }
+
+  if (page === 'packing') {
+    html += `
+    <div class="info-section">
+      <div class="info-section-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 00-5 0v11.26a4.5 4.5 0 105 0z"/></svg>
+        Weather — Late February
+      </div>
+      <div class="info-card"><p>${p.weather}</p></div>
+    </div>
+
     ${p.packingList ? `
     <div class="info-section">
       <div class="info-section-title">
@@ -1281,37 +1483,11 @@ function renderInfo() {
           </div>
         `).join('')}
       </div>
-    </div>` : ''}
+    </div>` : ''}`;
+  }
 
-    <div class="info-section">
-      <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-        Getting Around
-      </div>
-      <div class="info-card"><h4>Suica / Pasmo Card</h4><p>${p.transportation.suica}</p></div>
-      <div class="info-card"><h4>Train Tips</h4><p>${p.transportation.trainTips}</p></div>
-      <div class="info-card"><h4>Last Trains</h4><p>${p.transportation.lastTrains}</p></div>
-    </div>
-
-    <div class="info-section">
-      <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0119 12.55M5 12.55a10.94 10.94 0 015.17-2.39M10.71 5.05A16 16 0 0122.56 9M1.42 9a15.91 15.91 0 014.7-2.88M8.53 16.11a6 6 0 016.95 0M12 20h.01"/></svg>
-        Connectivity
-      </div>
-      <div class="info-card"><h4>WiFi</h4><p>${p.connectivity.wifi}</p></div>
-      <div class="info-card"><h4>eSIM / Pocket WiFi</h4><p>${p.connectivity.esim}</p></div>
-    </div>
-
-    <div class="info-section">
-      <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
-        Money
-      </div>
-      <div class="info-card"><h4>Cash vs Card</h4><p>${p.money.cashVsCard}</p></div>
-      <div class="info-card"><h4>Tipping</h4><p>${p.money.tipping}</p></div>
-      <div class="info-card"><h4>Tax-Free Shopping</h4><p>${p.money.taxFree}</p></div>
-    </div>
-
+  if (page === 'phrases') {
+    html += `
     <div class="info-section">
       <div class="info-section-title">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h12M9 3v2m1.048 3.5A18.24 18.24 0 016 20.5M3 17c1-1.5 3-3.5 5-4.5"/><path d="M14 3l7 14h-14"/></svg>
@@ -1340,14 +1516,18 @@ function renderInfo() {
           ${(p.etiquette || []).map(e => `<li>${e}</li>`).join('')}
         </ul>
       </div>
-    </div>
+    </div>`;
+  }
 
+  if (page === 'essentials') {
+    html += `
     <div class="info-section">
       <div class="info-section-title">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 14.76V3.5a2.5 2.5 0 00-5 0v11.26a4.5 4.5 0 105 0z"/></svg>
-        Weather — Late February
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0119 12.55M5 12.55a10.94 10.94 0 015.17-2.39M10.71 5.05A16 16 0 0122.56 9M1.42 9a15.91 15.91 0 014.7-2.88M8.53 16.11a6 6 0 016.95 0M12 20h.01"/></svg>
+        Connectivity
       </div>
-      <div class="info-card"><p>${p.weather}</p></div>
+      <div class="info-card"><h4>WiFi</h4><p>${p.connectivity.wifi}</p></div>
+      <div class="info-card"><h4>eSIM / Pocket WiFi</h4><p>${p.connectivity.esim}</p></div>
     </div>
 
     <div class="info-section">
@@ -1378,14 +1558,19 @@ function renderInfo() {
       <div class="info-card" style="padding:12px 16px">
         ${p.usefulLinks.map(l => `<div style="padding:6px 0;border-bottom:1px solid var(--border)"><a href="${l.url}" target="_blank" rel="noopener" style="color:var(--accent);font-size:0.84rem;text-decoration:none">${l.name}</a></div>`).join('')}
       </div>
-    </div>` : ''}
-  `;
+    </div>` : ''}`;
+  }
+
+  el.innerHTML = html;
 }
 
 // Init
 document.querySelectorAll('.nav-item').forEach(btn => {
   btn.addEventListener('click', () => setTab(btn.dataset.tab));
 });
+
+document.getElementById('navMore').addEventListener('click', toggleInfoPanel);
+updateMoreIcon();
 
 document.getElementById('scheduleToggle').addEventListener('click', function() {
   this.classList.toggle('open');
