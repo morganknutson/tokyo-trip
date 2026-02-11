@@ -728,6 +728,23 @@ body{
 }
 .auth-input:focus{border-color:var(--border-light)}
 .auth-input::placeholder{letter-spacing:0.05em;color:var(--text-tertiary)}
+.auth-btn{
+  width:100%;
+  background:var(--accent);
+  color:#fff;
+  border:none;
+  font-family:'Outfit',sans-serif;
+  font-size:0.9rem;
+  font-weight:500;
+  padding:14px 18px;
+  border-radius:var(--radius);
+  cursor:pointer;
+  margin-top:12px;
+  transition:opacity 0.2s;
+  letter-spacing:0.04em;
+}
+.auth-btn:hover{opacity:0.85}
+.auth-btn:active{opacity:0.7}
 .auth-error{
   font-size:0.78rem;color:var(--accent);margin-top:10px;
   min-height:1.2em;transition:opacity 0.2s;
@@ -748,6 +765,7 @@ body{
     <p class="auth-sub">Feb 15 — 23, 2026</p>
     <div class="auth-form">
       <input type="password" id="authInput" class="auth-input" placeholder="Password" inputmode="numeric" autocomplete="off">
+      <button id="authBtn" class="auth-btn">Unlock</button>
       <div class="auth-error" id="authError"></div>
     </div>
   </div>
@@ -836,20 +854,24 @@ body{
     return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
   }
 
-  inp.addEventListener('keydown', async function(e) {
-    if (e.key === 'Enter') {
-      const hash = await sha256(inp.value);
-      if (hash === HASH) {
-        localStorage.setItem('tokyoAuth', HASH);
-        gate.classList.add('hidden');
-        document.body.style.overflow = '';
-      } else {
-        err.textContent = 'Wrong password';
-        inp.value = '';
-        inp.focus();
-      }
+  async function tryUnlock() {
+    const hash = await sha256(inp.value);
+    if (hash === HASH) {
+      localStorage.setItem('tokyoAuth', HASH);
+      gate.classList.add('hidden');
+      document.body.style.overflow = '';
+    } else {
+      err.textContent = 'Wrong password';
+      inp.value = '';
+      inp.focus();
     }
+  }
+
+  inp.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') tryUnlock();
   });
+
+  document.getElementById('authBtn').addEventListener('click', tryUnlock);
 })();
 
 const state = {
