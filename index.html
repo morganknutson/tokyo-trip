@@ -6,6 +6,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#0a0a0a">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
 <title>Tokyo — Feb 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -699,6 +701,38 @@ body{
 }
 .hood-item:last-child{border:none}
 
+/* Auth Gate */
+.auth-gate{
+  position:fixed;inset:0;z-index:9999;
+  background:var(--bg);
+  display:flex;align-items:center;justify-content:center;
+  transition:opacity 0.4s,visibility 0.4s;
+}
+.auth-gate.hidden{opacity:0;visibility:hidden;pointer-events:none}
+.auth-inner{text-align:center;padding:20px}
+.auth-title{
+  font-family:'Fraunces',serif;font-size:3.2rem;font-weight:800;
+  letter-spacing:-0.03em;color:var(--text);line-height:1;margin-bottom:6px;
+}
+.auth-title span{color:var(--accent)}
+.auth-sub{
+  font-size:0.8rem;color:var(--text-secondary);letter-spacing:0.04em;
+  text-transform:uppercase;margin-bottom:40px;
+}
+.auth-form{max-width:240px;margin:0 auto}
+.auth-input{
+  width:100%;background:var(--surface);border:1px solid var(--border);
+  color:var(--text);font-family:'Outfit',sans-serif;font-size:1.1rem;
+  padding:14px 18px;border-radius:var(--radius);outline:none;
+  text-align:center;letter-spacing:0.3em;transition:border-color 0.2s;
+}
+.auth-input:focus{border-color:var(--border-light)}
+.auth-input::placeholder{letter-spacing:0.05em;color:var(--text-tertiary)}
+.auth-error{
+  font-size:0.78rem;color:var(--accent);margin-top:10px;
+  min-height:1.2em;transition:opacity 0.2s;
+}
+
 /* Desktop max width */
 @media(min-width:600px){
   .header,.controls,.cards,.info-section{max-width:520px;margin-left:auto;margin-right:auto}
@@ -707,6 +741,17 @@ body{
 </style>
 </head>
 <body>
+
+<div id="authGate" class="auth-gate">
+  <div class="auth-inner">
+    <h1 class="auth-title">To<span>k</span>yo</h1>
+    <p class="auth-sub">Feb 15 — 23, 2026</p>
+    <div class="auth-form">
+      <input type="password" id="authInput" class="auth-input" placeholder="Password" inputmode="numeric" autocomplete="off">
+      <div class="auth-error" id="authError"></div>
+    </div>
+  </div>
+</div>
 
 <header class="header">
   <div class="header-top">
@@ -772,6 +817,41 @@ body{
 </nav>
 
 <script>
+// Auth gate
+(function(){
+  const HASH = '91b4d142823f7d20c5f08df69122de43f35f057a988d9619f6d3138485c9a203';
+  const gate = document.getElementById('authGate');
+  const inp = document.getElementById('authInput');
+  const err = document.getElementById('authError');
+
+  if (localStorage.getItem('tokyoAuth') === HASH) {
+    gate.classList.add('hidden');
+  } else {
+    document.body.style.overflow = 'hidden';
+    inp.focus();
+  }
+
+  async function sha256(str) {
+    const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+  }
+
+  inp.addEventListener('keydown', async function(e) {
+    if (e.key === 'Enter') {
+      const hash = await sha256(inp.value);
+      if (hash === HASH) {
+        localStorage.setItem('tokyoAuth', HASH);
+        gate.classList.add('hidden');
+        document.body.style.overflow = '';
+      } else {
+        err.textContent = 'Wrong password';
+        inp.value = '';
+        inp.focus();
+      }
+    }
+  });
+})();
+
 const state = {
   tab: 'Food',
   filter: null,
