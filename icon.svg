@@ -1,7 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
   <rect width="180" height="180" rx="36" fill="#0a0a0a"/>
-  <text x="90" y="100" text-anchor="middle" dominant-baseline="central" 
-        font-family="serif" font-size="88" font-weight="800" fill="#d4453a">東</text>
-  <text x="90" y="148" text-anchor="middle" font-family="sans-serif" 
-        font-size="18" font-weight="400" fill="#5a5650" letter-spacing="3">TOKYO</text>
+  <text x="90" y="96" text-anchor="middle" dominant-baseline="central"
+        font-family="serif" font-size="120" font-weight="800" fill="#d4453a">東</text>
 </svg>
