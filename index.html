@@ -456,7 +456,7 @@ body{
   -webkit-backdrop-filter:blur(20px);
   border-top:1px solid var(--border);
   display:grid;
-  grid-template-columns:repeat(5,1fr);
+  grid-template-columns:repeat(6,1fr);
   padding:8px 0 calc(8px + var(--safe-bottom));
   z-index:100;
 }
@@ -842,10 +842,564 @@ body{
 .info-page-group{display:none}
 .info-page-group.active{display:block}
 
+/* Undo toast */
+.undo-toast{
+  position:fixed;
+  bottom:calc(var(--nav-height) + var(--safe-bottom) + 16px);
+  left:50%;
+  transform:translateX(-50%) translateY(10px);
+  background:var(--surface);
+  border:1px solid var(--border-light);
+  border-radius:var(--radius);
+  padding:10px 14px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  z-index:200;
+  opacity:0;
+  transition:opacity 0.25s, transform 0.25s;
+  pointer-events:none;
+  max-width:calc(100vw - 40px);
+}
+.undo-toast.visible{
+  opacity:1;
+  transform:translateX(-50%) translateY(0);
+  pointer-events:auto;
+}
+.undo-toast-text{
+  font-size:0.8rem;
+  color:var(--text-secondary);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  min-width:0;
+}
+.undo-toast-text strong{color:var(--text);font-weight:500}
+.undo-toast-btn{
+  background:none;
+  border:none;
+  color:var(--accent);
+  font-family:'Outfit',sans-serif;
+  font-size:0.72rem;
+  font-weight:600;
+  cursor:pointer;
+  padding:4px 10px;
+  border-radius:var(--radius-pill);
+  transition:background 0.15s;
+  white-space:nowrap;
+  -webkit-tap-highlight-color:transparent;
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+}
+.undo-toast-btn:active{background:var(--accent-dim)}
+
+/* Itinerary Board */
+.itin-board{
+  padding:0 20px 20px;
+}
+.itin-day-section{
+  margin-bottom:16px;
+}
+.itin-day-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 0 6px;
+  border-bottom:1px solid var(--border);
+  margin-bottom:6px;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+}
+.itin-day-label{
+  font-family:'Fraunces',serif;
+  font-size:0.95rem;
+  font-weight:600;
+  color:var(--text);
+}
+.itin-day-sublabel{
+  font-size:0.7rem;
+  color:var(--text-tertiary);
+  font-weight:400;
+  margin-left:6px;
+}
+.itin-day-count{
+  font-size:0.68rem;
+  color:var(--text-tertiary);
+  font-weight:500;
+}
+.itin-day-chevron{
+  width:14px;
+  height:14px;
+  color:var(--text-tertiary);
+  transition:transform 0.2s;
+  margin-left:6px;
+  flex-shrink:0;
+}
+.itin-day-section.collapsed .itin-day-chevron{
+  transform:rotate(-90deg);
+}
+.itin-day-section.collapsed .itin-drop-zone{
+  display:none;
+}
+.itin-day-section.collapsed .itin-day-header{
+  margin-bottom:0;
+}
+.itin-day-header.drag-target{
+  background:var(--accent-glow);
+  border-bottom-color:var(--accent);
+  border-radius:var(--radius-sm);
+  transition:background 0.15s, border-color 0.15s;
+}
+.itin-drop-zone{
+  min-height:40px;
+  border:1.5px dashed var(--border);
+  border-radius:var(--radius-sm);
+  padding:4px;
+  transition:border-color 0.2s, background 0.2s;
+}
+.itin-drop-zone.drag-over{
+  border-color:var(--accent);
+  background:var(--accent-glow);
+}
+.itin-drop-zone-empty{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:12px;
+  font-size:0.75rem;
+  color:var(--text-tertiary);
+  font-style:italic;
+}
+.itin-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  padding:9px 10px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  margin-bottom:4px;
+  cursor:grab;
+  transition:border-color 0.15s, opacity 0.15s;
+  -webkit-tap-highlight-color:transparent;
+  user-select:none;
+  -webkit-user-select:none;
+}
+.itin-item:last-child{margin-bottom:0}
+.itin-item:active{cursor:grabbing}
+.itin-item.dragging{opacity:0.3}
+.itin-item-grip{
+  color:var(--text-tertiary);
+  flex-shrink:0;
+  display:flex;
+  align-items:center;
+}
+.itin-item-grip svg{width:14px;height:14px}
+.itin-item-name{
+  flex:1;
+  font-size:0.82rem;
+  font-weight:500;
+  color:var(--text);
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.itin-item-cat{
+  font-size:0.6rem;
+  font-weight:600;
+  padding:2px 7px;
+  border-radius:var(--radius-pill);
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+  flex-shrink:0;
+  white-space:nowrap;
+}
+.itin-item-remove{
+  background:none;
+  border:none;
+  color:var(--text-tertiary);
+  cursor:pointer;
+  padding:2px;
+  flex-shrink:0;
+  display:flex;
+  align-items:center;
+  transition:color 0.15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.itin-item-remove:hover{color:var(--accent)}
+.itin-item-remove svg{width:14px;height:14px}
+.itin-item-ghost{
+  position:fixed;
+  z-index:9000;
+  pointer-events:none;
+  opacity:0.92;
+  transform:scale(1.03);
+  box-shadow:0 8px 32px rgba(0,0,0,0.4);
+  border-color:var(--accent) !important;
+  max-width:calc(100vw - 48px);
+}
+.itin-insert-line{
+  height:2px;
+  background:var(--accent);
+  border-radius:2px;
+  margin:0 4px;
+  pointer-events:none;
+  transition:opacity 0.1s;
+}
+.itin-section-unsorted .itin-drop-zone{
+  border-style:solid;
+  border-color:var(--border-light);
+  background:var(--accent-glow);
+  max-height:320px;
+  overflow-y:auto;
+  scrollbar-width:thin;
+}
+.itin-section-unsorted .itin-day-header{
+  border-bottom-color:var(--accent);
+}
+.itin-neighborhood-label{
+  font-size:0.6rem;
+  font-weight:600;
+  color:var(--text-tertiary);
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  padding:8px 8px 2px;
+  pointer-events:none;
+}
+.itin-neighborhood-label:first-child{padding-top:4px}
+.itin-section-unsorted .itin-day-label{
+  color:var(--accent);
+}
+
+/* Map view */
+.plan-view-toggle{
+  display:flex;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-pill);
+  padding:3px;
+  margin:0 20px 16px;
+  gap:2px;
+}
+.plan-view-btn{
+  flex:1;
+  background:none;
+  border:none;
+  color:var(--text-secondary);
+  font-family:'Outfit',sans-serif;
+  font-size:0.78rem;
+  font-weight:500;
+  padding:7px 0;
+  border-radius:var(--radius-pill);
+  cursor:pointer;
+  transition:all 0.2s;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  -webkit-tap-highlight-color:transparent;
+}
+.plan-view-btn svg{width:14px;height:14px}
+.plan-view-btn.active{
+  background:var(--accent);
+  color:var(--bg);
+  font-weight:600;
+}
+.map-day-selector{
+  display:flex;
+  gap:6px;
+  overflow-x:auto;
+  padding:0 20px 12px;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:none;
+}
+.map-day-selector::-webkit-scrollbar{display:none}
+.map-day-chip{
+  flex-shrink:0;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-pill);
+  color:var(--text-secondary);
+  font-family:'Outfit',sans-serif;
+  font-size:0.72rem;
+  font-weight:500;
+  padding:6px 12px;
+  cursor:pointer;
+  transition:all 0.2s;
+  -webkit-tap-highlight-color:transparent;
+  white-space:nowrap;
+}
+.map-day-chip.active{
+  background:var(--accent);
+  color:var(--bg);
+  border-color:var(--accent);
+  font-weight:600;
+}
+.map-day-chip .chip-count{
+  font-size:0.65rem;
+  opacity:0.7;
+  margin-left:3px;
+}
+.map-container{
+  margin:0 20px 12px;
+  border-radius:var(--radius);
+  overflow:hidden;
+  height:55vh;
+  min-height:300px;
+  max-height:500px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  position:relative;
+}
+.map-loading{
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--text-secondary);
+  font-size:0.85rem;
+  flex-direction:column;
+  gap:10px;
+}
+.map-loading-spinner{
+  width:24px;
+  height:24px;
+  border:2px solid var(--border-light);
+  border-top-color:var(--accent);
+  border-radius:50%;
+  animation:spin 0.8s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.map-route-info{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:0 20px 10px;
+  padding:10px 14px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  font-size:0.78rem;
+  color:var(--text-secondary);
+}
+.map-route-info svg{width:14px;height:14px;color:var(--accent);flex-shrink:0}
+.map-route-info strong{color:var(--text);font-weight:600}
+.map-route-info .route-spacer{flex:1}
+.map-optimize-btn{
+  background:none;
+  border:1px solid var(--accent);
+  color:var(--accent);
+  font-family:'Outfit',sans-serif;
+  font-size:0.7rem;
+  font-weight:600;
+  padding:4px 10px;
+  border-radius:var(--radius-pill);
+  cursor:pointer;
+  transition:all 0.2s;
+  white-space:nowrap;
+  -webkit-tap-highlight-color:transparent;
+}
+.map-optimize-btn:active{background:var(--accent-dim)}
+.map-item-list{
+  padding:0 20px 12px;
+}
+.map-item-card{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  margin-bottom:6px;
+  cursor:pointer;
+  transition:border-color 0.15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.map-item-card:active,.map-item-card.highlighted{
+  border-color:var(--accent);
+}
+.map-item-number{
+  width:24px;
+  height:24px;
+  background:var(--accent);
+  color:var(--bg);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:0.7rem;
+  font-weight:700;
+  flex-shrink:0;
+}
+.map-item-card .item-name{
+  flex:1;
+  font-size:0.82rem;
+  font-weight:500;
+  color:var(--text);
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.map-item-card .item-cat{
+  font-size:0.6rem;
+  font-weight:600;
+  padding:2px 7px;
+  border-radius:var(--radius-pill);
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+  flex-shrink:0;
+  white-space:nowrap;
+}
+.map-item-failed{
+  font-style:italic;
+  color:var(--text-tertiary);
+  font-size:0.78rem;
+  padding:4px 0;
+}
+.map-nearby-section{
+  padding:0 20px 20px;
+}
+.map-nearby-section h3{
+  font-family:'Fraunces',serif;
+  font-size:0.95rem;
+  font-weight:600;
+  color:var(--text);
+  margin-bottom:10px;
+}
+.map-nearby-card{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 12px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  margin-bottom:6px;
+  cursor:pointer;
+  transition:border-color 0.15s;
+  -webkit-tap-highlight-color:transparent;
+}
+.map-nearby-card:active{border-color:var(--accent)}
+.map-nearby-card .nearby-name{
+  flex:1;
+  font-size:0.82rem;
+  font-weight:500;
+  color:var(--text);
+  min-width:0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.map-nearby-card .nearby-cat{
+  font-size:0.6rem;
+  font-weight:600;
+  padding:2px 7px;
+  border-radius:var(--radius-pill);
+  text-transform:uppercase;
+  letter-spacing:0.04em;
+  flex-shrink:0;
+  white-space:nowrap;
+}
+.map-nearby-card .nearby-dist{
+  font-size:0.7rem;
+  color:var(--text-tertiary);
+  white-space:nowrap;
+  flex-shrink:0;
+}
+.map-empty{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:48px 20px;
+  color:var(--text-secondary);
+  text-align:center;
+  font-size:0.85rem;
+  gap:8px;
+}
+.map-empty svg{width:32px;height:32px;opacity:0.4}
+.map-error{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  height:100%;
+  color:var(--text-secondary);
+  font-size:0.85rem;
+  gap:8px;
+  text-align:center;
+  padding:20px;
+}
+.map-error svg{width:28px;height:28px;color:var(--accent);opacity:0.6}
+
+/* Add to Plan button */
+.btn-add-plan{
+  display:flex;align-items:center;gap:6px;
+  background:var(--surface);
+  color:var(--text-secondary);
+  border:1px solid var(--border);
+  font-family:'Outfit',sans-serif;
+  font-size:0.8rem;
+  font-weight:500;
+  padding:10px 18px;
+  border-radius:var(--radius-sm);
+  cursor:pointer;
+  transition:all 0.2s;
+}
+.btn-add-plan:hover{border-color:var(--border-light);color:var(--text)}
+.btn-add-plan.in-plan{
+  background:var(--accent-dim);
+  border-color:var(--accent);
+  color:var(--accent);
+}
+.btn-add-plan svg{width:14px;height:14px}
+
 /* Desktop max width */
-@media(min-width:600px){
-  .header,.controls,.cards,.info-section,.info-page-header{max-width:520px;margin-left:auto;margin-right:auto}
+@media(min-width:600px) and (min-height:501px){
+  .header,.controls,.cards,.info-section,.info-page-header,.itin-board,.plan-view-toggle,.map-day-selector,.map-container,.map-item-list,.map-route-info,.map-nearby-section{max-width:520px;margin-left:auto;margin-right:auto}
+  #mapRouteInfo{max-width:520px;margin-left:auto;margin-right:auto}
   .bottom-nav{max-width:520px;left:50%;transform:translateX(-50%);border-radius:16px 16px 0 0}
+}
+
+/* Landscape phone */
+@media(orientation:landscape) and (max-height:500px){
+  :root{
+    --nav-height:52px;
+  }
+  .header{padding:10px 20px 0}
+  .header h1{font-size:1.8rem}
+  .header-dates{margin-bottom:8px}
+  .schedule-toggle{display:none}
+  .controls{padding:6px 20px 8px}
+  .search-bar{margin-bottom:6px}
+  .search-bar input{padding:8px 16px 8px 36px;font-size:0.82rem}
+  .filter-row{gap:6px;padding-bottom:8px}
+  .filter-chip{padding:4px 10px;font-size:0.65rem}
+  .plan-view-toggle{margin:6px 20px 8px}
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    padding:6px 20px 12px;
+  }
+  .card-count{grid-column:1/-1}
+  .card{margin-bottom:0}
+  .bottom-nav{
+    padding:4px 0 calc(4px + var(--safe-bottom));
+    grid-template-columns:repeat(6,1fr);
+  }
+  .nav-item{gap:1px;font-size:0.58rem;padding:2px 0}
+  .nav-item svg{width:18px;height:18px}
+  .itin-board{padding:0 20px 12px}
+  .itin-day-header{padding:6px 0 4px}
+  .itin-item{padding:6px 8px}
+  body{
+    padding-bottom:calc(var(--nav-height) + var(--safe-bottom) + 4px);
+  }
 }
 </style>
 </head>
@@ -897,14 +1451,24 @@ body{
   <div class="filter-row" id="filterRow"></div>
 </div>
 
-<div id="tabFood" class="tab-content active"><div class="cards" id="foodCards"></div></div>
+<div id="tabPlan" class="tab-content active"><div id="planContent"></div></div>
+<div id="tabFood" class="tab-content"><div class="cards" id="foodCards"></div></div>
 <div id="tabSee" class="tab-content"><div class="cards" id="seeCards"></div></div>
 <div id="tabDo" class="tab-content"><div class="cards" id="doCards"></div></div>
 <div id="tabShop" class="tab-content"><div class="cards" id="shopCards"></div></div>
 <div id="tabInfo" class="tab-content"><div id="infoContent"></div></div>
 
+<div class="undo-toast" id="undoToast">
+  <span class="undo-toast-text" id="undoToastText"></span>
+  <button class="undo-toast-btn" id="undoToastBtn">Undo</button>
+</div>
+
 <nav class="bottom-nav" id="bottomNav">
-  <button class="nav-item active" data-tab="Food">
+  <button class="nav-item active" data-tab="Plan">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Plan
+  </button>
+  <button class="nav-item" data-tab="Food">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><path d="M6 1v3M10 1v3M14 1v3"/></svg>
     Food
   </button>
@@ -974,14 +1538,21 @@ body{
 })();
 
 const state = {
-  tab: 'Food',
+  tab: 'Plan',
   filter: null,
   favOnly: false,
   search: '',
   favorites: JSON.parse(localStorage.getItem('tokyoFavs') || '{}'),
   data: { food: [], sights: [], nightlife: [], shopping: [], hidden: [], practical: null },
   expanded: {},
-  infoPage: 'stay'
+  infoPage: 'stay',
+  itinerary: null,
+  planView: 'list',
+  mapDay: '2026-02-15',
+  mapInstance: null,
+  mapMarkers: [],
+  mapDirectionsRenderer: null,
+  collapsedDays: {}
 };
 
 const infoPages = [
@@ -996,6 +1567,540 @@ const infoPages = [
 
 function saveFavs() {
   localStorage.setItem('tokyoFavs', JSON.stringify(state.favorites));
+}
+
+// Itinerary state management
+const ITIN_DAYS = ['unsorted','2026-02-15','2026-02-16','2026-02-17','2026-02-18','2026-02-19','2026-02-20','2026-02-21','2026-02-22'];
+const ITIN_DAY_LABELS = {
+  'unsorted': ['Unsorted', ''],
+  '2026-02-15': ['Sun, Feb 15', 'Arrival'],
+  '2026-02-16': ['Mon, Feb 16', 'Conference eve'],
+  '2026-02-17': ['Tue, Feb 17', 'Conference'],
+  '2026-02-18': ['Wed, Feb 18', 'Conference'],
+  '2026-02-19': ['Thu, Feb 19', 'Free day'],
+  '2026-02-20': ['Fri, Feb 20', 'Free day'],
+  '2026-02-21': ['Sat, Feb 21', 'Free day'],
+  '2026-02-22': ['Sun, Feb 22', 'Departure']
+};
+
+function seedItinerary() {
+  state.itinerary = {};
+  ITIN_DAYS.forEach(d => { state.itinerary[d] = []; });
+}
+
+function initItinerary() {
+  const saved = localStorage.getItem('tokyoItinerary');
+  if (saved) {
+    try {
+      state.itinerary = JSON.parse(saved);
+      ITIN_DAYS.forEach(d => { if (!state.itinerary[d]) state.itinerary[d] = []; });
+    } catch(e) {
+      seedItinerary();
+    }
+  } else {
+    seedItinerary();
+  }
+}
+
+function saveItinerary() {
+  localStorage.setItem('tokyoItinerary', JSON.stringify(state.itinerary));
+}
+
+function getItineraryItem(id) {
+  const allData = [...state.data.food, ...state.data.sights, ...state.data.nightlife, ...state.data.shopping, ...state.data.hidden];
+  const item = allData.find(i => itemId(i) === id);
+  if (item) return { id: id, name: item.name, note: item.description, category: item.category };
+  return null;
+}
+
+function getItemArea(id) {
+  const allData = [...state.data.food, ...state.data.sights, ...state.data.nightlife, ...state.data.shopping, ...state.data.hidden];
+  const item = allData.find(i => itemId(i) === id);
+  return item ? (item.neighborhood || 'Other') : 'Other';
+}
+
+function addToItineraryUnsorted(id) {
+  if (!state.itinerary) return;
+  for (const day of ITIN_DAYS) {
+    if (state.itinerary[day].includes(id)) return;
+  }
+  state.itinerary.unsorted.push(id);
+  saveItinerary();
+}
+
+function removeFromItinerary(id) {
+  if (!state.itinerary) return;
+  for (const day of ITIN_DAYS) {
+    const idx = state.itinerary[day].indexOf(id);
+    if (idx !== -1) {
+      state.itinerary[day].splice(idx, 1);
+      break;
+    }
+  }
+  saveItinerary();
+}
+
+function isInItinerary(id) {
+  if (!state.itinerary) return false;
+  for (const day of ITIN_DAYS) {
+    if ((state.itinerary[day] || []).includes(id)) return true;
+  }
+  return false;
+}
+
+function toggleItineraryItem(id) {
+  if (!state.itinerary) initItinerary();
+  if (isInItinerary(id)) {
+    removeFromItinerary(id);
+  } else {
+    addToItineraryUnsorted(id);
+  }
+}
+
+// Google Maps API
+const GMAPS_API_KEY = 'REDACTED';
+let _gmapsPromise = null;
+
+function loadGoogleMaps() {
+  if (_gmapsPromise) return _gmapsPromise;
+  _gmapsPromise = new Promise((resolve, reject) => {
+    if (window.google && window.google.maps) { resolve(); return; }
+    const script = document.createElement('script');
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=' + GMAPS_API_KEY + '&libraries=geometry';
+    script.async = true;
+    script.onload = resolve;
+    script.onerror = () => { _gmapsPromise = null; reject(new Error('Failed to load Google Maps')); };
+    document.head.appendChild(script);
+  });
+  return _gmapsPromise;
+}
+
+// Geocoding with localStorage cache
+const GEO_CACHE_KEY = 'tokyoGeoCache';
+const GEO_CACHE_TTL = 30 * 24 * 60 * 60 * 1000;
+
+function getGeoCache() {
+  try { return JSON.parse(localStorage.getItem(GEO_CACHE_KEY) || '{}'); }
+  catch { return {}; }
+}
+
+function setGeoCache(cache) {
+  localStorage.setItem(GEO_CACHE_KEY, JSON.stringify(cache));
+}
+
+function getGeoQuery(id) {
+  const allData = [...state.data.food, ...state.data.sights, ...state.data.nightlife, ...state.data.shopping, ...state.data.hidden];
+  const item = allData.find(i => itemId(i) === id);
+  if (item) return item.mapsQuery || (item.name + ' Tokyo');
+  return null;
+}
+
+async function geocodeItems(ids) {
+  const cache = getGeoCache();
+  const now = Date.now();
+  const results = {};
+  const toGeocode = [];
+
+  for (const id of ids) {
+    const query = getGeoQuery(id);
+    if (!query) { results[id] = null; continue; }
+    const cached = cache[query];
+    if (cached && cached.status === 'OK' && (now - cached.ts) < GEO_CACHE_TTL) {
+      results[id] = { lat: cached.lat, lng: cached.lng };
+    } else if (cached && cached.status === 'FAIL' && (now - cached.ts) < GEO_CACHE_TTL) {
+      results[id] = null;
+    } else {
+      toGeocode.push({ id, query });
+    }
+  }
+
+  if (toGeocode.length > 0) {
+    await loadGoogleMaps();
+    const geocoder = new google.maps.Geocoder();
+    const tokyoBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(35.55, 139.55),
+      new google.maps.LatLng(35.82, 139.92)
+    );
+    const newEntries = {};
+    for (const { id, query } of toGeocode) {
+      try {
+        const result = await new Promise((resolve, reject) => {
+          geocoder.geocode({ address: query, bounds: tokyoBounds }, (res, status) => {
+            if (status === 'OK' && res[0]) {
+              const loc = res[0].geometry.location;
+              resolve({ lat: loc.lat(), lng: loc.lng() });
+            } else {
+              reject(new Error(status));
+            }
+          });
+        });
+        newEntries[query] = { lat: result.lat, lng: result.lng, status: 'OK', ts: now };
+        results[id] = result;
+      } catch {
+        newEntries[query] = { status: 'FAIL', ts: now };
+        results[id] = null;
+      }
+    }
+    const freshCache = getGeoCache();
+    Object.assign(freshCache, newEntries);
+    setGeoCache(freshCache);
+  }
+
+  return results;
+}
+
+let _bgGeocoding = false;
+async function backgroundGeocodeAll() {
+  if (_bgGeocoding) return;
+  _bgGeocoding = true;
+  const allData = [...state.data.food, ...state.data.sights, ...state.data.nightlife, ...state.data.shopping, ...state.data.hidden];
+  const allIds = allData.map(i => itemId(i));
+  const cache = getGeoCache();
+  const now = Date.now();
+  const uncached = allIds.filter(id => {
+    const query = getGeoQuery(id);
+    if (!query) return false;
+    const c = cache[query];
+    return !c || (now - c.ts) >= GEO_CACHE_TTL;
+  });
+  for (let i = 0; i < uncached.length; i += 5) {
+    const batch = uncached.slice(i, i + 5);
+    await geocodeItems(batch);
+    if (i + 5 < uncached.length) await new Promise(r => setTimeout(r, 1000));
+  }
+  _bgGeocoding = false;
+}
+
+// Dark map styling
+const MAP_STYLES = [
+  { elementType: 'geometry', stylers: [{ color: '#1a1a1a' }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#8a857e' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#0a0a0a' }] },
+  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#252525' }] },
+  { featureType: 'road', elementType: 'geometry.stroke', stylers: [{ color: '#1f1f1f' }] },
+  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#2a2a2a' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#0e1a2b' }] },
+  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#4a7eb5' }] },
+  { featureType: 'transit.station', elementType: 'labels.icon', stylers: [{ visibility: 'on' }] },
+  { featureType: 'transit.station', elementType: 'labels.text.fill', stylers: [{ color: '#d4453a' }] },
+  { featureType: 'poi', elementType: 'labels', stylers: [{ visibility: 'off' }] },
+  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#1a2a1a' }] },
+  { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#2a2a2a' }] },
+];
+
+function createNumberedMarker(map, position, number) {
+  const svg = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">' +
+    '<path d="M14 0C6.27 0 0 6.27 0 14c0 10.5 14 22 14 22s14-11.5 14-22C28 6.27 21.73 0 14 0z" fill="#d4453a"/>' +
+    '<circle cx="14" cy="13" r="9" fill="#0a0a0a"/>' +
+    '<text x="14" y="17" text-anchor="middle" fill="#d4453a" font-family="Outfit,sans-serif" font-size="11" font-weight="700">' + number + '</text></svg>';
+  return new google.maps.Marker({
+    position,
+    map,
+    icon: {
+      url: 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg),
+      scaledSize: new google.maps.Size(28, 36),
+      anchor: new google.maps.Point(14, 36),
+    },
+    optimized: false,
+  });
+}
+
+async function drawRoute(map, geocodedItems) {
+  if (geocodedItems.length < 2) return null;
+  const directionsService = new google.maps.DirectionsService();
+  const origin = geocodedItems[0].position;
+  const destination = geocodedItems[geocodedItems.length - 1].position;
+  const waypoints = geocodedItems.slice(1, -1).map(item => ({
+    location: new google.maps.LatLng(item.position.lat, item.position.lng),
+    stopover: true,
+  }));
+  try {
+    const result = await new Promise((resolve, reject) => {
+      directionsService.route({
+        origin: new google.maps.LatLng(origin.lat, origin.lng),
+        destination: new google.maps.LatLng(destination.lat, destination.lng),
+        waypoints,
+        travelMode: 'WALKING',
+        optimizeWaypoints: false,
+      }, (res, status) => {
+        if (status === 'OK') resolve(res);
+        else reject(new Error(status));
+      });
+    });
+    if (state.mapDirectionsRenderer) state.mapDirectionsRenderer.setMap(null);
+    state.mapDirectionsRenderer = new google.maps.DirectionsRenderer({
+      map,
+      directions: result,
+      suppressMarkers: true,
+      polylineOptions: { strokeColor: '#d4453a', strokeWeight: 3, strokeOpacity: 0.7 },
+    });
+    const route = result.routes[0];
+    let totalDist = 0, totalTime = 0;
+    route.legs.forEach(leg => { totalDist += leg.distance.value; totalTime += leg.duration.value; });
+    return {
+      distance: totalDist < 1000 ? totalDist + 'm' : (totalDist / 1000).toFixed(1) + 'km',
+      duration: totalTime < 3600 ? Math.round(totalTime / 60) + ' min' : Math.floor(totalTime / 3600) + 'h ' + Math.round((totalTime % 3600) / 60) + 'min',
+      result,
+    };
+  } catch { return null; }
+}
+
+async function optimizeRoute() {
+  const day = state.mapDay;
+  const ids = state.itinerary[day] || [];
+  if (ids.length < 3) return;
+  const geocoded = await geocodeItems(ids);
+  const validItems = ids.filter(id => geocoded[id]).map(id => ({ id, position: geocoded[id] }));
+  if (validItems.length < 3) return;
+  const directionsService = new google.maps.DirectionsService();
+  const origin = validItems[0].position;
+  const destination = validItems[validItems.length - 1].position;
+  const waypoints = validItems.slice(1, -1).map(item => ({
+    location: new google.maps.LatLng(item.position.lat, item.position.lng),
+    stopover: true,
+  }));
+  try {
+    const result = await new Promise((resolve, reject) => {
+      directionsService.route({
+        origin: new google.maps.LatLng(origin.lat, origin.lng),
+        destination: new google.maps.LatLng(destination.lat, destination.lng),
+        waypoints,
+        travelMode: 'WALKING',
+        optimizeWaypoints: true,
+      }, (res, status) => {
+        if (status === 'OK') resolve(res);
+        else reject(new Error(status));
+      });
+    });
+    const order = result.routes[0].waypoint_order;
+    const middle = validItems.slice(1, -1);
+    const reordered = [validItems[0].id];
+    order.forEach(idx => reordered.push(middle[idx].id));
+    reordered.push(validItems[validItems.length - 1].id);
+    const failed = ids.filter(id => !geocoded[id]);
+    state.itinerary[day] = [...reordered, ...failed];
+    saveItinerary();
+    render();
+  } catch(e) { console.warn('Route optimization failed:', e); }
+}
+
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371000;
+  const toRad = x => x * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+    Math.sin(dLng/2) * Math.sin(dLng/2);
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function renderNearby(validItems) {
+  if (validItems.length === 0) return;
+  let cLat = 0, cLng = 0;
+  validItems.forEach(vi => { cLat += vi.position.lat; cLng += vi.position.lng; });
+  cLat /= validItems.length;
+  cLng /= validItems.length;
+  const inItinerary = new Set();
+  ITIN_DAYS.forEach(d => (state.itinerary[d] || []).forEach(id => inItinerary.add(id)));
+  const allData = [...state.data.food, ...state.data.sights, ...state.data.nightlife, ...state.data.shopping, ...state.data.hidden];
+  const cache = getGeoCache();
+  const now = Date.now();
+  const nearby = [];
+  allData.forEach(item => {
+    const id = itemId(item);
+    if (inItinerary.has(id)) return;
+    const query = item.mapsQuery || (item.name + ' Tokyo');
+    const cached = cache[query];
+    if (!cached || cached.status !== 'OK' || (now - cached.ts) >= GEO_CACHE_TTL) return;
+    const dist = haversine(cLat, cLng, cached.lat, cached.lng);
+    if (dist <= 1000) nearby.push({ item, id, dist });
+  });
+  nearby.sort((a, b) => a.dist - b.dist);
+  const top = nearby.slice(0, 5);
+  if (top.length === 0) return;
+  const section = document.getElementById('mapNearbySection');
+  if (!section) return;
+  let html = '<div class="map-nearby-section"><h3>Nearby Places</h3>';
+  top.forEach(n => {
+    const distStr = n.dist < 100 ? Math.round(n.dist) + 'm' : (n.dist / 1000).toFixed(1) + 'km';
+    html += '<div class="map-nearby-card" onclick="addNearbyToDay(\'' + n.id.replace(/'/g, "\\'") + '\')">' +
+      '<span class="nearby-name">' + n.item.name + '</span>' +
+      '<span class="nearby-cat ' + catClass(n.item.category) + '">' + n.item.category + '</span>' +
+      '<span class="nearby-dist">' + distStr + '</span></div>';
+  });
+  html += '</div>';
+  section.innerHTML = html;
+}
+
+function toggleDayCollapse(day) {
+  if (state.collapsedDays[day]) {
+    delete state.collapsedDays[day];
+  } else {
+    state.collapsedDays[day] = true;
+  }
+  const section = document.querySelector('.itin-day-section[data-day="' + day + '"]');
+  if (section) section.classList.toggle('collapsed', !!state.collapsedDays[day]);
+}
+
+function setPlanView(view) {
+  if (state.planView === view) return;
+  state.planView = view;
+  if (view === 'list') {
+    if (state.mapDirectionsRenderer) { state.mapDirectionsRenderer.setMap(null); state.mapDirectionsRenderer = null; }
+    state.mapInstance = null;
+    state.mapMarkers = [];
+  }
+  render();
+  window.scrollTo({top:0});
+}
+
+function setMapDay(day) {
+  if (state.mapDay === day) return;
+  state.mapDay = day;
+  if (state.mapDirectionsRenderer) { state.mapDirectionsRenderer.setMap(null); state.mapDirectionsRenderer = null; }
+  state.mapInstance = null;
+  state.mapMarkers = [];
+  render();
+}
+
+function panToMarker(id) {
+  if (!state.mapInstance || !state.mapMarkers) return;
+  const marker = state.mapMarkers.find(m => m._itemId === id);
+  if (marker) {
+    state.mapInstance.panTo(marker.getPosition());
+    state.mapInstance.setZoom(Math.max(state.mapInstance.getZoom(), 16));
+  }
+  highlightMapItem(id);
+}
+
+function highlightMapItem(id) {
+  document.querySelectorAll('.map-item-card').forEach(c => c.classList.remove('highlighted'));
+  const card = document.querySelector('.map-item-card[data-map-id="' + id + '"]');
+  if (card) {
+    card.classList.add('highlighted');
+    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    setTimeout(() => card.classList.remove('highlighted'), 2000);
+  }
+}
+
+function addNearbyToDay(id) {
+  if (!state.itinerary[state.mapDay]) return;
+  for (const day of ITIN_DAYS) {
+    if ((state.itinerary[day] || []).includes(id)) return;
+  }
+  state.itinerary[state.mapDay].push(id);
+  saveItinerary();
+  render();
+}
+
+let _mapViewGen = 0;
+
+async function initMapView() {
+  const gen = ++_mapViewGen;
+  const ids = state.itinerary[state.mapDay] || [];
+  const container = document.getElementById('mapContainer');
+  if (!container) return;
+
+  if (ids.length === 0) {
+    container.innerHTML = '<div class="map-empty">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>' +
+      '<p>No items for this day.<br>Add items in List view, then come back here.</p></div>';
+    return;
+  }
+
+  try { await loadGoogleMaps(); } catch {
+    if (gen !== _mapViewGen) return;
+    container.innerHTML = '<div class="map-error">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>' +
+      '<p>Failed to load Google Maps.<br>Check your connection and try again.</p></div>';
+    return;
+  }
+  if (gen !== _mapViewGen) return;
+
+  const geocoded = await geocodeItems(ids);
+  if (gen !== _mapViewGen) return;
+
+  const validItems = [];
+  const failedItems = [];
+  ids.forEach(id => {
+    const item = getItineraryItem(id);
+    if (!item) return;
+    if (geocoded[id]) {
+      validItems.push({ id, item, position: geocoded[id], number: validItems.length + 1 });
+    } else {
+      failedItems.push({ id, item });
+    }
+  });
+
+  if (validItems.length === 0) {
+    const c = document.getElementById('mapContainer');
+    if (c) c.innerHTML = '<div class="map-error">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>' +
+      '<p>Couldn\'t locate any items on the map.</p></div>';
+    return;
+  }
+
+  const mapContainer = document.getElementById('mapContainer');
+  if (!mapContainer) return;
+  mapContainer.innerHTML = '';
+  const bounds = new google.maps.LatLngBounds();
+  validItems.forEach(vi => bounds.extend(new google.maps.LatLng(vi.position.lat, vi.position.lng)));
+
+  const map = new google.maps.Map(mapContainer, {
+    center: bounds.getCenter(),
+    zoom: validItems.length === 1 ? 16 : 14,
+    styles: MAP_STYLES,
+    disableDefaultUI: true,
+    zoomControl: true,
+    gestureHandling: 'greedy',
+  });
+  if (validItems.length > 1) map.fitBounds(bounds, 50);
+
+  state.mapInstance = map;
+  state.mapMarkers = [];
+
+  validItems.forEach(vi => {
+    const marker = createNumberedMarker(map, vi.position, vi.number);
+    marker._itemId = vi.id;
+    marker.addListener('click', () => panToMarker(vi.id));
+    state.mapMarkers.push(marker);
+  });
+
+  let routeInfo = null;
+  if (validItems.length >= 2) {
+    routeInfo = await drawRoute(map, validItems);
+    if (gen !== _mapViewGen) return;
+  }
+
+  const routeEl = document.getElementById('mapRouteInfo');
+  if (routeInfo && routeEl) {
+    routeEl.innerHTML = '<div class="map-route-info">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>' +
+      '<span><strong>' + routeInfo.duration + '</strong> walking</span>' +
+      '<span>' + routeInfo.distance + '</span>' +
+      '<span class="route-spacer"></span>' +
+      (ids.length >= 3 ? '<button class="map-optimize-btn" onclick="optimizeRoute()">Optimize route</button>' : '') +
+      '</div>';
+  }
+
+  const itemListEl = document.getElementById('mapItemList');
+  if (itemListEl) {
+    let itemListHtml = '';
+    validItems.forEach(vi => {
+      itemListHtml += '<div class="map-item-card" data-map-id="' + vi.id + '" onclick="panToMarker(\'' + vi.id.replace(/'/g, "\\'") + '\')">' +
+        '<span class="map-item-number">' + vi.number + '</span>' +
+        '<span class="item-name">' + vi.item.name + '</span>' +
+        '<span class="item-cat ' + catClass(vi.item.category) + '">' + vi.item.category + '</span></div>';
+    });
+    failedItems.forEach(fi => {
+      itemListHtml += '<div class="map-item-failed">' + fi.item.name + ' — couldn\'t locate</div>';
+    });
+    itemListEl.innerHTML = itemListHtml;
+  }
+
+  renderNearby(validItems);
+  backgroundGeocodeAll();
 }
 
 function itemId(item) {
@@ -1121,7 +2226,12 @@ function renderCard(item, idx) {
           <p class="card-desc">${item.description || ''}</p>
           ${priceHtml}${admissionHtml}${hoursHtml}${timeHtml}${orderHtml}${buyHtml}${findHtml}${tipsHtml}
           ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ''}
-          ${mapsUrl ? `<div class="card-actions"><a href="${mapsUrl}" target="_blank" rel="noopener" class="btn-directions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Directions</a></div>` : ''}
+          <div class="card-actions">
+            ${mapsUrl ? `<a href="${mapsUrl}" target="_blank" rel="noopener" class="btn-directions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>Directions</a>` : ''}
+            <button class="btn-add-plan ${isInItinerary(id) ? 'in-plan' : ''}" onclick="event.stopPropagation();toggleItineraryItem('${id}');this.classList.toggle('in-plan');this.innerHTML=this.classList.contains('in-plan')?'<svg viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;><polyline points=&quot;20 6 9 17 4 12&quot;/></svg>In Plan':'<svg viewBox=&quot;0 0 24 24&quot; fill=&quot;none&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;2&quot;><rect x=&quot;3&quot; y=&quot;4&quot; width=&quot;18&quot; height=&quot;18&quot; rx=&quot;2&quot;/><line x1=&quot;16&quot; y1=&quot;2&quot; x2=&quot;16&quot; y2=&quot;6&quot;/><line x1=&quot;8&quot; y1=&quot;2&quot; x2=&quot;8&quot; y2=&quot;6&quot;/><line x1=&quot;3&quot; y1=&quot;10&quot; x2=&quot;21&quot; y2=&quot;10&quot;/></svg>Add to Plan'">
+              ${isInItinerary(id) ? '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>In Plan' : '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Add to Plan'}
+            </button>
+          </div>
         </div>
       </div>
     </div>`;
@@ -1142,6 +2252,11 @@ function render() {
   const data = filterData();
   window._allItems = getTabData();
 
+  if (state.tab === 'Plan') {
+    document.getElementById('controls').style.display = 'none';
+    renderPlan();
+    return;
+  }
   if (state.tab === 'Info') {
     document.getElementById('controls').style.display = 'none';
     renderInfo();
@@ -1592,6 +2707,399 @@ searchClear.addEventListener('click', function() {
   render();
 });
 
+// Plan page renderer
+function renderPlan() {
+  if (!state.itinerary) initItinerary();
+  const el = document.getElementById('planContent');
+  const subtitle = state.planView === 'map' ? 'Visualize your day on the map.' : 'Drag items between days to build your itinerary.';
+  let html = '<div class="info-page-header"><h1>Plan</h1><p>' + subtitle + '</p></div>';
+
+  html += '<div class="plan-view-toggle">' +
+    '<button class="plan-view-btn ' + (state.planView === 'list' ? 'active' : '') + '" onclick="setPlanView(\'list\')">' +
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>' +
+    'List</button>' +
+    '<button class="plan-view-btn ' + (state.planView === 'map' ? 'active' : '') + '" onclick="setPlanView(\'map\')">' +
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>' +
+    'Map</button></div>';
+
+  if (state.planView === 'map') {
+    const days = ITIN_DAYS.filter(d => d !== 'unsorted');
+    html += '<div class="map-day-selector">';
+    days.forEach(day => {
+      const [label] = ITIN_DAY_LABELS[day];
+      const count = (state.itinerary[day] || []).length;
+      const short = label.split(',')[0];
+      html += '<button class="map-day-chip ' + (state.mapDay === day ? 'active' : '') + '" onclick="setMapDay(\'' + day + '\')">' + short + '<span class="chip-count">(' + count + ')</span></button>';
+    });
+    html += '</div>';
+    html += '<div class="map-container" id="mapContainer"><div class="map-loading"><div class="map-loading-spinner"></div>Loading map...</div></div>';
+    html += '<div id="mapRouteInfo"></div>';
+    html += '<div class="map-item-list" id="mapItemList"></div>';
+    html += '<div id="mapNearbySection"></div>';
+    el.innerHTML = html;
+    initMapView();
+  } else {
+    html += renderPlanListHtml();
+    el.innerHTML = html;
+    requestAnimationFrame(() => initDragAndDrop());
+  }
+}
+
+function renderPlanListHtml() {
+  let html = '<div class="itin-board">';
+  ITIN_DAYS.forEach(day => {
+    const [label, sublabel] = ITIN_DAY_LABELS[day];
+    const ids = state.itinerary[day] || [];
+    const isUnsorted = day === 'unsorted';
+    const isCollapsed = state.collapsedDays[day] ? ' collapsed' : '';
+    html += '<div class="itin-day-section ' + (isUnsorted ? 'itin-section-unsorted' : '') + isCollapsed + '" data-day="' + day + '">' +
+      '<div class="itin-day-header" onclick="toggleDayCollapse(\'' + day + '\')">' +
+      '<span><span class="itin-day-label">' + label + '</span>' +
+      (sublabel ? '<span class="itin-day-sublabel">' + sublabel + '</span>' : '') +
+      '</span><span style="display:flex;align-items:center"><span class="itin-day-count">' + ids.length + ' item' + (ids.length !== 1 ? 's' : '') + '</span>' +
+      '<svg class="itin-day-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span></div>' +
+      '<div class="itin-drop-zone" data-day="' + day + '">';
+    if (ids.length === 0) {
+      html += '<div class="itin-drop-zone-empty">Drop items here</div>';
+    } else {
+      const displayIds = isUnsorted ? [...ids].sort((a, b) => getItemArea(a).localeCompare(getItemArea(b))) : ids;
+      let lastArea = '';
+      displayIds.forEach(id => {
+        const item = getItineraryItem(id);
+        if (!item) return;
+        if (isUnsorted) {
+          const area = getItemArea(id);
+          if (area !== lastArea) {
+            html += '<div class="itin-neighborhood-label">' + area + '</div>';
+            lastArea = area;
+          }
+        }
+        html += '<div class="itin-item" data-id="' + id + '" data-day="' + day + '">' +
+          '<span class="itin-item-grip"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="9" cy="6" r="1.5"/><circle cx="15" cy="6" r="1.5"/><circle cx="9" cy="12" r="1.5"/><circle cx="15" cy="12" r="1.5"/><circle cx="9" cy="18" r="1.5"/><circle cx="15" cy="18" r="1.5"/></svg></span>' +
+          '<span class="itin-item-name">' + item.name + '</span>' +
+          '<span class="itin-item-cat ' + catClass(item.category) + '">' + item.category + '</span>' +
+          '<button class="itin-item-remove" onclick="event.stopPropagation();removeFromItineraryAndRender(\'' + id + '\')"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>';
+      });
+    }
+    html += '</div></div>';
+  });
+  html += '</div>';
+  return html;
+}
+
+// Undo support
+let _undoTimer = null;
+let _undoData = null;
+
+document.getElementById('undoToastBtn').addEventListener('click', undoRemove);
+
+function removeFromItineraryAndRender(id) {
+  let fromDay = null;
+  let fromIdx = -1;
+  for (const day of ITIN_DAYS) {
+    const idx = (state.itinerary[day] || []).indexOf(id);
+    if (idx !== -1) { fromDay = day; fromIdx = idx; break; }
+  }
+  const item = getItineraryItem(id);
+  const itemName = item ? item.name : 'Item';
+
+  removeFromItinerary(id);
+  render();
+
+  _undoData = { id, fromDay, fromIdx };
+  const toast = document.getElementById('undoToast');
+  document.getElementById('undoToastText').innerHTML = '<strong>' + itemName + '</strong> removed';
+  toast.classList.add('visible');
+  clearTimeout(_undoTimer);
+  _undoTimer = setTimeout(() => {
+    toast.classList.remove('visible');
+    _undoData = null;
+  }, 4000);
+}
+
+function undoRemove() {
+  if (!_undoData) return;
+  const { id, fromDay, fromIdx } = _undoData;
+  if (fromDay && state.itinerary[fromDay]) {
+    state.itinerary[fromDay].splice(fromIdx, 0, id);
+    saveItinerary();
+  }
+  _undoData = null;
+  clearTimeout(_undoTimer);
+  document.getElementById('undoToast').classList.remove('visible');
+  render();
+}
+
+// Drag and drop engine
+function initDragAndDrop() {
+  const items = document.querySelectorAll('.itin-item');
+  if (!items.length) return;
+
+  let dragState = null;
+  let longPressTimer = null;
+
+  function getDropZones() {
+    return Array.from(document.querySelectorAll('.itin-drop-zone'));
+  }
+
+  function getInsertIndex(zone, clientY) {
+    const children = Array.from(zone.children).filter(c => !c.classList.contains('itin-insert-line') && !c.classList.contains('itin-drop-zone-empty') && !c.classList.contains('dragging') && !c.classList.contains('itin-neighborhood-label'));
+    if (children.length === 0) return 0;
+    for (let i = 0; i < children.length; i++) {
+      const rect = children[i].getBoundingClientRect();
+      if (clientY < rect.top + rect.height / 2) return i;
+    }
+    return children.length;
+  }
+
+  function removeInsertLines() {
+    document.querySelectorAll('.itin-insert-line').forEach(el => el.remove());
+  }
+
+  function showInsertLine(zone, index) {
+    removeInsertLines();
+    const line = document.createElement('div');
+    line.className = 'itin-insert-line';
+    const children = Array.from(zone.children).filter(c => !c.classList.contains('itin-insert-line') && !c.classList.contains('itin-drop-zone-empty') && !c.classList.contains('dragging') && !c.classList.contains('itin-neighborhood-label'));
+    if (children.length === 0 || index === 0) {
+      zone.insertBefore(line, zone.firstChild);
+    } else if (index >= children.length) {
+      zone.appendChild(line);
+    } else {
+      zone.insertBefore(line, children[index]);
+    }
+  }
+
+  function createGhost(el, x, y) {
+    const ghost = el.cloneNode(true);
+    ghost.classList.add('itin-item-ghost');
+    const rect = el.getBoundingClientRect();
+    ghost.style.width = rect.width + 'px';
+    ghost.style.left = (x - rect.width / 2) + 'px';
+    ghost.style.top = (y - rect.height / 2) + 'px';
+    document.body.appendChild(ghost);
+    return ghost;
+  }
+
+  function moveGhost(ghost, x, y) {
+    const w = ghost.offsetWidth;
+    const h = ghost.offsetHeight;
+    ghost.style.left = (x - w / 2) + 'px';
+    ghost.style.top = (y - h / 2) + 'px';
+  }
+
+  function autoScroll(y) {
+    const margin = 200;
+    const maxSpeed = 60;
+    const vh = window.innerHeight;
+    if (y < margin) {
+      const intensity = 1 - (y / margin);
+      window.scrollBy(0, -Math.ceil(maxSpeed * intensity));
+    } else if (y > vh - margin - 72) {
+      const intensity = Math.min((y - (vh - margin - 72)) / margin, 1);
+      window.scrollBy(0, Math.ceil(maxSpeed * intensity));
+    }
+  }
+
+  function startDrag(el, clientX, clientY) {
+    const id = el.dataset.id;
+    const fromDay = el.dataset.day;
+    el.classList.add('dragging');
+    const ghost = createGhost(el, clientX, clientY);
+    dragState = { id, fromDay, el, ghost, scrollInterval: null };
+    dragState.scrollInterval = setInterval(() => {
+      if (dragState && dragState._lastY != null) autoScroll(dragState._lastY);
+    }, 16);
+
+    if (navigator.vibrate) navigator.vibrate(30);
+
+    getDropZones().forEach(z => z.classList.add('drag-over'));
+  }
+
+  function onMove(clientX, clientY) {
+    if (!dragState) return;
+    dragState._lastY = clientY;
+    moveGhost(dragState.ghost, clientX, clientY);
+
+    const zones = getDropZones();
+    let overZone = null;
+    for (const z of zones) {
+      const r = z.getBoundingClientRect();
+      if (clientY >= r.top && clientY <= r.bottom && clientX >= r.left && clientX <= r.right) {
+        overZone = z;
+        break;
+      }
+    }
+    document.querySelectorAll('.itin-day-header.drag-target').forEach(h => h.classList.remove('drag-target'));
+
+    if (overZone) {
+      const idx = getInsertIndex(overZone, clientY);
+      showInsertLine(overZone, idx);
+    } else {
+      removeInsertLines();
+      const headers = document.querySelectorAll('.itin-day-section.collapsed .itin-day-header');
+      for (const h of headers) {
+        const r = h.getBoundingClientRect();
+        if (clientY >= r.top && clientY <= r.bottom && clientX >= r.left && clientX <= r.right) {
+          h.classList.add('drag-target');
+          break;
+        }
+      }
+    }
+  }
+
+  function endDrag(clientX, clientY) {
+    if (!dragState) return;
+    clearInterval(dragState.scrollInterval);
+
+    const zones = getDropZones();
+    let targetZone = null;
+    for (const z of zones) {
+      const r = z.getBoundingClientRect();
+      if (clientY >= r.top && clientY <= r.bottom && clientX >= r.left && clientX <= r.right) {
+        targetZone = z;
+        break;
+      }
+    }
+
+    if (targetZone) {
+      const toDay = targetZone.dataset.day;
+      const insertIdx = getInsertIndex(targetZone, clientY);
+
+      const fromArr = state.itinerary[dragState.fromDay];
+      const oldIdx = fromArr.indexOf(dragState.id);
+      if (oldIdx !== -1) fromArr.splice(oldIdx, 1);
+
+      const toArr = state.itinerary[toDay];
+      let adjustedIdx = insertIdx;
+      if (dragState.fromDay === toDay && oldIdx < insertIdx) adjustedIdx = Math.max(0, insertIdx - 1);
+      toArr.splice(adjustedIdx, 0, dragState.id);
+
+      saveItinerary();
+    } else {
+      const headers = document.querySelectorAll('.itin-day-section.collapsed .itin-day-header');
+      for (const h of headers) {
+        const r = h.getBoundingClientRect();
+        if (clientY >= r.top && clientY <= r.bottom && clientX >= r.left && clientX <= r.right) {
+          const toDay = h.closest('.itin-day-section').dataset.day;
+          const fromArr = state.itinerary[dragState.fromDay];
+          const oldIdx = fromArr.indexOf(dragState.id);
+          if (oldIdx !== -1) fromArr.splice(oldIdx, 1);
+          state.itinerary[toDay].push(dragState.id);
+          saveItinerary();
+          break;
+        }
+      }
+    }
+
+    dragState.el.classList.remove('dragging');
+    dragState.ghost.remove();
+    removeInsertLines();
+    document.querySelectorAll('.itin-day-header.drag-target').forEach(h => h.classList.remove('drag-target'));
+    getDropZones().forEach(z => z.classList.remove('drag-over'));
+    dragState = null;
+
+    render();
+  }
+
+  function cancelDrag() {
+    if (!dragState) return;
+    clearInterval(dragState.scrollInterval);
+    dragState.el.classList.remove('dragging');
+    dragState.ghost.remove();
+    removeInsertLines();
+    document.querySelectorAll('.itin-day-header.drag-target').forEach(h => h.classList.remove('drag-target'));
+    getDropZones().forEach(z => z.classList.remove('drag-over'));
+    dragState = null;
+  }
+
+  // Touch events
+  items.forEach(el => {
+    el.addEventListener('touchstart', function(e) {
+      if (dragState) return;
+      const touch = e.touches[0];
+      const startX = touch.clientX;
+      const startY = touch.clientY;
+      longPressTimer = setTimeout(() => {
+        e.preventDefault();
+        startDrag(el, startX, startY);
+      }, 300);
+
+      const onTouchMove = (ev) => {
+        const t = ev.touches[0];
+        if (longPressTimer && (Math.abs(t.clientX - startX) > 10 || Math.abs(t.clientY - startY) > 10)) {
+          clearTimeout(longPressTimer);
+          longPressTimer = null;
+        }
+        if (dragState) {
+          ev.preventDefault();
+          onMove(t.clientX, t.clientY);
+        }
+      };
+
+      const onTouchEnd = (ev) => {
+        clearTimeout(longPressTimer);
+        longPressTimer = null;
+        if (dragState) {
+          const t = ev.changedTouches[0];
+          endDrag(t.clientX, t.clientY);
+        }
+        document.removeEventListener('touchmove', onTouchMove);
+        document.removeEventListener('touchend', onTouchEnd);
+        document.removeEventListener('touchcancel', onTouchCancel);
+      };
+
+      const onTouchCancel = () => {
+        clearTimeout(longPressTimer);
+        longPressTimer = null;
+        cancelDrag();
+        document.removeEventListener('touchmove', onTouchMove);
+        document.removeEventListener('touchend', onTouchEnd);
+        document.removeEventListener('touchcancel', onTouchCancel);
+      };
+
+      document.addEventListener('touchmove', onTouchMove, { passive: false });
+      document.addEventListener('touchend', onTouchEnd);
+      document.addEventListener('touchcancel', onTouchCancel);
+    }, { passive: false });
+
+    // Mouse events
+    el.addEventListener('mousedown', function(e) {
+      if (dragState || e.button !== 0) return;
+      e.preventDefault();
+      const startX = e.clientX;
+      const startY = e.clientY;
+      longPressTimer = setTimeout(() => {
+        startDrag(el, startX, startY);
+      }, 300);
+
+      const onMouseMove = (ev) => {
+        if (longPressTimer && (Math.abs(ev.clientX - startX) > 10 || Math.abs(ev.clientY - startY) > 10)) {
+          clearTimeout(longPressTimer);
+          longPressTimer = null;
+        }
+        if (dragState) {
+          ev.preventDefault();
+          onMove(ev.clientX, ev.clientY);
+        }
+      };
+
+      const onMouseUp = (ev) => {
+        clearTimeout(longPressTimer);
+        longPressTimer = null;
+        if (dragState) {
+          endDrag(ev.clientX, ev.clientY);
+        }
+        document.removeEventListener('mousemove', onMouseMove);
+        document.removeEventListener('mouseup', onMouseUp);
+      };
+
+      document.addEventListener('mousemove', onMouseMove);
+      document.addEventListener('mouseup', onMouseUp);
+    });
+  });
+}
+
 // Load data
 async function loadData() {
   try {
@@ -1604,6 +3112,7 @@ async function loadData() {
       fetch('data/practical.json').then(r => r.json()).catch(() => null)
     ]);
     state.data = { food, sights, nightlife, shopping, hidden, practical };
+    initItinerary();
     render();
   } catch(e) {
     console.error('Failed to load data:', e);
