@@ -230,7 +230,7 @@
   {
     "name": "Daiso (100 Yen Shop)",
     "nameJa": "ダイソー",
-    "category": "Discount/100yen",
+    "category": "Discount/100 Yen",
     "neighborhood": "Everywhere (Harajuku flagship)",
     "nearestStation": "Various",
     "priceRange": "¥100-300",
@@ -248,7 +248,7 @@
   {
     "name": "Don Quijote (Donki)",
     "nameJa": "ドン・キホーテ",
-    "category": "Discount/100yen",
+    "category": "Discount/100 Yen",
     "neighborhood": "Various (Shibuya Mega Store)",
     "nearestStation": "Various",
     "priceRange": "Varies widely",
@@ -576,7 +576,7 @@
   {
     "name": "Chicago Shimokitazawa",
     "nameJa": "シカゴ 下北沢店",
-    "category": "Vintage",
+    "category": "Vintage/Thrift",
     "neighborhood": "Shimokitazawa",
     "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
     "priceRange": "$-$$",
@@ -596,7 +596,7 @@
   {
     "name": "RagTag Shibuya",
     "nameJa": "RAGTAG 渋谷店",
-    "category": "Vintage",
+    "category": "Vintage/Thrift",
     "neighborhood": "Shibuya",
     "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
     "priceRange": "$$-$$$",
@@ -676,7 +676,7 @@
   {
     "name": "Kamata Hakensha (Knife Shop)",
     "nameJa": "釜浅商店 鍛冶屋",
-    "category": "Kitchen",
+    "category": "Kitchen/Cookware",
     "neighborhood": "Kappabashi / Taito",
     "nearestStation": "Tawaramachi Station (Ginza Line)",
     "priceRange": "$$-$$$$",
@@ -696,7 +696,7 @@
   {
     "name": "Kama-Asa",
     "nameJa": "釜浅商店",
-    "category": "Kitchen",
+    "category": "Kitchen/Cookware",
     "neighborhood": "Kappabashi / Taito",
     "nearestStation": "Tawaramachi Station (Ginza Line)",
     "priceRange": "$$-$$$$",
@@ -716,7 +716,7 @@
   {
     "name": "Union Commerce (Tsubaya)",
     "nameJa": "つば屋庖丁店",
-    "category": "Kitchen",
+    "category": "Kitchen/Cookware",
     "neighborhood": "Kappabashi / Taito",
     "nearestStation": "Tawaramachi Station (Ginza Line)",
     "priceRange": "$$-$$$$",
@@ -997,7 +997,7 @@
   {
     "name": "Seria",
     "nameJa": "セリア",
-    "category": "100 Yen Shop",
+    "category": "Discount/100 Yen",
     "neighborhood": "Various",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1017,7 +1017,7 @@
   {
     "name": "Can Do",
     "nameJa": "キャンドゥ",
-    "category": "100 Yen Shop",
+    "category": "Discount/100 Yen",
     "neighborhood": "Various",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1037,7 +1037,7 @@
   {
     "name": "@cosme Tokyo (Harajuku)",
     "nameJa": "＠コスメ トーキョー",
-    "category": "Beauty",
+    "category": "Beauty/Skincare",
     "neighborhood": "Harajuku",
     "nearestStation": "Harajuku Station (JR Yamanote Line)",
     "priceRange": "$-$$$",
@@ -1057,7 +1057,7 @@
   {
     "name": "Ainz & Tulpe Harajuku",
     "nameJa": "アインズ＆トルぺ 原宿店",
-    "category": "Beauty",
+    "category": "Beauty/Skincare",
     "neighborhood": "Harajuku",
     "nearestStation": "Harajuku Station (JR Yamanote Line)",
     "priceRange": "$-$$",
@@ -1137,7 +1137,7 @@
   {
     "name": "Setagaya Boroichi (Boro Market)",
     "nameJa": "世田谷ボロ市",
-    "category": "Market",
+    "category": "Market/Flea Market",
     "neighborhood": "Setagaya",
     "nearestStation": "Kamimachi Station (Tokyu Setagaya Line)",
     "priceRange": "$-$$",
@@ -1157,7 +1157,7 @@
   {
     "name": "Togo Shrine Flea Market",
     "nameJa": "東郷神社 骨董市",
-    "category": "Market",
+    "category": "Market/Flea Market",
     "neighborhood": "Harajuku",
     "nearestStation": "Harajuku Station (JR Yamanote Line)",
     "priceRange": "$-$$",
@@ -1279,7 +1279,7 @@
   {
     "name": "Ameyoko (Ameya-Yokocho)",
     "nameJa": "アメヤ横丁",
-    "category": "Market",
+    "category": "Market/Flea Market",
     "neighborhood": "Ueno",
     "nearestStation": "Ueno Station (JR/Metro) or Okachimachi Station (JR)",
     "priceRange": "$-$$",
@@ -1299,7 +1299,7 @@
   {
     "name": "BookOff / Hard Off",
     "nameJa": "ブックオフ / ハードオフ",
-    "category": "Secondhand",
+    "category": "Vintage/Thrift",
     "neighborhood": "Various (major locations in Shibuya, Shinjuku, Akihabara)",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1379,7 +1379,7 @@
   {
     "name": "Flamingo Shimokitazawa",
     "nameJa": "フラミンゴ 下北沢店",
-    "category": "Vintage",
+    "category": "Vintage/Thrift",
     "neighborhood": "Shimokitazawa",
     "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
     "priceRange": "$-$$",
@@ -1399,7 +1399,7 @@
   {
     "name": "Stick Out Shimokitazawa",
     "nameJa": "スティックアウト 下北沢",
-    "category": "Vintage",
+    "category": "Vintage/Thrift",
     "neighborhood": "Shimokitazawa",
     "nearestStation": "Shimokitazawa Station (Odakyu/Keio Inokashira Line)",
     "priceRange": "$-$$",
@@ -1419,7 +1419,7 @@
   {
     "name": "Disk Union Shinjuku",
     "nameJa": "ディスクユニオン 新宿本館",
-    "category": "Records",
+    "category": "Records/Music",
     "neighborhood": "Shinjuku",
     "nearestStation": "Shinjuku-sanchome Station (Toei Shinjuku/Marunouchi/Fukutoshin Line)",
     "priceRange": "$-$$$",
@@ -1439,7 +1439,7 @@
   {
     "name": "Face Records Shibuya",
     "nameJa": "Face Records 渋谷",
-    "category": "Records",
+    "category": "Records/Music",
     "neighborhood": "Shibuya",
     "nearestStation": "Shibuya Station (JR/Metro/Tokyu/Keio)",
     "priceRange": "$$-$$$",

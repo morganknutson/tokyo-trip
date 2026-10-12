@@ -1257,7 +1257,7 @@
   {
     "name": "7-Eleven Egg Sandwich",
     "nameJa": "セブンイレブン たまごサンド",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1277,7 +1277,7 @@
   {
     "name": "Lawson Karaage-Kun",
     "nameJa": "ローソン からあげクン",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1297,7 +1297,7 @@
   {
     "name": "FamilyMart Famichiki",
     "nameJa": "ファミリーマート ファミチキ",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1317,7 +1317,7 @@
   {
     "name": "Lawson Premium Roll Cake",
     "nameJa": "ローソン プレミアムロールケーキ",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1337,7 +1337,7 @@
   {
     "name": "Mos Burger",
     "nameJa": "モスバーガー",
-    "category": "Chain",
+    "category": "Chain Restaurant",
     "neighborhood": "Various",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1357,7 +1357,7 @@
   {
     "name": "Saizeriya",
     "nameJa": "サイゼリヤ",
-    "category": "Chain",
+    "category": "Chain Restaurant",
     "neighborhood": "Various",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1377,7 +1377,7 @@
   {
     "name": "Cafe de l'Ambre",
     "nameJa": "カフェ・ド・ランブル",
-    "category": "Coffee",
+    "category": "Breakfast/Coffee",
     "neighborhood": "Ginza",
     "nearestStation": "Ginza Station",
     "priceRange": "$$",
@@ -1397,7 +1397,7 @@
   {
     "name": "Sarutahiko Coffee",
     "nameJa": "猿田彦珈琲",
-    "category": "Coffee",
+    "category": "Breakfast/Coffee",
     "neighborhood": "Ebisu",
     "nearestStation": "Ebisu Station",
     "priceRange": "$$",
@@ -1416,7 +1416,7 @@
   {
     "name": "Blue Bottle Coffee Japan",
     "nameJa": "ブルーボトルコーヒー",
-    "category": "Coffee",
+    "category": "Breakfast/Coffee",
     "neighborhood": "Kiyosumi-Shirakawa",
     "nearestStation": "Kiyosumi-Shirakawa Station",
     "priceRange": "$$",
@@ -1435,7 +1435,7 @@
   {
     "name": "Cremia Soft Serve",
     "nameJa": "クレミア",
-    "category": "Dessert",
+    "category": "Desserts/Sweets",
     "neighborhood": "Various",
     "nearestStation": "Various",
     "priceRange": "$",
@@ -1454,7 +1454,7 @@
   {
     "name": "Taiyaki Hiiragi",
     "nameJa": "たい焼き ひいらぎ",
-    "category": "Dessert",
+    "category": "Desserts/Sweets",
     "neighborhood": "Shinjuku",
     "nearestStation": "Shinjuku-Sanchome Station",
     "priceRange": "$",
@@ -1594,7 +1594,7 @@
   {
     "name": "Narisawa",
     "nameJa": "ナリサワ",
-    "category": "Kaiseki",
+    "category": "Kaiseki/Fine Dining",
     "neighborhood": "Minami-Aoyama",
     "nearestStation": "Omotesando Station",
     "priceRange": "$$$$",
@@ -1614,7 +1614,7 @@
   {
     "name": "Florilege",
     "nameJa": "フロリレージュ",
-    "category": "Kaiseki",
+    "category": "Kaiseki/Fine Dining",
     "neighborhood": "Aoyama",
     "nearestStation": "Omotesando Station",
     "priceRange": "$$$$",
@@ -1634,7 +1634,7 @@
   {
     "name": "Kagaya",
     "nameJa": "かがや",
-    "category": "Unique",
+    "category": "Unique Experience",
     "neighborhood": "Shimbashi",
     "nearestStation": "Shimbashi Station",
     "priceRange": "$$",
@@ -1654,7 +1654,7 @@
   {
     "name": "Alcatraz E.R.",
     "nameJa": "アルカトラズ E.R.",
-    "category": "Unique",
+    "category": "Unique Experience",
     "neighborhood": "Shibuya",
     "nearestStation": "Shibuya Station",
     "priceRange": "$$",
@@ -1732,7 +1732,7 @@
   {
     "name": "7-Eleven Onigiri",
     "nameJa": "セブンイレブン おにぎり",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1752,7 +1752,7 @@
   {
     "name": "7-Eleven Melon Pan",
     "nameJa": "セブンイレブン メロンパン",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",
@@ -1772,7 +1772,7 @@
   {
     "name": "FamilyMart Frappe",
     "nameJa": "ファミリーマート フラッペ",
-    "category": "Konbini",
+    "category": "Convenience Store",
     "neighborhood": "Everywhere",
     "nearestStation": "Any",
     "priceRange": "$",

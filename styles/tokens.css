@@ -1,0 +1,185 @@
+/*
+  Design tokens — the single source of truth for how the guide looks.
+  Components in app.css only reference the semantic tokens below, so a
+  reskin is mostly a matter of changing values in this file.
+
+  Layers:
+    1. Primitives  — raw palette and scales. Change these to rebrand.
+    2. Semantic    — what each color/size is for. Components use these.
+    3. Tones       — category marker colors (named after Tokyo Metro lines).
+    4. Dark theme  — semantic overrides for dark mode.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap');
+
+:root {
+  /* ---------- 1. Primitives ---------- */
+
+  /* Neutrals: cool grays with a hint of green, like station signage. */
+  --gray-0: #ffffff;
+  --gray-50: #f2f3f0;
+  --gray-100: #e9ebe8;
+  --gray-200: #dde0e2;
+  --gray-300: #c6cace;
+  --gray-500: #8a909a;
+  --gray-600: #5d636e;
+  --gray-800: #2a2f37;
+  --gray-900: #16191f;
+  --gray-950: #0f1216;
+
+  /* Ai-iro: traditional Japanese indigo. The only accent. */
+  --indigo-200: #b9c4ea;
+  --indigo-300: #8ea2e8;
+  --indigo-500: #3b4f94;
+  --indigo-600: #24366b;
+  --indigo-700: #1a2850;
+
+  /* Status */
+  --red-600: #c4261d;
+  --amber-600: #a86a00;
+  --green-600: #1f7a46;
+
+  /* Type */
+  --font-sans: 'Zen Kaku Gothic New', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+
+  --text-2xs: 0.6875rem;  /* 11 */
+  --text-xs: 0.75rem;     /* 12 */
+  --text-sm: 0.8125rem;   /* 13 */
+  --text-base: 0.9375rem; /* 15 */
+  --text-md: 1.0625rem;   /* 17 */
+  --text-lg: 1.25rem;     /* 20 */
+  --text-xl: 1.75rem;     /* 28 */
+  --text-2xl: 2.5rem;     /* 40 */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-body: 1.6;
+
+  /* Spacing (4px grid) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Radii — larger surfaces get larger radii. */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+
+  /* ---------- 2. Semantic (light) ---------- */
+
+  --color-bg: var(--gray-50);
+  --color-surface: var(--gray-0);
+  --color-surface-sunken: var(--gray-100);
+  --color-surface-overlay: rgb(255 255 255 / 0.88);
+
+  --color-text: var(--gray-900);
+  --color-text-muted: var(--gray-600);
+  --color-text-subtle: var(--gray-500);
+  --color-text-on-accent: var(--gray-0);
+
+  --color-border: var(--gray-200);
+  --color-border-strong: var(--gray-300);
+
+  --color-accent: var(--indigo-600);
+  --color-accent-hover: var(--indigo-700);
+  --color-accent-soft: rgb(36 54 107 / 0.08);
+  --color-accent-ring: rgb(36 54 107 / 0.35);
+
+  --color-danger: var(--red-600);
+  --color-warning: var(--amber-600);
+  --color-success: var(--green-600);
+
+  --color-focus: var(--indigo-500);
+  --shadow-subtle: 0 1px 2px rgb(22 25 31 / 0.08);
+  --shadow-raised: 0 1px 2px rgb(22 25 31 / 0.06), 0 8px 24px rgb(22 25 31 / 0.10);
+
+  /* Map (read by app.js for Google Maps styling) */
+  --map-land: #eef0ed;
+  --map-road: #ffffff;
+  --map-road-major: #dfe2e5;
+  --map-water: #c9d8e6;
+  --map-park: #dbe8d6;
+  --map-label: var(--gray-600);
+  --map-label-halo: #ffffff;
+
+  /* Layout */
+  --content-max: 540px;
+  --gutter: var(--space-5);
+  --nav-height: 68px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  /* ---------- 3. Category tones ---------- */
+  /* Named after Tokyo Metro lines. Map categories to tones in config.js. */
+  --tone-ginza: #f39700;
+  --tone-marunouchi: #e60012;
+  --tone-hibiya: #9caeb7;
+  --tone-tozai: #00a7db;
+  --tone-chiyoda: #00a040;
+  --tone-yurakucho: #c1a470;
+  --tone-hanzomon: #8f76d6;
+  --tone-namboku: #00ada9;
+  --tone-fukutoshin: #9c5e31;
+
+  color-scheme: light;
+}
+
+/* ---------- 4. Dark theme ---------- */
+
+:root[data-theme='dark'] {
+  --color-bg: var(--gray-950);
+  --color-surface: #181c22;
+  --color-surface-sunken: #13161b;
+  --color-surface-overlay: rgb(19 22 27 / 0.9);
+
+  --color-text: #eceef1;
+  --color-text-muted: #a5abb5;
+  --color-text-subtle: #737a85;
+  --color-text-on-accent: var(--gray-950);
+
+  --color-border: #262b33;
+  --color-border-strong: #353b45;
+
+  --color-accent: var(--indigo-300);
+  --color-accent-hover: var(--indigo-200);
+  --color-accent-soft: rgb(142 162 232 / 0.12);
+  --color-accent-ring: rgb(142 162 232 / 0.4);
+
+  --color-danger: #f0776f;
+  --color-warning: #e3b04b;
+  --color-success: #5cc48a;
+
+  --color-focus: var(--indigo-300);
+  --shadow-subtle: 0 1px 2px rgb(0 0 0 / 0.4);
+  --shadow-raised: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px rgb(0 0 0 / 0.4);
+
+  --map-land: #1a1e24;
+  --map-road: #272c34;
+  --map-road-major: #323843;
+  --map-water: #12202e;
+  --map-park: #1a261d;
+  --map-label: #8a909a;
+  --map-label-halo: #0f1216;
+
+  color-scheme: dark;
+}
