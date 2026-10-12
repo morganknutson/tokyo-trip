@@ -163,7 +163,7 @@ Rules that keep it easy to change:
 
 - `app.css` contains no raw colors, font sizes or radii. Add a token first, then use it.
 - To swap the accent, change `--color-accent` (and its `-hover`, `-soft` and `-ring` variants) in both themes.
-- To change the font, edit the `@import` at the top of `tokens.css` and `--font-sans`. Pick a family that covers the local script if your data has `nameJa`-style names. Then check `--font-sans-optical-shift`, which nudges small lowercase labels (like "rating" and "weird") so they sit centered on their scales. It depends on the font; most system fonts need `0`.
+- To change the font, edit the `@import` at the top of `tokens.css` and `--font-sans`. Pick a family that covers the local script if your data has `nameJa`-style names. Then check `--font-sans-optical-shift` and `--font-sans-optical-shift-mixed`, which nudge lowercase labels (like "rating" and "weird") and mixed-case text (like the search placeholder) so they sit centered on nearby icons and scales. It depends on the font; most system fonts need `0`.
 - The map style, markers and route line read tokens at runtime, so they follow the theme automatically.
 
 ## Suggested prompts for your agent

@@ -44,7 +44,8 @@
   --font-display: var(--font-sans);
   /* Nudge that centers lowercase text on icons and scales. It depends on the
      font's metrics: re-measure if you change --font-sans (0 for most system fonts). */
-  --font-sans-optical-shift: -0.17em;
+  --font-sans-optical-shift: -0.17em;       /* lowercase labels, e.g. "rating" */
+  --font-sans-optical-shift-mixed: -0.1em;  /* mixed-case text, e.g. input placeholders */
 
   --text-2xs: 0.6875rem;  /* 11 */
   --text-xs: 0.75rem;     /* 12 */
