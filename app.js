@@ -923,7 +923,7 @@ const INFO_RENDERERS = {
   },
 
   itineraries(p) {
-    if (!p.itineraries) return `<div class="empty-state"><p>No suggested day plans yet. Add them to <code>itineraries</code> in data/practical.json.</p></div>`;
+    if (!(p.itineraries || []).length) return `<div class="empty-state">${ICONS.plan}<p>No suggested day plans yet.<br>Add them to <code>itineraries</code> in <code>data/practical.json</code>.</p></div>`;
     return `<div class="info-section">${p.itineraries.map(day => `
       <div class="info-card">
         <div class="itin-day-title">${day.day}</div>

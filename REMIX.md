@@ -54,7 +54,7 @@ Then change only `styles/tokens.css`, `theme` in `config.js`, and the icon. Don'
 The places in `data/` are general Tokyo recommendations. These parts describe one person's February 2026 trip (a conference in Shibuya, a hotel in Akasaka, flying home to Portland) and need rewriting for anyone else, even someone going to Tokyo:
 
 **`config.js`**
-- `days` and `stays` ship empty, so the app shows empty states for the schedule, the planner's days and the Stay page until you add a trip. The header date line, page title and day labels are all generated from the dates in `days`.
+- `days` and `stays` ship empty, and so does `itineraries` in `data/practical.json`, so the app shows empty states for the schedule, the planner's days, the Stay page and Suggested day plans until you add a trip. The header date line, page title and day labels are all generated from the dates in `days`.
 - `baseArea`: `'Akasaka'`
 - `storagePrefix`: change it so the original guide's saved data doesn't carry over
 
@@ -62,7 +62,6 @@ The places in `data/` are general Tokyo recommendations. These parts describe on
 - `neighborhoods`: written around the hotel (Akasaka) and the conference venue (Shibuya); `afterConference` and `nearTrunk` are conference-specific
 - `airportDirections`: every route ends at the Akasaka hotel
 - `keyStations`: `from` and `note` assume the traveler starts in Akasaka and commutes to the conference
-- `itineraries`: built around the arrival day, conference days and departure; some slots name the hotel
 - `weather` and `packingList`: written for late February; `packingList` mentions the conference
 - `reservations`, `transportation.lastTrains`, `luggage`, `connectivity.wifi`: mention "your hotel"; check the wording still fits
 
