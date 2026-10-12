@@ -706,8 +706,10 @@ function toggleCard(id) {
 }
 
 function renderPlaces() {
-  const data = filterData();
   const container = document.getElementById('placesCards');
+  // Until the data files arrive, show nothing rather than a "no results" message.
+  if (!state.loaded) { container.innerHTML = ''; return; }
+  const data = filterData();
   if (data.length === 0) {
     container.innerHTML = `<div class="empty-state">${ICONS.empty}<p>${
       state.favOnly ? 'Nothing saved here yet. Tap the heart on a place to save it.' : 'No places match your search.'
@@ -1258,13 +1260,14 @@ async function loadData() {
   const [practical, ...lists] = await Promise.all([load('practical', null), ...DATA_SOURCES.map(s => load(s, []))]);
   state.data = { practical };
   DATA_SOURCES.forEach((s, i) => { state.data[s] = lists[i]; });
+  state.loaded = true;
   initItinerary();
   render();
 }
 
 renderHeader();
 buildNav();
-setTab('Plan');
+setTab(TRIP.defaultTab || 'Plan');
 
 document.getElementById('navMore').addEventListener('click', toggleInfoPanel);
 document.getElementById('undoToastBtn').addEventListener('click', undoRemove);

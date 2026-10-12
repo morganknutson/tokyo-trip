@@ -64,6 +64,9 @@ if (!Array.isArray(TRIP.days) || TRIP.days.length === 0) {
   if (!s.kind || !s.name) error(`config.js: stays[${i}] needs kind and name`);
 });
 
+if (TRIP.defaultTab !== undefined && TRIP.defaultTab !== 'Plan' && !(TRIP.tabs || []).some(t => t.id === TRIP.defaultTab)) {
+  error(`config.js: defaultTab "${TRIP.defaultTab}" must be 'Plan' or one of the tab ids`);
+}
 if (!['auto', 'light', 'dark'].includes(TRIP.theme)) error(`config.js: theme must be 'auto', 'light' or 'dark'`);
 
 const ICONS = ['food', 'see', 'do', 'shop', 'star', 'map'];

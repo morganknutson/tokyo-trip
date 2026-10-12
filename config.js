@@ -62,6 +62,9 @@ window.TRIP = {
   // trip so old saved data doesn't carry over.
   storagePrefix: 'tokyo',
 
+  // The page the app opens on: 'Plan' or the id of one of the tabs below.
+  defaultTab: 'Food',
+
   // Bottom-nav tabs that list places. `sources` are file names in data/ (no .json).
   // `icon` is one of: food, see, do, shop, star, map.
   tabs: [

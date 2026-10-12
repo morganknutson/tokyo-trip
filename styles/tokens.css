@@ -129,7 +129,10 @@
   /* Layout */
   --content-max: 540px;
   --gutter: var(--space-5);
-  --nav-height: 68px;
+  --nav-height: 58px;  /* bottom nav, not counting its bottom padding */
+  --nav-pad-x: var(--space-4);
+  /* At least 24px, or the home-bar safe area plus 8px on phones that have one. */
+  --nav-pad-bottom: max(var(--space-6), calc(var(--safe-bottom) + var(--space-2)));
   --safe-top: env(safe-area-inset-top, 0px);
   --safe-bottom: env(safe-area-inset-bottom, 0px);
 

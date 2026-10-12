@@ -99,7 +99,7 @@ To publish, upload the folder to any static host (Vercel, Netlify, GitHub Pages,
 ## Making it yours: checklist
 
 1. **`config.js`**: set `city`, `trip`, `days`, `stays` and `baseArea`. Change `storagePrefix` (e.g. `'lisbon'`) so favorites and plans saved by the original guide don't carry over.
-2. **Places**: replace or edit the files in `data/`. Keep the fields below. To add a tab or rename one, edit `tabs` in `config.js`; each tab lists the data files it shows.
+2. **Places**: replace or edit the files in `data/`. Keep the fields below. To add a tab or rename one, edit `tabs` in `config.js`; each tab lists the data files it shows. `defaultTab` sets which page the app opens on.
 3. **Categories**: every place has a `category`. Map each one to a tone in `categoryTones` in `config.js`. Unmapped categories get a tone automatically, so this is optional.
 4. **Info pages**: edit `data/practical.json`. Any section whose key is missing is skipped, so remove what you don't need.
 5. **Look**: change values in `styles/tokens.css` (see below). Update the icon to match.
