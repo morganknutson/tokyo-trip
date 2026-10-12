@@ -20,7 +20,7 @@ Ask:
 5. Anything you especially love or want to skip (food, nightlife, shopping, museums…)?
 6. Do you want the current look, or a new one? (See C.)
 
-Then rewrite every item in [What's specific to the original trip](#whats-specific-to-the-original-trip), and change `storagePrefix`. Leave the place files alone unless they ask; you can trim categories they want to skip.
+Then fill in `days` and `stays` in `config.js` (both start empty), rewrite every item in [What's specific to the original trip](#whats-specific-to-the-original-trip), and change `storagePrefix`. Leave the place files alone unless they ask; you can trim categories they want to skip.
 
 ### B. New city
 
@@ -31,7 +31,7 @@ Ask everything in A, plus:
 Then:
 1. Research and write new place files in the [place format](#place-format). Keep `nameJa` for a local-script name if the city has one, or leave it out.
 2. Rewrite `data/practical.json` for the new city. Drop sections that don't apply.
-3. Update `config.js`: `city` (including `bounds` for the map), `trip`, `days`, `stays`, `baseArea`, `storagePrefix`, `categoryTones` and `transitLines`.
+3. Update `config.js`: `city` (including `bounds` for the map), `days`, `stays`, `baseArea`, `storagePrefix`, `categoryTones` and `transitLines`.
 4. Optionally rename the `--tone-*` tokens after the new city's transit lines (see [Design system](#design-system)).
 5. Update `README.md`, the `<title>` fallback in `index.html`, and the icon.
 
@@ -54,9 +54,7 @@ Then change only `styles/tokens.css`, `theme` in `config.js`, and the icon. Don'
 The places in `data/` are general Tokyo recommendations. These parts describe one person's February 2026 trip (a conference in Shibuya, a hotel in Akasaka, flying home to Portland) and need rewriting for anyone else, even someone going to Tokyo:
 
 **`config.js`**
-- `trip`: dates and page title
-- `days`: every day's `label`, `theme` and `plan` (they mention arrival, the conference and the flight home)
-- `stays`: the hotel and the conference venue
+- `days` and `stays` ship empty, so the app shows empty states for the schedule, the planner's days and the Stay page until you add a trip. The header date line, page title and day labels are all generated from the dates in `days`.
 - `baseArea`: `'Akasaka'`
 - `storagePrefix`: change it so the original guide's saved data doesn't carry over
 
@@ -98,7 +96,7 @@ To publish, upload the folder to any static host (Vercel, Netlify, GitHub Pages,
 
 ## Making it yours: checklist
 
-1. **`config.js`**: set `city`, `trip`, `days`, `stays` and `baseArea`. Change `storagePrefix` (e.g. `'lisbon'`) so favorites and plans saved by the original guide don't carry over.
+1. **`config.js`**: set `city`, `days`, `stays` and `baseArea`. Each day needs only a `date` (YYYY-MM-DD); add a `theme` and a `plan` line if you like. Dates and labels like "Sun, Feb 15" are generated, so don't type them anywhere. Change `storagePrefix` (e.g. `'lisbon'`) so favorites and plans saved by the original guide don't carry over.
 2. **Places**: replace or edit the files in `data/`. Keep the fields below. To add a tab or rename one, edit `tabs` in `config.js`; each tab lists the data files it shows. `defaultTab` sets which page the app opens on.
 3. **Categories**: every place has a `category`. Map each one to a tone in `categoryTones` in `config.js`. Unmapped categories get a tone automatically, so this is optional.
 4. **Info pages**: edit `data/practical.json`. Any section whose key is missing is skipped, so remove what you don't need.
@@ -171,4 +169,4 @@ Rules that keep it easy to change:
 - "Make this a guide for Lisbon, May 3–10. Replace the Tokyo data with researched places in the same format, and update config.js and practical.json."
 - "Reskin this with a warm, sunny palette and a rounded font. Only change styles/tokens.css and the icon."
 - "Add a Coffee tab using a new data/coffee.json."
-- "Remove the conference days from the schedule and the Stay page."
+- "I'm in Tokyo June 2–9, staying near Ueno. Fill in my days and hotel."

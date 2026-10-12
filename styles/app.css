@@ -117,6 +117,20 @@ svg { display: block; }
 .schedule-day:last-child { border-bottom: none; }
 .schedule-day .day { font-weight: var(--weight-bold); color: var(--color-accent); }
 .schedule-day .plan { color: var(--color-text-muted); }
+.schedule-empty, .itin-no-days, .info-card.is-empty p {
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--color-text-muted);
+}
+.schedule-empty { padding: var(--space-3) 0; }
+.itin-no-days { padding: var(--space-4); text-align: center; }
+/* Inline code in empty states and messages. */
+.schedule-empty code, .itin-no-days code, .info-card code, .empty-state code {
+  padding: 1px var(--space-1);
+  background: var(--color-surface-sunken);
+  border-radius: var(--radius-xs);
+  font-size: var(--text-xs);
+}
 .schedule-day .plan strong { color: var(--color-text); font-weight: var(--weight-medium); }
 
 /* ---------- Search and filters ---------- */

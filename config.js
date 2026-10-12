@@ -12,40 +12,19 @@ window.TRIP = {
     bounds: { south: 35.55, west: 139.55, north: 35.82, east: 139.92 }
   },
 
-  // Shown in the header and the browser tab.
-  trip: {
-    dateRange: 'Feb 15 – 23, 2026',
-    pageTitle: 'Tokyo — Feb 2026'
-  },
+  // Your trip, one entry per day, in order. Empty by default: the header date
+  // line, the schedule and the planner's day columns all come from this list.
+  //   date   YYYY-MM-DD (required, unique). Labels like "Sun, Feb 15" are made from it.
+  //   theme  Short label for the day in the planner, e.g. 'Arrival' or 'Free day'.
+  //   plan   One line for the header schedule. May include <strong> for emphasis.
+  // Example:
+  //   { date: '2026-05-03', theme: 'Arrival', plan: '<strong>Land 3pm</strong> — check in, walk the neighborhood' },
+  days: [],
 
-  // One entry per day. `date` is the itinerary key, so keep it unique (YYYY-MM-DD).
-  // `plan` appears in the header schedule; `theme` labels the day in the planner.
-  days: [
-    { date: '2026-02-15', label: 'Sun, Feb 15', short: 'Sun 15', theme: 'Arrival',        plan: '<strong>Arrive 3pm</strong> — settle in Akasaka, explore the neighborhood' },
-    { date: '2026-02-16', label: 'Mon, Feb 16', short: 'Mon 16', theme: 'Conference eve', plan: '<strong>Afternoon free</strong> — conference starts in the evening at Trunk Hotel' },
-    { date: '2026-02-17', label: 'Tue, Feb 17', short: 'Tue 17', theme: 'Conference',     plan: '<strong>Conference</strong> — mornings might be free' },
-    { date: '2026-02-18', label: 'Wed, Feb 18', short: 'Wed 18', theme: 'Conference',     plan: '<strong>Conference</strong> — last day, evening free' },
-    { date: '2026-02-19', label: 'Thu, Feb 19', short: 'Thu 19', theme: 'Free day',       plan: '<strong>Free day</strong> — full day to explore' },
-    { date: '2026-02-20', label: 'Fri, Feb 20', short: 'Fri 20', theme: 'Free day',       plan: '<strong>Free day</strong> — full day to explore' },
-    { date: '2026-02-21', label: 'Sat, Feb 21', short: 'Sat 21', theme: 'Free day',       plan: '<strong>Free day</strong> — last full day' },
-    { date: '2026-02-22', label: 'Sun, Feb 22', short: 'Sun 22', theme: 'Departure',      plan: '<strong>Depart</strong> — fly home to Portland' }
-  ],
-
-  // Where you're staying and any fixed venues. Shown on the Stay page.
-  stays: [
-    {
-      kind: 'Hotel',
-      name: 'Hotel Mystays Premier Akasaka',
-      details: '2-17-54 Akasaka, Minato, Tokyo 107-0052',
-      mapsQuery: 'Hotel Mystays Premier Akasaka Tokyo'
-    },
-    {
-      kind: 'Conference venue',
-      name: 'Trunk Hotel, Shibuya',
-      details: 'Mon 16 (evening) through Wed 18. About 20 min by metro from Akasaka.',
-      mapsQuery: 'Trunk Hotel Shibuya Tokyo'
-    }
-  ],
+  // Where you're staying and any fixed venues, shown on the Stay page. Empty by default.
+  // Example:
+  //   { kind: 'Hotel', name: 'Hotel name', details: 'Address or notes', mapsQuery: 'Hotel name Tokyo' },
+  stays: [],
 
   // The neighborhood you're based in. Used in headings like "Key lines from Akasaka".
   baseArea: 'Akasaka',

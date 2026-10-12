@@ -53,9 +53,30 @@ const ICONS = {
 
 // ---------- State ----------
 
+// ---------- Trip days ----------
+// Days hold only a YYYY-MM-DD date; every label is generated from it, so no
+// date text is ever typed by hand.
+
+const LOCALE = 'en-US';
+const parseDay = s => { const [y, m, d] = s.split('-').map(Number); return new Date(y, m - 1, d); };
+const dayLabel = date => parseDay(date).toLocaleDateString(LOCALE, { weekday: 'short', month: 'short', day: 'numeric' }); // "Sun, Feb 15"
+const dayShort = date => { const d = parseDay(date); return d.toLocaleDateString(LOCALE, { weekday: 'short' }) + ' ' + d.getDate(); }; // "Sun 15"
+
+// "Feb 15 – 22, 2026", "Feb 27 – Mar 3, 2026" or "Dec 30, 2026 – Jan 2, 2027". Empty with no days.
+function tripDateRange() {
+  if (!TRIP.days.length) return '';
+  const a = parseDay(TRIP.days[0].date);
+  const b = parseDay(TRIP.days[TRIP.days.length - 1].date);
+  const md = d => d.toLocaleDateString(LOCALE, { month: 'short', day: 'numeric' });
+  if (a.getTime() === b.getTime()) return `${md(a)}, ${a.getFullYear()}`;
+  if (a.getFullYear() !== b.getFullYear()) return `${md(a)}, ${a.getFullYear()} – ${md(b)}, ${b.getFullYear()}`;
+  if (a.getMonth() === b.getMonth()) return `${md(a)} – ${b.getDate()}, ${b.getFullYear()}`;
+  return `${md(a)} – ${md(b)}, ${b.getFullYear()}`;
+}
+
 const ITIN_DAYS = ['unsorted', ...TRIP.days.map(d => d.date)];
 const ITIN_DAY_LABELS = { unsorted: ['Unsorted', ''] };
-TRIP.days.forEach(d => { ITIN_DAY_LABELS[d.date] = [d.label, d.theme || '']; });
+TRIP.days.forEach(d => { ITIN_DAY_LABELS[d.date] = [dayLabel(d.date), d.theme || '']; });
 
 const DATA_SOURCES = [...new Set(TRIP.tabs.flatMap(t => t.sources))];
 
@@ -136,6 +157,13 @@ function initItinerary() {
   if (saved) {
     state.itinerary = saved;
     ITIN_DAYS.forEach(d => { if (!state.itinerary[d]) state.itinerary[d] = []; });
+    // Places saved under days that are no longer in config.js go back to Unsorted.
+    const staleDays = Object.keys(state.itinerary).filter(d => !ITIN_DAYS.includes(d));
+    staleDays.forEach(d => {
+      state.itinerary[d].forEach(id => { if (!state.itinerary.unsorted.includes(id)) state.itinerary.unsorted.push(id); });
+      delete state.itinerary[d];
+    });
+    if (staleDays.length) saveItinerary();
   } else {
     seedItinerary();
   }
@@ -854,13 +882,16 @@ function renderNeighborhood(n) {
 
 const INFO_RENDERERS = {
   stay(p) {
-    return section(ICONS.home, 'Accommodation', (TRIP.stays || []).map(s => `
-        <div class="info-card">
-          <h4>${s.kind}</h4>
-          <p class="info-name">${s.name}</p>
-          ${s.details ? `<p>${s.details}</p>` : ''}
-          ${s.mapsQuery ? directionsLink(s.mapsQuery) : ''}
-        </div>`).join('')) +
+    const stays = TRIP.stays || [];
+    return section(ICONS.home, 'Accommodation', stays.length
+        ? stays.map(s => `
+          <div class="info-card">
+            <h4>${s.kind}</h4>
+            <p class="info-name">${s.name}</p>
+            ${s.details ? `<p>${s.details}</p>` : ''}
+            ${s.mapsQuery ? directionsLink(s.mapsQuery) : ''}
+          </div>`).join('')
+        : `<div class="info-card is-empty"><p>No hotel added yet. Add where you're staying to <code>stays</code> in <code>config.js</code>.</p></div>`) +
       section(ICONS.pin, 'Your neighborhoods', p.neighborhoods && Object.values(p.neighborhoods).map(renderNeighborhood).join(''));
   },
 
@@ -976,9 +1007,11 @@ function renderPlan() {
     `<button class="plan-view-btn ${state.planView === 'list' ? 'active' : ''}" role="tab" aria-selected="${state.planView === 'list'}" onclick="setPlanView('list')">${ICONS.list}List</button>` +
     `<button class="plan-view-btn ${state.planView === 'map' ? 'active' : ''}" role="tab" aria-selected="${state.planView === 'map'}" onclick="setPlanView('map')">${ICONS.map}Map</button></div>`;
 
-  if (state.planView === 'map') {
+  if (state.planView === 'map' && !TRIP.days.length) {
+    el.innerHTML = html + `<div class="map-container">${mapMessage(ICONS.plan, NO_DAYS_MESSAGE)}</div>`;
+  } else if (state.planView === 'map') {
     html += '<div class="map-day-selector">' + TRIP.days.map(d =>
-      `<button class="filter-chip map-day-chip ${state.mapDay === d.date ? 'active' : ''}" onclick="setMapDay('${d.date}')">${d.short || d.label}<span class="chip-count">${(state.itinerary[d.date] || []).length}</span></button>`
+      `<button class="filter-chip map-day-chip ${state.mapDay === d.date ? 'active' : ''}" onclick="setMapDay('${d.date}')">${dayShort(d.date)}<span class="chip-count">${(state.itinerary[d.date] || []).length}</span></button>`
     ).join('') + '</div>' +
       `<div class="map-container" id="mapContainer"><div class="map-message"><div class="map-loading-spinner"></div>Loading map…</div></div>` +
       '<div id="mapRouteInfo"></div><div class="map-item-list" id="mapItemList"></div><div id="mapNearbySection"></div>';
@@ -1022,6 +1055,7 @@ function renderPlanListHtml() {
     }
     html += '</div></div>';
   });
+  if (!TRIP.days.length) html += `<p class="itin-no-days">${NO_DAYS_MESSAGE}</p>`;
   return html + '</div>';
 }
 
@@ -1245,14 +1279,21 @@ function initDragAndDrop() {
 
 // ---------- Init ----------
 
+const NO_DAYS_MESSAGE = 'No trip dates yet.<br>Add your days to <code>days</code> in <code>config.js</code> to plan by day.';
+
 function renderHeader() {
-  document.title = TRIP.trip.pageTitle;
+  const range = tripDateRange();
+  document.title = TRIP.city.name + (range ? ` — ${range}` : '');
   document.getElementById('wordmark').innerHTML =
     TRIP.city.name + (TRIP.city.localName ? `<span class="wordmark-local" lang="ja">${TRIP.city.localName}</span>` : '');
-  document.getElementById('headerDates').textContent = TRIP.trip.dateRange;
-  document.getElementById('scheduleContent').innerHTML = TRIP.days.map(d =>
-    `<div class="schedule-day"><span class="day">${d.short || d.label}</span><span class="plan">${d.plan || d.theme || ''}</span></div>`
-  ).join('');
+  const dates = document.getElementById('headerDates');
+  dates.textContent = range;
+  dates.hidden = !range;
+  document.getElementById('scheduleContent').innerHTML = TRIP.days.length
+    ? TRIP.days.map(d =>
+        `<div class="schedule-day"><span class="day">${dayShort(d.date)}</span><span class="plan">${d.plan || d.theme || ''}</span></div>`
+      ).join('')
+    : `<p class="schedule-empty">${NO_DAYS_MESSAGE}</p>`;
 }
 
 async function loadData() {

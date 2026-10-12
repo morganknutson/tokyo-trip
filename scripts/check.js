@@ -36,8 +36,6 @@ const requireString = (value, name) => {
 
 requireString(TRIP.city && TRIP.city.name, 'city.name');
 requireString(TRIP.city && TRIP.city.geocodeSuffix, 'city.geocodeSuffix');
-requireString(TRIP.trip && TRIP.trip.dateRange, 'trip.dateRange');
-requireString(TRIP.trip && TRIP.trip.pageTitle, 'trip.pageTitle');
 requireString(TRIP.storagePrefix, 'storagePrefix');
 requireString(TRIP.baseArea, 'baseArea');
 
@@ -48,17 +46,28 @@ if (!b || [b.south, b.west, b.north, b.east].some(n => typeof n !== 'number')) {
   error('config.js: city.bounds south must be less than north, and west less than east');
 }
 
-if (!Array.isArray(TRIP.days) || TRIP.days.length === 0) {
-  error('config.js: days must list at least one day');
+// days may be empty: the app shows empty states until a trip is added.
+if (!Array.isArray(TRIP.days)) {
+  error('config.js: days must be an array (use [] for no trip yet)');
 } else {
   const seen = new Set();
+  let previous = '';
   TRIP.days.forEach((d, i) => {
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(d.date || '')) error(`config.js: days[${i}].date must be YYYY-MM-DD (got "${d.date}")`);
+    // Round-trip so impossible dates like 2026-02-30 (which JS rolls into March) fail.
+    const valid = /^\d{4}-\d{2}-\d{2}$/.test(d.date || '') && (() => {
+      const [y, m, day] = d.date.split('-').map(Number);
+      const dt = new Date(Date.UTC(y, m - 1, day));
+      return dt.getUTCFullYear() === y && dt.getUTCMonth() === m - 1 && dt.getUTCDate() === day;
+    })();
+    if (!valid) error(`config.js: days[${i}].date must be a real YYYY-MM-DD date (got "${d.date}")`);
     if (seen.has(d.date)) error(`config.js: days[${i}].date "${d.date}" is repeated`);
+    if (valid && previous && d.date < previous) warn(`config.js: days[${i}] (${d.date}) comes before the day above it; keep days in order`);
+    if (d.label || d.short) warn(`config.js: days[${i}] has label/short, which are now generated from the date and ignored`);
     seen.add(d.date);
-    if (!d.label) error(`config.js: days[${i}] needs a label`);
+    if (valid) previous = d.date;
   });
 }
+if (TRIP.trip) warn('config.js: trip is no longer used; the date line comes from days');
 
 (TRIP.stays || []).forEach((s, i) => {
   if (!s.kind || !s.name) error(`config.js: stays[${i}] needs kind and name`);
