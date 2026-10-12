@@ -655,10 +655,10 @@ function renderCard(item) {
   const inPlan = isInItinerary(id);
 
   const vibeHtml = item.vibeRating
-    ? `<span class="card-vibe" title="Vibe ${item.vibeRating} of 5">${Array.from({ length: 5 }, (_, i) => `<span class="dot ${i < item.vibeRating ? 'filled' : ''}"></span>`).join('')}</span>`
-    : '<span></span>';
+    ? `<span class="card-vibe" title="Rating ${item.vibeRating} of 5"><span class="card-vibe-dots">${Array.from({ length: 5 }, (_, i) => `<span class="dot ${i < item.vibeRating ? 'filled' : ''}"></span>`).join('')}</span><span class="rating-label">rating</span></span>`
+    : '';
   const weirdHtml = item.weirdnessLevel
-    ? `<span class="weirdness"><span class="weirdness-bar">${Array.from({ length: 5 }, (_, i) => `<span class="seg ${i < item.weirdnessLevel ? 'filled' : ''}"></span>`).join('')}</span>weird</span>`
+    ? `<span class="weirdness" title="Weirdness ${item.weirdnessLevel} of 5"><span class="rating-label">weird</span><span class="weirdness-bar">${Array.from({ length: 5 }, (_, i) => `<span class="seg ${i < item.weirdnessLevel ? 'filled' : ''}"></span>`).join('')}</span></span>`
     : '';
   const detailsHtml = DETAIL_FIELDS
     .filter(([key]) => item[key])
@@ -679,11 +679,11 @@ function renderCard(item) {
             ${catBadge(item.category)}
             <span class="card-location">${item.neighborhood}${item.nearestStation ? ', ' + item.nearestStation : ''}</span>
           </div>
-          ${item.vibeRating || item.weirdnessLevel ? `<div class="card-ratings">${vibeHtml}${weirdHtml}</div>` : ''}
         </div>
         <button class="card-fav ${fav ? 'active' : ''}" aria-label="Save ${item.name}" aria-pressed="${fav}" onclick="event.stopPropagation();toggleFav('${id}',this)">
           ${fav ? ICONS.heartFilled : ICONS.heart}
         </button>
+        ${vibeHtml || weirdHtml ? `<div class="card-ratings">${vibeHtml}${weirdHtml}</div>` : ''}
       </div>
       <div class="card-body">
         <div class="card-body-inner">
